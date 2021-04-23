@@ -91,6 +91,7 @@ payload:
   - DOMAIN-KEYWORD,icoudo
   - DOMAIN-KEYWORD,icoudos
   - DOMAIN-KEYWORD,testflight
+  - DOMAIN,guzzoni.apple.com
   - IP-CIDR,139.178.128.0/18
   - IP-CIDR,144.178.0.0/19
   - IP-CIDR,144.178.36.0/22

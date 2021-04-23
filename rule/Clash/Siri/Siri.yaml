@@ -1,8 +1,0 @@
-# NAME: Siri DIRECT
-# AUTHOR: Nathan
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Siri/Siri.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN: 1
-# TOTAL: 1
-payload:
-  - DOMAIN,guzzoni.apple.com
