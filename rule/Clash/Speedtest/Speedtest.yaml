@@ -1,0 +1,4 @@
+payload:
+  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-SUFFIX,speed.cloudflare.com
+  - DOMAIN-KEYWORD,speedtest
