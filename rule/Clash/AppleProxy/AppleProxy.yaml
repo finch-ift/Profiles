@@ -16,6 +16,7 @@ payload:
   - DOMAIN,lookup-api.apple.com
   - DOMAIN,sandbox.itunes.apple.com
   - DOMAIN,testflight.apple.com
+  - DOMAIN,push.apple.com
   - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,apps.apple.com
   - DOMAIN-SUFFIX,appsto.re
