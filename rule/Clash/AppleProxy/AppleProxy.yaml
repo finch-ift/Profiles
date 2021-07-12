@@ -1,11 +1,6 @@
 # NAME: AppleProxy Proxy
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/AppleProxy/AppleProxy.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN: 9
-# DOMAIN-SUFFIX: 5
-# PROCESS-NAME: 1
-# TOTAL: 15
+
 payload:
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,books.itunes.apple.com

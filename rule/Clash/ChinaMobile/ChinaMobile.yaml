@@ -1,9 +1,6 @@
 # NAME: ChinaMobile DIRECT
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/ChinaMobile/ChinaMobile.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 28
-# TOTAL: 28
+
 payload:
   - DOMAIN-SUFFIX,10086.cn
   - DOMAIN-SUFFIX,12530.com

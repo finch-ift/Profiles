@@ -1,11 +1,6 @@
 # NAME: ZhihuAds REJECT
-# AUTHOR: Nathan
 # URL: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/ZhihuAds/ZhihuAds.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN: 4
-# IP-CIDR: 1
-# IP-CIDR6: 1
-# TOTAL: 6
+
 payload:
   - DOMAIN,118.89.204.198
   - DOMAIN,appcloud2.in.zhihu.com

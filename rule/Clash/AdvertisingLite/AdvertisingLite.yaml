@@ -1,12 +1,6 @@
 # NAME: AdvertisingLite REJECT
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-KEYWORD: 29
-# DOMAIN-SUFFIX: 15297
-# DOMAIN: 15348
-# IP-CIDR: 192
-# TOTAL: 30866
+
 payload:
   - DOMAIN,0.up.qingdaonews.com
   - DOMAIN,00-gov.cn

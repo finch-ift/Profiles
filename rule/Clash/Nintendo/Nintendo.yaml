@@ -1,9 +1,6 @@
 # NAME: Nintendo Nintendo
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Nintendo/Nintendo.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 123
-# TOTAL: 123
+
 payload:
   - DOMAIN-SUFFIX,100classicbooks.com
   - DOMAIN-SUFFIX,ac-pocketcamp.com

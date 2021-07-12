@@ -1,10 +1,6 @@
 # NAME: Speedtest DIRECT
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Scholar/Scholar.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 177
-# DOMAIN: 1
-# TOTAL: 178
+
 payload:
   - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN-SUFFIX,speed.cloudflare.com

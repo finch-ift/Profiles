@@ -1,11 +1,6 @@
 # NAME: Google Netflix
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Google/Google.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 98
-# DOMAIN-KEYWORD: 8
-# IP-CIDR: 2
-# TOTAL: 108
+
 payload:
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,2mdn.net

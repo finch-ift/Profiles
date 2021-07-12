@@ -1,9 +1,6 @@
 # NAME: Developer Proxy
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Developer/Developer.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 24
-# TOTAL: 24
+
 payload:
   - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,atlassian.com

@@ -1,10 +1,6 @@
 # NAME: Privacy REJECT
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Privacy/Privacy.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 6635
-# DOMAIN: 20
-# TOTAL: 6655
+
 payload:
   - DOMAIN,api.talkingdata.com
   - DOMAIN,hm.baidu.com

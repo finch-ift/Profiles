@@ -1,13 +1,6 @@
 # NAME: Apple Apple
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Apple/Apple.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 74
-# DOMAIN: 2
-# DOMAIN-KEYWORD: 6
-# PROCESS-NAME: 3
-# IP-CIDR: 10
-# TOTAL: 95
+
 payload:
   - DOMAIN,api.smoot.apple.cn
   - DOMAIN,apple.comscoreresearch.com

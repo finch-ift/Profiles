@@ -1,10 +1,6 @@
 # NAME: AppleTV Netflix
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/AppleTV/AppleTV.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN: 2
-# DOMAIN-SUFFIX: 1
-# TOTAL: 3
+
 payload:
   - DOMAIN,np-edge.itunes.apple.com
   - DOMAIN,play-edge.itunes.apple.com

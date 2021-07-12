@@ -1,11 +1,6 @@
 # NAME: Hijacking REJECT
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Hijacking/Hijacking.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 176
-# IP-CIDR: 42
-# DOMAIN: 1
-# TOTAL: 219
+
 payload:
   - DOMAIN,geo2.adobe.com
   - DOMAIN-SUFFIX,17gouwuba.com

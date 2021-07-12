@@ -1,10 +1,6 @@
 # NAME: XiaoMi
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/XiaoMi/XiaoMi.yaml
-# UPDATED: 2021-03-06 17:57:43.016607
-# DOMAIN-SUFFIX: 110
-# IP-CIDR: 2
-# TOTAL: 112
+
 payload:
   - DOMAIN-SUFFIX,408399.com
   - DOMAIN-SUFFIX,408399.net

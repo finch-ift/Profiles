@@ -1,3 +1,6 @@
+# NAME: Github Proxy
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Github/Github.yaml
+
 payload:
   - DOMAIN-SUFFIX,atom.io
   - DOMAIN-SUFFIX,dependabot.com

@@ -1,12 +1,6 @@
 # NAME: Netflix Netflix
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Netflix/Netflix.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 18
-# IP-CIDR: 20
-# DOMAIN-KEYWORD: 2
-# DOMAIN: 1
-# TOTAL: 41
+
 payload:
   - DOMAIN,netflix.com.edgesuite.net
   - DOMAIN-SUFFIX,fast.com

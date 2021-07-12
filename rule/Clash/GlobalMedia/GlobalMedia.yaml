@@ -1,12 +1,6 @@
 # NAME: GlobalMedia Netflix
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/GlobalMedia/GlobalMedia.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN: 35
-# DOMAIN-SUFFIX: 195
-# DOMAIN-KEYWORD: 20
-# IP-CIDR: 847
-# TOTAL: 1097
+
 payload:
   - DOMAIN,api.okzy.tv
   - DOMAIN,apple.comscoreresearch.com

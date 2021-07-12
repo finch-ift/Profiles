@@ -1,9 +1,6 @@
 # NAME: GoogleDrive Proxy
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/GoogleDrive/GoogleDrive.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
+
 payload:
   - DOMAIN-SUFFIX,docs.google.com
   - DOMAIN-SUFFIX,drive.google.com

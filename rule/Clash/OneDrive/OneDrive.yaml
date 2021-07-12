@@ -1,11 +1,6 @@
 # NAME: OneDrive OneDrive
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/OneDrive/OneDrive.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 12
-# PROCESS-NAME: 2
-# DOMAIN-KEYWORD: 3
-# TOTAL: 17
+
 payload:
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,livefilestore.com

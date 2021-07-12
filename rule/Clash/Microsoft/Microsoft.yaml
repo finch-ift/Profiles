@@ -1,11 +1,6 @@
 # NAME: Microsoft OneDrive
-# AUTHOR: Nathan
 # url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Microsoft/Microsoft.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 416
-# PROCESS-NAME: 2
-# DOMAIN-KEYWORD: 4
-# TOTAL: 422
+
 payload:
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,a-msedge.net

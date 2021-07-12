@@ -1,13 +1,6 @@
 # NAME: YouTube Netflix
-# AUTHOR: Nathan
 # REPO: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/YouTube/YouTube.yaml
-# UPDATED: 2021-04-21 14:20:00
-# DOMAIN-SUFFIX: 173
-# DOMAIN: 2
-# DOMAIN-KEYWORD: 1
-# IP-CIDR: 2
-# IP-CIDR6: 1
-# TOTAL: 179
+
 payload:
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN,yt3.ggpht.com
