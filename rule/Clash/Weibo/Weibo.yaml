@@ -1,0 +1,8 @@
+# NAME: Weibo
+# GITHUB: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Weibo/Weibo.yaml
+
+payload:
+  - DOMAIN-SUFFIX,weibo.cn
+  - DOMAIN-SUFFIX,weibo.com
+  - DOMAIN-SUFFIX,weibocdn.com
+  - DOMAIN-KEYWORD,weibo
