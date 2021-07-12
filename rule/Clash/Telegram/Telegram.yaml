@@ -30,5 +30,6 @@ payload:
   - IP-CIDR6,2001:b28:f23c::/47
   - IP-CIDR6,2001:b28:f23f::/48
   - IP-CIDR6,2001:b28:f242::/48
+  - PROCESS-NAME,nekox.messenger
   - PROCESS-NAME,org.telegram.messenger
   - PROCESS-NAME,telegram.exe

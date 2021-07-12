@@ -1,0 +1,9 @@
+# NAME: ‎DiscoveryPlus
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/‎DiscoveryPlus/‎DiscoveryPlus.yaml
+
+payload:
+  - DOMAIN-SUFFIX,disco-api.com
+  - DOMAIN-SUFFIX,discoveryplus.co.uk
+  - DOMAIN-SUFFIX,discoveryplus.com
+  - DOMAIN-SUFFIX,discoveryplus.in
+  - DOMAIN-SUFFIX,dnitv.com
