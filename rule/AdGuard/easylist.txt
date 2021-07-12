@@ -1,7 +1,6 @@
 !Title: own-AD
 !Version: 20210421212727
 !Homepage: https://github.com/finch-ift/Profiles
-!Total lines: 22
 
 # NAME: vivo
 ||bbk.com^
