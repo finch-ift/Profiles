@@ -26,6 +26,8 @@ payload:
   - DOMAIN-SUFFIX,biligame.cn
   - DOMAIN-SUFFIX,biligame.com
   - DOMAIN-SUFFIX,biligame.net
+  - DOMAIN-SUFFIX,biligo.com
+  - DOMAIN-SUFFIX,biliintl.com
   - DOMAIN-SUFFIX,biliplus.com
   - DOMAIN-SUFFIX,bilivideo.cn
   - DOMAIN-SUFFIX,bilivideo.com
@@ -42,6 +44,7 @@ payload:
   - DOMAIN-SUFFIX,mincdn.com
   - DOMAIN-SUFFIX,sharejoytech.com
   - DOMAIN-SUFFIX,smtcdns.net
+  - DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
   - DOMAIN-SUFFIX,yo9.com
@@ -61,3 +64,4 @@ payload:
   - IP-CIDR,203.107.1.65/32
   - IP-CIDR,203.107.1.66/32
   - IP-CIDR,45.43.32.234/32
+  - PROCESS-NAME,tv.danmaku.bili

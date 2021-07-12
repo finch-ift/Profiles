@@ -84,7 +84,6 @@ payload:
   - DOMAIN-KEYWORD,icoudo
   - DOMAIN-KEYWORD,icoudos
   - DOMAIN-KEYWORD,testflight
-  - DOMAIN,guzzoni.apple.com
   - IP-CIDR,139.178.128.0/18
   - IP-CIDR,144.178.0.0/19
   - IP-CIDR,144.178.36.0/22
@@ -97,4 +96,7 @@ payload:
   - IP-CIDR,65.199.22.0/23
   - PROCESS-NAME,com.apple.geod
   - PROCESS-NAME,lookupviewservice
+  - PROCESS-NAME,music
   - PROCESS-NAME,news
+  - PROCESS-NAME,storedownloadd
+  - PROCESS-NAME,tv
