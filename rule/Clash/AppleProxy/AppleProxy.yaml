@@ -17,3 +17,12 @@ payload:
   - DOMAIN-SUFFIX,blobstore.apple.com
   - DOMAIN-SUFFIX,digicert.com
   - PROCESS-NAME,lookupviewservice
+  - DOMAIN,apple.comscoreresearch.com
+  - DOMAIN,gateway.icloud.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN,news-assets.apple.com
+  - DOMAIN,news-client.apple.com
+  - DOMAIN,news-edge.apple.com
+  - DOMAIN,news-events.apple.com
+  - DOMAIN-SUFFIX,apple.news
+  - PROCESS-NAME,news
