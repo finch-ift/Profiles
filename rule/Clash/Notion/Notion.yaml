@@ -1,0 +1,7 @@
+# NAME: Notion PrimevalSelect
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Notion/Notion.yaml
+
+payload:
+  - DOMAIN-SUFFIX,notion-static.com
+  - DOMAIN-SUFFIX,notion.new
+  - DOMAIN-SUFFIX,notion.so

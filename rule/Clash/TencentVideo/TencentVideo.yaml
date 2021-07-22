@@ -1,0 +1,7 @@
+# NAME: TencentVideo DIRECT
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/TencentVideo/TencentVideo.yaml
+
+payload:
+  - DOMAIN-SUFFIX,mfm.video.qq.com
+  - DOMAIN-SUFFIX,v.smtcdns.com
+  - DOMAIN-SUFFIX,vv.video.qq.com

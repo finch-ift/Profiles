@@ -1,0 +1,6 @@
+# NAME: Speedtest DIRECT
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Speedtest/Speedtest.yaml
+
+payload:
+  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-KEYWORD,speedtest

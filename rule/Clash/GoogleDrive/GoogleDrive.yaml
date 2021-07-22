@@ -1,0 +1,8 @@
+# NAME: GoogleDrive Proxy
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/GoogleDrive/GoogleDrive.yaml
+
+payload:
+  - DOMAIN-SUFFIX,docs.google.com
+  - DOMAIN-SUFFIX,drive.google.com
+  - DOMAIN-SUFFIX,googledrive.com
+  - DOMAIN-SUFFIX,googleusercontent.com

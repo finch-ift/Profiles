@@ -1,0 +1,8 @@
+# NAME: Jetbrains
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Jetbrains/Jetbrains.yaml
+
+payload:
+  - DOMAIN-SUFFIX,datalore.io
+  - DOMAIN-SUFFIX,jetbrains.com
+  - DOMAIN-SUFFIX,jetbrains.net
+  - DOMAIN-SUFFIX,kotlinlang.org

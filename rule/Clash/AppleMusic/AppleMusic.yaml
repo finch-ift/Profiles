@@ -1,0 +1,12 @@
+# NAME: AppleMusic DIRECT
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/AppleMusic/AppleMusic.yaml
+
+payload:
+  - DOMAIN,aod.itunes.apple.com
+  - DOMAIN,audio-ssl.itunes.apple.com
+  - DOMAIN,audio.itunes.apple.com
+  - DOMAIN,mvod.itunes.apple.com
+  - DOMAIN,streamingaudio.itunes.apple.com
+  - DOMAIN-SUFFIX,blobstore.apple.com
+  - DOMAIN-SUFFIX,music.apple.com
+  - PROCESS-NAME,music

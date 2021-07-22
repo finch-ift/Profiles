@@ -1,0 +1,24 @@
+# NAME: WhiteList REJECT
+# GITHUB: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/WhiteList/WhiteList.yaml
+
+payload:
+  - DOMAIN,ad.10010.com
+  - DOMAIN,analytics.95516.com
+  - DOMAIN,analytics.strava.com
+  - DOMAIN,app.adjust.com
+  - DOMAIN,bdtj.tagtic.cn
+  - DOMAIN,fairplay.l.qq.com
+  - DOMAIN,fonts.gstatic.com
+  - DOMAIN,log.mmstat.com
+  - DOMAIN,msg.umeng.com
+  - DOMAIN,msg.umengcloud.com
+  - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN,pubads.g.doubleclick.net
+  - DOMAIN,sycm.mmstat.com
+  - DOMAIN,tracking.miui.com
+  - DOMAIN-SUFFIX,dizhensubao.getui.com
+  - DOMAIN-SUFFIX,f.video.weibocdn.com
+  - DOMAIN-SUFFIX,fus.cdn.krcom.cn
+  - DOMAIN-SUFFIX,ol.epicgames.com
+  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+  - DOMAIN-KEYWORD,wb_ad

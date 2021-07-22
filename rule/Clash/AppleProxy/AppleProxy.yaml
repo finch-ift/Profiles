@@ -1,0 +1,28 @@
+# NAME: AppleProxy Proxy
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/AppleProxy/AppleProxy.yaml
+
+payload:
+  - DOMAIN,api-glb-sea.smoot.apple.com
+  - DOMAIN,books.itunes.apple.com
+  - DOMAIN,cvws.icloud-content.com
+  - DOMAIN,developer.apple.com
+  - DOMAIN,hls.itunes.apple.com
+  - DOMAIN,itunes.apple.com
+  - DOMAIN,lookup-api.apple.com
+  - DOMAIN,sandbox.itunes.apple.com
+  - DOMAIN,testflight.apple.com
+  - DOMAIN-SUFFIX,apple-dns.net
+  - DOMAIN-SUFFIX,apps.apple.com
+  - DOMAIN-SUFFIX,appsto.re
+  - DOMAIN-SUFFIX,blobstore.apple.com
+  - DOMAIN-SUFFIX,digicert.com
+  - PROCESS-NAME,lookupviewservice
+  - DOMAIN,apple.comscoreresearch.com
+  - DOMAIN,gateway.icloud.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN,news-assets.apple.com
+  - DOMAIN,news-client.apple.com
+  - DOMAIN,news-edge.apple.com
+  - DOMAIN,news-events.apple.com
+  - DOMAIN-SUFFIX,apple.news
+  - PROCESS-NAME,news
