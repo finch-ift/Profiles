@@ -1,0 +1,276 @@
+rule-providers:
+
+  ChinaMedia:
+    type: http
+    behavior: classical
+    path: "./rule_provider/ChinaMedia.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/ChinaMedia/ChinaMedia.yaml
+    interval: 86400
+  GlobalMedia:
+    type: http
+    behavior: classical
+    path: "./rule_provider/GlobalMedia.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/GlobalMedia/GlobalMedia.yaml
+    interval: 86400
+  Privacy:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Privacy.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/Privacy/Privacy.yaml
+    interval: 86400
+  ZhihuAds:
+    type: http
+    behavior: classical
+    path: "./rule_provider/ZhihuAds.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/ZhihuAds/ZhihuAds.yaml
+    interval: 86400
+  Hijacking:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Hijacking.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/Hijacking/Hijacking.yaml
+    interval: 86400
+  WhiteList:
+    type: http
+    behavior: classical
+    path: "./rule_provider/WhiteList.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/WhiteList/WhiteList.yaml
+    interval: 86400
+  AdvertisingLite:
+    type: http
+    behavior: classical
+    path: "./rule_provider/AdvertisingLite.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
+    interval: 86400
+  Tencent:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Tencent.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Tencent/Tencent.yaml
+    interval: 86400
+  AppleProxy:
+    type: http
+    behavior: classical
+    path: "./rule_provider/AppleProxy.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/AppleProxy/AppleProxy.yaml
+    interval: 86400
+  AppleMusic:
+    type: http
+    behavior: classical
+    path: "./rule_provider/AppleMusic.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/AppleMusic/AppleMusic.yaml
+    interval: 86400
+  Developer:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Developer.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/Developer/Developer.yaml
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Netflix.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/Netflix/Netflix.yaml
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Telegram.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/Telegram/Telegram.yaml
+    interval: 86400
+  PayPal:
+    type: http
+    behavior: classical
+    path: "./rule_provider/PayPal.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/PayPal/PayPal.yaml
+    interval: 86400
+  Scholar:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Scholar.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/Scholar/Scholar.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Microsoft.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/Microsoft/Microsoft.yaml
+    interval: 86400
+  OneDrive:
+    type: http
+    behavior: classical
+    path: "./rule_provider/OneDrive.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/OneDrive/OneDrive.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Google.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/Google/Google.yaml
+    interval: 86400
+  YouTube:
+    type: http
+    behavior: classical
+    path: "./rule_provider/YouTube.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/YouTube/YouTube.yaml
+    interval: 86400
+  Nintendo:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Nintendo.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/Nintendo/Nintendo.yaml
+    interval: 86400
+  AppleTV:
+    type: http
+    behavior: classical
+    path: "./rule_provider/AppleTV.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/AppleTV/AppleTV.yaml
+    interval: 86400
+  SystemOTA:
+    type: http
+    behavior: classical
+    path: "./rule_provider/SystemOTA.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/SystemOTA/SystemOTA.yaml
+    interval: 86400
+  iCloud:
+    type: http
+    behavior: classical
+    path: "./rule_provider/iCloud.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/iCloud/iCloud.yaml
+    interval: 86400
+  Speedtest:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Speedtest.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/Speedtest/Speedtest.yaml
+    interval: 86400
+  GitHub:
+    type: http
+    behavior: classical
+    path: "./rule_provider/GitHub.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/GitHub/GitHub.yaml
+    interval: 86400
+  TestFlight:
+    type: http
+    behavior: classical
+    path: "./rule_provider/TestFlight.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@master/rule/Clash/TestFlight/TestFlight.yaml
+    interval: 86400
+  iQIYI:
+    type: http
+    behavior: classical
+    path: "./rule_provider/iQIYI.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/iQIYI/iQIYI.yaml
+    interval: 86400
+  XiaoMi:
+    type: http
+    behavior: classical
+    path: "./rule_provider/XiaoMi.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/XiaoMi/XiaoMi.yaml
+    interval: 86400
+  TencentVideo:
+    type: http
+    behavior: classical
+    path: "./rule_provider/TencentVideo.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/TencentVideo/TencentVideo.yaml
+    interval: 86400
+  Sony:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Sony.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Sony/Sony.yaml
+    interval: 86400
+  Notion:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Notion.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Notion/Notion.yaml
+    interval: 86400
+  115:
+    type: http
+    behavior: classical
+    path: "./rule_provider/115.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/115/115.yaml
+    interval: 86400
+  ChinaMobile:
+    type: http
+    behavior: classical
+    path: "./rule_provider/ChinaMobile.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/ChinaMobile/ChinaMobile.yaml
+    interval: 86400
+  GoogleDrive:
+    type: http
+    behavior: classical
+    path: "./rule_provider/GoogleDrive.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/GoogleDrive/GoogleDrive.yaml
+    interval: 86400
+  Weibo:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Weibo.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Weibo/Weibo.yaml
+    interval: 86400
+  BiliBili:
+    type: http
+    behavior: classical
+    path: "./rule_provider/BiliBili.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/BiliBili/BiliBili.yaml
+    interval: 86400
+  Jetbrains:
+    type: http
+    behavior: classical
+    path: "./rule_provider/Jetbrains.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Jetbrains/Jetbrains.yaml
+    interval: 86400
+
+
+
+rules:
+- RULE-SET,Jetbrains,Proxy
+- RULE-SET,BiliBili,DIRECT
+- RULE-SET,Weibo,DIRECT
+- RULE-SET,GoogleDrive,Proxy
+- RULE-SET,ChinaMobile,DIRECT
+- RULE-SET,115,DIRECT
+- RULE-SET,Notion,PrimevalSelect
+- RULE-SET,Sony,Proxy
+- RULE-SET,TencentVideo,DIRECT
+- RULE-SET,XiaoMi,DIRECT
+- RULE-SET,iQIYI,DIRECT
+- RULE-SET,TestFlight,Proxy
+- RULE-SET,GitHub,PrimevalSelect
+- RULE-SET,Speedtest,DIRECT
+- RULE-SET,iCloud,DIRECT
+- RULE-SET,SystemOTA,PrimevalSelect
+- RULE-SET,AppleTV,PrimevalSelect
+- RULE-SET,Nintendo,PrimevalSelect
+- RULE-SET,YouTube,PrimevalSelect
+- RULE-SET,Google,Proxy
+- RULE-SET,OneDrive,Proxy
+- RULE-SET,Microsoft,Proxy
+- RULE-SET,Scholar,PrimevalSelect
+- RULE-SET,PayPal,PrimevalSelect
+- RULE-SET,Telegram,PrimevalSelect
+- RULE-SET,Netflix,PrimevalSelect
+- RULE-SET,Developer,PrimevalSelect
+- RULE-SET,AppleMusic,DIRECT
+- RULE-SET,AppleProxy,Proxy
+- RULE-SET,Tencent,DIRECT
+- RULE-SET,AdvertisingLite,REJECT
+- RULE-SET,WhiteList,REJECT
+- RULE-SET,Hijacking,REJECT
+- RULE-SET,ZhihuAds,REJECT
+- RULE-SET,Privacy,REJECT
+- RULE-SET,GlobalMedia,PrimevalSelect
+- RULE-SET,ChinaMedia,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,224.0.0.0/4,DIRECT
+- IP-CIDR,fe80::/10,DIRECT
+- IP-CIDR,119.28.28.28/32,DIRECT
+- IP-CIDR,182.254.116.0/24,DIRECT
+- MATCH,MATCH
+
