@@ -1,0 +1,5 @@
+# NAME: Own Direct
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/OneDrive/OneDrive.yaml
+
+payload:
+  - DOMAIN-SUFFIX,cdn.jsdelivr.net
