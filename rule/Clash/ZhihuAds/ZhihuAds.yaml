@@ -1,5 +1,5 @@
 # NAME: ZhihuAds REJECT
-# URL: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/ZhihuAds/ZhihuAds.yaml
+# URL: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/ZhihuAds/ZhihuAds.yaml
 
 payload:
   - DOMAIN,118.89.204.198

@@ -1,5 +1,5 @@
 # NAME: WhiteList REJECT
-# GITHUB: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/WhiteList/WhiteList.yaml
+# GITHUB: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/WhiteList/WhiteList.yaml
 
 payload:
   - DOMAIN,ad.10010.com

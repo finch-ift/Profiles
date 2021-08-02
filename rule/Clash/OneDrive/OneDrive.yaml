@@ -1,5 +1,5 @@
 # NAME: OneDrive PrimevalSelect
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/OneDrive/OneDrive.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/OneDrive/OneDrive.yaml
 
 payload:
   - DOMAIN-SUFFIX,1drv.com

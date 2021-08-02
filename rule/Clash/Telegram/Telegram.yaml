@@ -1,5 +1,5 @@
 # NAME: Telegram Proxy
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Telegram/Telegram.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/Telegram/Telegram.yaml
 
 payload:
   - DOMAIN-SUFFIX,comments.app

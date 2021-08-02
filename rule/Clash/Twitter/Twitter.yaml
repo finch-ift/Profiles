@@ -1,5 +1,5 @@
 # NAME: Twitter PrimevalSelect
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Twitter/Twitter.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/Twitter/Twitter.yaml
 
 payload:
   - DOMAIN-SUFFIX,ads-twitter.com

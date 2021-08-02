@@ -1,5 +1,5 @@
 # NAME: Microsoft PrimevalSelect
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Microsoft/Microsoft.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/Microsoft/Microsoft.yaml
 
 payload:
   - DOMAIN-SUFFIX,1drv.com

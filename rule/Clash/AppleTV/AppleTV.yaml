@@ -1,5 +1,5 @@
 # NAME: AppleTV Netflix
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/AppleTV/AppleTV.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/AppleTV/AppleTV.yaml
 
 # 目前Clash支持的规则类型如下:
 # DOMAIN-SUFFIX：域名后缀匹配

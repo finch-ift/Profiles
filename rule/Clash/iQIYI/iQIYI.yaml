@@ -1,5 +1,5 @@
 # NAME: iQIYI DIRECT
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/iQIYI/iQIYI.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/iQIYI/iQIYI.yaml
 
 payload:
   - DOMAIN-SUFFIX,71.am

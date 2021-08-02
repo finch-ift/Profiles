@@ -1,5 +1,5 @@
 # NAME: Tencent DIRECT
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Tencent/Tencent.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/Tencent/Tencent.yaml
 
 payload:
   - DOMAIN-SUFFIX,1700.cn

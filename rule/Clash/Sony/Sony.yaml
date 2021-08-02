@@ -1,5 +1,5 @@
 # NAME: Sony
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Sony/Sony.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/Sony/Sony.yaml
 
 payload:
   - DOMAIN,sonyliveevents-nonssai.akamaized.net

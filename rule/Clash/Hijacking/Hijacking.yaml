@@ -1,5 +1,5 @@
 # NAME: Hijacking REJECT
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Hijacking/Hijacking.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/Hijacking/Hijacking.yaml
 
 payload:
   - DOMAIN,geo2.adobe.com

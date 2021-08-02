@@ -1,5 +1,5 @@
 # NAME: iCloud DIRECT
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/iCloud/iCloud.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/iCloud/iCloud.yaml
 
 payload:
   - DOMAIN,www-cdn.icloud.com.akadns.net

@@ -1,5 +1,5 @@
 # NAME: Privacy REJECT
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Privacy/Privacy.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/Privacy/Privacy.yaml
 
 payload:
   - DOMAIN,api.talkingdata.com

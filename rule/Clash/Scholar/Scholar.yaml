@@ -1,5 +1,5 @@
 # NAME: Scholar Netflix
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/Scholar/Scholar.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/Scholar/Scholar.yaml
 
 payload:
   - DOMAIN,scholar.google.com

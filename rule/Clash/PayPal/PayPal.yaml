@@ -1,5 +1,5 @@
 # NAME: PayPal Netflix
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/PayPal/PayPal.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/PayPal/PayPal.yaml
 
 payload:
   - DOMAIN-SUFFIX,account-paypal.info

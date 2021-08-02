@@ -1,5 +1,5 @@
 # NAME: XiaoMi
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/XiaoMi/XiaoMi.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/XiaoMi/XiaoMi.yaml
 
 payload:
   - DOMAIN-SUFFIX,408399.com

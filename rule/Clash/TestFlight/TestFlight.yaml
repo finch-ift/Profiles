@@ -1,5 +1,5 @@
 # NAME: TestFlight Apple
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/TestFlight/TestFlight.yaml
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/TestFlight/TestFlight.yaml
 
 payload:
   - DOMAIN,beta.apple.com

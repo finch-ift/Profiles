@@ -1,5 +1,5 @@
 # NAME: YouTube PrimevalSelect
-# REPO: https://cdn.jsdelivr.net/gh/finch-ift/Profiles/rule/Clash/YouTube/YouTube.yaml
+# REPO: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/YouTube/YouTube.yaml
 
 payload:
   - DOMAIN,youtubei.googleapis.com
