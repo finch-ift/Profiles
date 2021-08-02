@@ -233,7 +233,6 @@ rules:
 - RULE-SET,PayPal,PrimevalSelect
 - RULE-SET,Netflix,PrimevalSelect
 
-
 - RULE-SET,GitHub,Proxy
 - RULE-SET,OneDrive,Proxy
 - RULE-SET,YouTube,PrimevalSelect
@@ -281,4 +280,3 @@ rules:
 - IP-CIDR,119.28.28.28/32,DIRECT
 - IP-CIDR,182.254.116.0/24,DIRECT
 - MATCH,MATCH
-
