@@ -226,14 +226,14 @@ rule-providers:
 rules:
 
 - RULE-SET,Jetbrains,Proxy
-- RULE-SET,Notion,Proxy
+- RULE-SET,Notion,PrimevalSelect
 - RULE-SET,Sony,Proxy
-- RULE-SET,Telegram,Proxy
+- RULE-SET,Telegram,PrimevalSelect
 - RULE-SET,Nintendo,PrimevalSelect
 - RULE-SET,PayPal,PrimevalSelect
 - RULE-SET,Netflix,PrimevalSelect
 
-- RULE-SET,GitHub,Proxy
+- RULE-SET,GitHub,PrimevalSelect
 - RULE-SET,OneDrive,Proxy
 - RULE-SET,YouTube,PrimevalSelect
 - RULE-SET,GoogleDrive,Proxy
