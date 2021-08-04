@@ -13,6 +13,7 @@ hostname = weclub.xyk.cmbchina.com
 
 const checkinURL = `https://weclub.xyk.cmbchina.com/SCRMCustomActivityFront/checkin-plus/request/checkin.json`;
 const cookieKey = 'iNotificatioin_cmbchina_cookieKey';
+const userAgentKey = 'iNotificatioin_cmbchina_userAgentKey';
 const body = `{"activityCode":"checkinPlus"}`;
 
 let isGetCookie = typeof $request !== 'undefined';
@@ -40,7 +41,7 @@ if (isGetCookie) {
             'Content-Type' : `application/json;charset=utf-8`,
             'Host' : `weclub.xyk.cmbchina.com`,
             'Connection' : `keep-alive`,
-            'User-Agent' : `Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.9(0x1800092d) NetType/WIFI Language/zh_CN`,
+            'User-Agent': $prefs.valueForKey(userAgentKey),
             'Referer' : `https://weclub.xyk.cmbchina.com/SCRMCustomActivityFront/checkin-plus/home?activityCode=checkinPlus`,
             'Accept-Language' : `zh-cn`        
         },
