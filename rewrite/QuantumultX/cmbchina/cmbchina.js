@@ -17,7 +17,6 @@ const headers = {
     'Accept' : `application/json, text/plain, */*`,
     'Origin' : `https://weclub.xyk.cmbchina.com`,
     'Accept-Encoding' : `gzip, deflate, br`,
-    'Cookie' : `xAgentUID=vWhnnikiLG2SW2HmYK1gsbBJzaI4lsetIbdtKIHyYSQ%3D; xAgentAID=4a3e2a64-17b10a9142da-2623cfe6f62e40caa61cbc686d01bede; SCRM_SSID=fadd71c5-7fd7-44f2-9fad-0505014e4fab; SCRM_TOID=vWhnnikiLG2SW2HmYK1gsbBJzaI4lsetIbdtKIHyYSQ%3D; SCRM_TUID=G3FsGeL5222%2FHHcZzGO%2F9TBvSxFXygVbph44Fg2oA%2FM%3D`,
     'Content-Type' : `application/json;charset=utf-8`,
     'Host' : `weclub.xyk.cmbchina.com`,
     'Connection' : `keep-alive`,
