@@ -1,9 +1,9 @@
 const $ = new compatibility();
 
 !(async () => {
-	const cmb_health =
+	const cmb_checkin =
 		"cmbmobilebank://cmbls/functionjump?action=gocorpno&corpno=003595&cmb_app_trans_parms_start=here&appflag=0&shorturl=https%3a%2f%2ft.cmbchina.com%2fyaIrYn";
-	$.notify("招商银行-健康金", "", "点击跳转去做健康金任务啦", cmb_health);
+	$.notify("招商银行-签到", "", "点击跳转去做签到任务啦", cmb_checkin);
 })().finally(() => $done());
 
 function compatibility() {
