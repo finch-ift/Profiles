@@ -13,17 +13,6 @@ hostname = weclub.xyk.cmbchina.com
 
 const checkinURL = `https://weclub.xyk.cmbchina.com/SCRMCustomActivityFront/checkin-plus/request/checkin.json`;
 const cookieKey = 'iNotificatioin_cmbchina_cookieKey';
-const headers = {
-    'Accept' : `application/json, text/plain, */*`,
-    'Origin' : `https://weclub.xyk.cmbchina.com`,
-    'Accept-Encoding' : `gzip, deflate, br`,
-    'Content-Type' : `application/json;charset=utf-8`,
-    'Host' : `weclub.xyk.cmbchina.com`,
-    'Connection' : `keep-alive`,
-    'User-Agent' : `Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.9(0x1800092d) NetType/WIFI Language/zh_CN`,
-    'Referer' : `https://weclub.xyk.cmbchina.com/SCRMCustomActivityFront/checkin-plus/home?activityCode=checkinPlus`,
-    'Accept-Language' : `zh-cn`
-    };
 const body = `{"activityCode":"checkinPlus"}`;
 
 let isGetCookie = typeof $request !== 'undefined';
@@ -43,7 +32,18 @@ if (isGetCookie) {
     var request = {
         url: checkinURL,
         method: 'POST',
-        headers: headers,
+        headers: {
+            'Accept' : `application/json, text/plain, */*`,
+            'Origin' : `https://weclub.xyk.cmbchina.com`,
+            'Accept-Encoding' : `gzip, deflate, br`,
+            'Cookie': $prefs.valueForKey(cookieKey),
+            'Content-Type' : `application/json;charset=utf-8`,
+            'Host' : `weclub.xyk.cmbchina.com`,
+            'Connection' : `keep-alive`,
+            'User-Agent' : `Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.9(0x1800092d) NetType/WIFI Language/zh_CN`,
+            'Referer' : `https://weclub.xyk.cmbchina.com/SCRMCustomActivityFront/checkin-plus/home?activityCode=checkinPlus`,
+            'Accept-Language' : `zh-cn`        
+        },
         body: body
     };
 
