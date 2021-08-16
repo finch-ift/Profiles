@@ -18,4 +18,6 @@ payload:
   - DOMAIN-SUFFIX,cdn.jsdelivr.net
   - DOMAIN-SUFFIX,pd.zwc365.com
   - DOMAIN-SUFFIX,time.apple.com
+  - DOMAIN-KEYWORD,time
+  - DOMAIN-SUFFIX,push.apple.com
   
