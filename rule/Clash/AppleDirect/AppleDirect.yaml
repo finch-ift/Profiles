@@ -1,5 +1,5 @@
-# NAME: AppleMusic DIRECT
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/AppleMusic/AppleMusic.yaml
+# NAME: AppleDirect DIRECT
+# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/AppleDirect/AppleDirect.yaml
 
 # 目前Clash支持的规则类型如下:
 # DOMAIN-SUFFIX：域名后缀匹配
