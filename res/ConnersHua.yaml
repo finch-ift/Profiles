@@ -224,19 +224,18 @@ rule-providers:
     interval: 21600
 
 rules:
-
-- RULE-SET,Jetbrains,Proxy
+- RULE-SET,Jetbrains,PrimevalSelect
 - RULE-SET,Notion,PrimevalSelect
-- RULE-SET,Sony,Proxy
+- RULE-SET,Sony,PrimevalSelect
 - RULE-SET,Telegram,PrimevalSelect
 - RULE-SET,Nintendo,PrimevalSelect
 - RULE-SET,PayPal,PrimevalSelect
 - RULE-SET,Netflix,PrimevalSelect
 
 - RULE-SET,GitHub,PrimevalSelect
-- RULE-SET,OneDrive,Proxy
+- RULE-SET,OneDrive,PrimevalSelect
 - RULE-SET,YouTube,PrimevalSelect
-- RULE-SET,GoogleDrive,Proxy
+- RULE-SET,GoogleDrive,PrimevalSelect
 
 - RULE-SET,SystemOTA,Proxy
 - RULE-SET,AppleTV,PrimevalSelect
