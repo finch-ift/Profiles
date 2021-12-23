@@ -24,6 +24,12 @@ rule-providers:
     path: "./rule_provider/ZhihuAds.yaml"
     url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/ZhihuAds/ZhihuAds.yaml
     interval: 21600
+  AntiAD:
+    type: http
+    behavior: classical
+    path: "./rule_provider/AntiAD.yaml"
+    url: https://anti-ad.net/clash.yaml
+    interval: 21600
   Hijacking:
     type: http
     behavior: classical
@@ -266,6 +272,7 @@ rules:
 - RULE-SET,WhiteList,REJECT
 - RULE-SET,Hijacking,REJECT
 - RULE-SET,AdvertisingLite,REJECT
+- RULE-SET,AntiAD,REJECT
 
 - RULE-SET,GlobalMedia,Proxy
 - RULE-SET,ChinaMedia,DIRECT
