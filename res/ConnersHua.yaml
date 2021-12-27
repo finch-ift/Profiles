@@ -29,17 +29,17 @@ rule-providers:
     path: "./rule_provider/IFT/Hijacking.yaml"
     url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/Hijacking/Hijacking.yaml
     interval: 21600
-  WhiteList:
-    type: http
-    behavior: classical
-    path: "./rule_provider/IFT/WhiteList.yaml"
-    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/WhiteList/WhiteList.yaml
-    interval: 21600
   AdvertisingLite:
     type: http
     behavior: classical
     path: "./rule_provider/IFT/AdvertisingLite.yaml"
     url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
+    interval: 21600
+  Advertising:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Advertising.yaml"
+    url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/Advertising/Advertising.yaml
     interval: 21600
   Tencent:
     type: http
@@ -263,6 +263,7 @@ rules:
 - RULE-SET,Privacy,REJECT
 - RULE-SET,Hijacking,REJECT
 - RULE-SET,AdvertisingLite,REJECT
+- RULE-SET,Advertising,REJECT
 
 - RULE-SET,GlobalMedia,Proxy
 - RULE-SET,ChinaMedia,DIRECT
