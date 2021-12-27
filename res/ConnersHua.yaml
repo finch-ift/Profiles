@@ -1,5 +1,4 @@
 rule-providers:
-
   ChinaMedia:
     type: http
     behavior: classical
@@ -262,7 +261,6 @@ rules:
 
 - RULE-SET,ZhihuAds,REJECT
 - RULE-SET,Privacy,REJECT
-- RULE-SET,WhiteList,REJECT
 - RULE-SET,Hijacking,REJECT
 - RULE-SET,AdvertisingLite,REJECT
 
