@@ -25,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,gitlab.com
   - DOMAIN-SUFFIX,gitlab.io
   - DOMAIN-SUFFIX,jitpack.io
+  - DOMAIN-SUFFIX,macosicons.com
   - DOMAIN-SUFFIX,maven.org
   - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,mvnrepository.com
@@ -39,5 +40,3 @@ payload:
   - DOMAIN-SUFFIX,spring.io
   - DOMAIN-SUFFIX,spring.net
   - DOMAIN-SUFFIX,stackoverflow.com
-  - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,v2ex.com
