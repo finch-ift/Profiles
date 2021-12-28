@@ -161,7 +161,6 @@ payload:
   - DOMAIN-SUFFIX,ie8.co
   - DOMAIN-SUFFIX,ie9.com
   - DOMAIN-SUFFIX,imaginecup.pl
-  - DOMAIN-SUFFIX,img-prod-cms-rt-microsoft-com
   - DOMAIN-SUFFIX,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
   - DOMAIN-SUFFIX,ingads.com
@@ -176,6 +175,7 @@ payload:
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,live.net
   - DOMAIN-SUFFIX,livefilestore.com
+  - DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net
   - DOMAIN-SUFFIX,livingyourambition.com
   - DOMAIN-SUFFIX,localytics.com
   - DOMAIN-SUFFIX,lync.com
@@ -272,6 +272,7 @@ payload:
   - DOMAIN-SUFFIX,msidentity.com
   - DOMAIN-SUFFIX,msignitechina.com
   - DOMAIN-SUFFIX,msinnovationchallenge.com
+  - DOMAIN-SUFFIX,msn.cn
   - DOMAIN-SUFFIX,msn.com
   - DOMAIN-SUFFIX,msnkids.com
   - DOMAIN-SUFFIX,msnmaps.com
@@ -431,9 +432,5 @@ payload:
   - DOMAIN-SUFFIX,xbx.lv
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
-  - DOMAIN-KEYWORD,1drv
-  - DOMAIN-KEYWORD,microsoft
-  - DOMAIN-KEYWORD,onedrive
-  - DOMAIN-KEYWORD,skydrive
   - PROCESS-NAME,onedrive
   - PROCESS-NAME,onedriveupdater
