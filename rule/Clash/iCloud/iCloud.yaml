@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,apple-icloud.cn
   - DOMAIN-SUFFIX,appleicloud.cn
   - DOMAIN-SUFFIX,applemx-icloud.com
+  - DOMAIN-SUFFIX,applemxicloud.com
   - DOMAIN-SUFFIX,icloud-apple.cn
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,icloud-isupport.com
@@ -48,8 +49,10 @@ payload:
   - DOMAIN-SUFFIX,icloudapple.cn
   - DOMAIN-SUFFIX,icloudbox.net
   - DOMAIN-SUFFIX,icloudbrowser.net
+  - DOMAIN-SUFFIX,icloudcontent.com
   - DOMAIN-SUFFIX,icloude.com
   - DOMAIN-SUFFIX,icloudhome.com
+  - DOMAIN-SUFFIX,icloudisupport.com
   - DOMAIN-SUFFIX,icloudmail.net
   - DOMAIN-SUFFIX,icloudmusic.net
   - DOMAIN-SUFFIX,icloudnet.net
@@ -62,9 +65,9 @@ payload:
   - DOMAIN-SUFFIX,icloudsecure.net
   - DOMAIN-SUFFIX,icloudsetup.com
   - DOMAIN-SUFFIX,ios-icloud.com
+  - DOMAIN-SUFFIX,iosicloud.com
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,myicloud.net
   - DOMAIN-SUFFIX,mylcloud.net
+  - DOMAIN-SUFFIX,wwwcdn.icloud.com.akadns.net
   - DOMAIN-SUFFIX,wwwicloud.com
-  - DOMAIN,guzzoni.apple.com
-
