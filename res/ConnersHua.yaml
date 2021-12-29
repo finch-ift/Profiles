@@ -223,29 +223,14 @@ rule-providers:
     interval: 21600
 
 rules:
-- RULE-SET,Jetbrains,PrimevalSelect
-- RULE-SET,Notion,PrimevalSelect
-- RULE-SET,Sony,PrimevalSelect
-- RULE-SET,Telegram,PrimevalSelect
-- RULE-SET,Nintendo,PrimevalSelect
-- RULE-SET,PayPal,PrimevalSelect
-- RULE-SET,Netflix,PrimevalSelect
+- RULE-SET,ZhihuAds,REJECT
+- RULE-SET,Privacy,REJECT
+- RULE-SET,Hijacking,REJECT
+- RULE-SET,AdvertisingLite,REJECT
+- RULE-SET,Advertising,REJECT
 
-- RULE-SET,GitHub,PrimevalSelect
-- RULE-SET,OneDrive,PrimevalSelect
-- RULE-SET,YouTube,PrimevalSelect
-- RULE-SET,GoogleDrive,PrimevalSelect
-
-- RULE-SET,SystemOTA,Proxy
-- RULE-SET,AppleTV,PrimevalSelect
-- RULE-SET,TestFlight,Proxy
 - RULE-SET,AppleMusic,DIRECT
 - RULE-SET,iCloud,DIRECT
-- RULE-SET,AppleProxy,Proxy
-
-- RULE-SET,Developer,Proxy
-- RULE-SET,Scholar,PrimevalSelect
-
 - RULE-SET,ChinaMobile,DIRECT
 - RULE-SET,BiliBili,DIRECT
 - RULE-SET,Weibo,DIRECT
@@ -255,18 +240,29 @@ rules:
 - RULE-SET,XiaoMi,DIRECT
 - RULE-SET,iQIYI,DIRECT
 - RULE-SET,Speedtest,DIRECT
+- RULE-SET,ChinaMedia,DIRECT
 
+- RULE-SET,Telegram,PrimevalSelect
+- RULE-SET,Jetbrains,PrimevalSelect
+- RULE-SET,Notion,PrimevalSelect
+- RULE-SET,Nintendo,PrimevalSelect
+- RULE-SET,PayPal,PrimevalSelect
+- RULE-SET,Netflix,PrimevalSelect
+- RULE-SET,Sony,PrimevalSelect
+- RULE-SET,GitHub,PrimevalSelect
+- RULE-SET,OneDrive,PrimevalSelect
+- RULE-SET,GoogleDrive,PrimevalSelect
+- RULE-SET,SystemOTA,PrimevalSelect
+- RULE-SET,AppleTV,PrimevalSelect
+- RULE-SET,Scholar,PrimevalSelect
+
+- RULE-SET,TestFlight,Proxy
+- RULE-SET,YouTube,Proxy
+- RULE-SET,AppleProxy,Proxy
+- RULE-SET,Developer,Proxy
 - RULE-SET,Google,Proxy
 - RULE-SET,Microsoft,Proxy
-
-- RULE-SET,ZhihuAds,REJECT
-- RULE-SET,Privacy,REJECT
-- RULE-SET,Hijacking,REJECT
-- RULE-SET,AdvertisingLite,REJECT
-- RULE-SET,Advertising,REJECT
-
 - RULE-SET,GlobalMedia,Proxy
-- RULE-SET,ChinaMedia,DIRECT
 
 - IP-CIDR,192.168.0.0/16,DIRECT
 - IP-CIDR,10.0.0.0/8,DIRECT
