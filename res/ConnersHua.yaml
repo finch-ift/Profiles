@@ -231,7 +231,6 @@ rules:
 
 - RULE-SET,AppleMusic,DIRECT
 - RULE-SET,iCloud,DIRECT
-- RULE-SET,ChinaMobile,DIRECT
 - RULE-SET,BiliBili,DIRECT
 - RULE-SET,Weibo,DIRECT
 - RULE-SET,115,DIRECT
@@ -240,6 +239,7 @@ rules:
 - RULE-SET,XiaoMi,DIRECT
 - RULE-SET,iQIYI,DIRECT
 - RULE-SET,Speedtest,DIRECT
+- RULE-SET,ChinaMobile,DIRECT
 - RULE-SET,ChinaMedia,DIRECT
 
 - RULE-SET,Telegram,PrimevalSelect
