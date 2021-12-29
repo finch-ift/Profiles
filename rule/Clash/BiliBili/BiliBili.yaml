@@ -14,6 +14,11 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# DOMAIN-SUFFIX: 54
+# PROCESS-NAME: 2
+# DOMAIN: 43
+# IP-CIDR: 15
+# TOTAL: 114
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
@@ -103,15 +108,17 @@ payload:
   - DOMAIN-SUFFIX,im9.com
   - DOMAIN-SUFFIX,mcbbs.net
   - DOMAIN-SUFFIX,mincdn.com
+  - DOMAIN-SUFFIX,p-bstarstatic.akamaized.net
+  - DOMAIN-SUFFIX,p.bstarstatic.com
   - DOMAIN-SUFFIX,sharejoytech.com
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
+  - DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
   - DOMAIN-SUFFIX,yo9.com
   - IP-CIDR,106.75.74.76/32,no-resolve
   - IP-CIDR,111.206.25.147/32,no-resolve
-  - IP-CIDR,119.29.29.29/32,no-resolve
   - IP-CIDR,119.3.238.64/32,no-resolve
   - IP-CIDR,120.92.108.182/32,no-resolve
   - IP-CIDR,120.92.113.99/32,no-resolve

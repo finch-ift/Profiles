@@ -14,6 +14,8 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# DOMAIN-SUFFIX: 28
+# TOTAL: 28
 payload:
   - DOMAIN-SUFFIX,10086.cn
   - DOMAIN-SUFFIX,12530.com

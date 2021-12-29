@@ -14,10 +14,15 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# DOMAIN: 5
+# DOMAIN-SUFFIX: 1
+# PROCESS-NAME: 1
+# TOTAL: 7
 payload:
   - DOMAIN,hls-amt.itunes.apple.com
   - DOMAIN,hls.itunes.apple.com
   - DOMAIN,np-edge.itunes.apple.com
   - DOMAIN,play-edge.itunes.apple.com
+  - DOMAIN,uts-api.itunes.apple.com
   - DOMAIN-SUFFIX,tv.apple.com
   - PROCESS-NAME,tv
