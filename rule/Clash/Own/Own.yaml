@@ -19,4 +19,8 @@ payload:
   - DOMAIN-SUFFIX,cdn.staticaly.com
   - DOMAIN-SUFFIX,ghproxy.fsou.cc
   - DOMAIN-SUFFIX,pd.zwc365.com
+  - DOMAIN-SUFFIX,ift.one,DIRECT
   - DOMAIN-KEYWORD,time
+  - IP-CIDR,192.243.127.211/32,DIRECT
+  - IP-CIDR,23.105.221.70/32,DIRECT
+  - IP-CIDR,89.208.240.50/32,DIRECT
