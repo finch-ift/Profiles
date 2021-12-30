@@ -16,6 +16,7 @@
 
 payload:
   - DOMAIN-SUFFIX,cdn.jsdelivr.net
+  - DOMAIN-SUFFIX,cdn.staticaly.com
+  - DOMAIN-SUFFIX,ghproxy.fsou.cc
   - DOMAIN-SUFFIX,pd.zwc365.com
   - DOMAIN-KEYWORD,time
-  
