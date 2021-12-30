@@ -1,5 +1,5 @@
 # NAME: GoogleDrive Proxy
-# url: https://cdn.jsdelivr.net/gh/finch-ift/Profiles@main/rule/Clash/GoogleDrive/GoogleDrive.yaml
+# url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/GoogleDrive/GoogleDrive.yaml
 
 # 目前Clash支持的规则类型如下:
 # DOMAIN-SUFFIX：域名后缀匹配
