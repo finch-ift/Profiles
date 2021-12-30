@@ -14,6 +14,9 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# PROCESS-NAME: 2
+# DOMAIN-SUFFIX: 417
+# TOTAL: 419
 payload:
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,a-msedge.net

@@ -14,7 +14,11 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 245
+# TOTAL: 246
 payload:
+  - DOMAIN,www.paypal-mktg.com
   - DOMAIN-SUFFIX,account-paypal.info
   - DOMAIN-SUFFIX,account-paypal.net
   - DOMAIN-SUFFIX,account-paypal.org
@@ -260,5 +264,3 @@ payload:
   - DOMAIN-SUFFIX,xoom.net.cn
   - DOMAIN-SUFFIX,xoom.us
   - DOMAIN-SUFFIX,xoomcom.com
-  - DOMAIN-SUFFIX,易付通.cn
-  - DOMAIN-KEYWORD,paypal
