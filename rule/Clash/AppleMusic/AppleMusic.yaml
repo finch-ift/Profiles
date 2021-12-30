@@ -14,7 +14,12 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# DOMAIN-SUFFIX: 2
+# DOMAIN: 6
+# PROCESS-NAME: 1
+# TOTAL: 9
 payload:
+  - DOMAIN,aod-ssl.itunes.apple.com
   - DOMAIN,aod.itunes.apple.com
   - DOMAIN,audio-ssl.itunes.apple.com
   - DOMAIN,audio.itunes.apple.com

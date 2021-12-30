@@ -14,8 +14,14 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# PROCESS-NAME: 1
+# DOMAIN-SUFFIX: 4
+# DOMAIN: 1
+# TOTAL: 6
 payload:
+  - DOMAIN,www.googleapis.com
   - DOMAIN-SUFFIX,docs.google.com
   - DOMAIN-SUFFIX,drive.google.com
   - DOMAIN-SUFFIX,googledrive.com
   - DOMAIN-SUFFIX,googleusercontent.com
+  - PROCESS-NAME,backupandsync
