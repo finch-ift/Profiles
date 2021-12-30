@@ -5,6 +5,12 @@ rule-providers:
     path: "./rule_provider/IFT/ChinaMedia.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/ChinaMedia/ChinaMedia.yaml
     interval: 21600
+  ChinaMax:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/ChinaMax.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/ChinaMax/ChinaMax.yaml
+    interval: 21600
   GlobalMedia:
     type: http
     behavior: classical
@@ -47,6 +53,12 @@ rule-providers:
     path: "./rule_provider/IFT/Tencent.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/Tencent/Tencent.yaml
     interval: 21600
+  NetEaseMusic:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/NetEaseMusic.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/NetEaseMusic/NetEaseMusic.yaml
+    interval: 21600
   AppleProxy:
     type: http
     behavior: classical
@@ -76,6 +88,18 @@ rule-providers:
     behavior: classical
     path: "./rule_provider/IFT/Telegram.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/Telegram/Telegram.yaml
+    interval: 21600
+  YouTubeMusic:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/YouTubeMusic.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/YouTubeMusic/YouTubeMusic.yaml
+    interval: 21600
+  Spotify:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Spotify.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/Spotify/Spotify.yaml
     interval: 21600
   PayPal:
     type: http
@@ -118,6 +142,12 @@ rule-providers:
     behavior: classical
     path: "./rule_provider/IFT/Nintendo.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/Nintendo/Nintendo.yaml
+    interval: 21600
+  PlayStation:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/PlayStation.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/PlayStation/PlayStation.yaml
     interval: 21600
   AppleTV:
     type: http
@@ -229,39 +259,44 @@ rules:
 - RULE-SET,AdvertisingLite,REJECT
 - RULE-SET,Advertising,REJECT
 
+- RULE-SET,115,DIRECT
 - RULE-SET,AppleMusic,DIRECT
 - RULE-SET,iCloud,DIRECT
 - RULE-SET,BiliBili,DIRECT
 - RULE-SET,Weibo,DIRECT
-- RULE-SET,115,DIRECT
-- RULE-SET,Tencent,DIRECT
 - RULE-SET,TencentVideo,DIRECT
+- RULE-SET,Tencent,DIRECT
+- RULE-SET,NetEaseMusic,DIRECT
 - RULE-SET,XiaoMi,DIRECT
 - RULE-SET,iQIYI,DIRECT
 - RULE-SET,Speedtest,DIRECT
 - RULE-SET,ChinaMobile,DIRECT
 - RULE-SET,ChinaMedia,DIRECT
+- RULE-SET,ChinaMax,DIRECT
 
+- RULE-SET,Spotify,PrimevalSelect
 - RULE-SET,Telegram,PrimevalSelect
+- RULE-SET,YouTubeMusic,PrimevalSelect
 - RULE-SET,Jetbrains,PrimevalSelect
 - RULE-SET,Notion,PrimevalSelect
 - RULE-SET,Nintendo,PrimevalSelect
+- RULE-SET,PlayStation,PrimevalSelect
 - RULE-SET,PayPal,PrimevalSelect
 - RULE-SET,Netflix,PrimevalSelect
 - RULE-SET,Sony,PrimevalSelect
-- RULE-SET,GitHub,PrimevalSelect
 - RULE-SET,OneDrive,PrimevalSelect
 - RULE-SET,GoogleDrive,PrimevalSelect
 - RULE-SET,SystemOTA,PrimevalSelect
 - RULE-SET,AppleTV,PrimevalSelect
-- RULE-SET,Scholar,PrimevalSelect
+- RULE-SET,TestFlight,PrimevalSelect
+- RULE-SET,YouTube,PrimevalSelect
 
-- RULE-SET,TestFlight,Proxy
-- RULE-SET,YouTube,Proxy
+- RULE-SET,GitHub,Proxy
 - RULE-SET,AppleProxy,Proxy
 - RULE-SET,Developer,Proxy
 - RULE-SET,Google,Proxy
 - RULE-SET,Microsoft,Proxy
+- RULE-SET,Scholar,Proxy
 - RULE-SET,GlobalMedia,Proxy
 
 - IP-CIDR,192.168.0.0/16,DIRECT
