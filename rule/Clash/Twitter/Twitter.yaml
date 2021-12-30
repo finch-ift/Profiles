@@ -14,6 +14,9 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# DOMAIN-SUFFIX: 18
+# IP-CIDR: 8
+# TOTAL: 26
 payload:
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,periscope.tv
@@ -33,7 +36,6 @@ payload:
   - DOMAIN-SUFFIX,twtrdns.net
   - DOMAIN-SUFFIX,twttr.com
   - DOMAIN-SUFFIX,vine.co
-  - DOMAIN-KEYWORD,twitter
   - IP-CIDR,104.244.42.0/21
   - IP-CIDR,192.133.76.0/22
   - IP-CIDR,199.16.156.0/22

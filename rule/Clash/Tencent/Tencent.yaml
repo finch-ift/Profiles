@@ -14,6 +14,9 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# DOMAIN-SUFFIX: 296
+# IP-CIDR: 2
+# TOTAL: 298
 payload:
   - DOMAIN-SUFFIX,1700.cn
   - DOMAIN-SUFFIX,17roco.com
@@ -25,6 +28,7 @@ payload:
   - DOMAIN-SUFFIX,accessibilityunion.org.cn
   - DOMAIN-SUFFIX,agcloudcs.com
   - DOMAIN-SUFFIX,aitangyou.com
+  - DOMAIN-SUFFIX,alloyteam.com
   - DOMAIN-SUFFIX,apcdns.com
   - DOMAIN-SUFFIX,apcdns.net
   - DOMAIN-SUFFIX,apdcdn.com
@@ -108,8 +112,10 @@ payload:
   - DOMAIN-SUFFIX,igamecj.com
   - DOMAIN-SUFFIX,igcdn.cn
   - DOMAIN-SUFFIX,imqq.com
+  - DOMAIN-SUFFIX,imweb.io
   - DOMAIN-SUFFIX,in.th
   - DOMAIN-SUFFIX,isd.com
+  - DOMAIN-SUFFIX,ivweb.io
   - DOMAIN-SUFFIX,jiangzidushu.com
   - DOMAIN-SUFFIX,jiangzikanshu.cn
   - DOMAIN-SUFFIX,jiangzikanshu.com
@@ -175,6 +181,7 @@ payload:
   - DOMAIN-SUFFIX,qplus.com
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qq.com.cn
+  - DOMAIN-SUFFIX,qq.xn--fiqs8s
   - DOMAIN-SUFFIX,qqgameapp.com
   - DOMAIN-SUFFIX,qqgames.com
   - DOMAIN-SUFFIX,qqmail.com
@@ -189,6 +196,7 @@ payload:
   - DOMAIN-SUFFIX,roblox.cn
   - DOMAIN-SUFFIX,romzj.com
   - DOMAIN-SUFFIX,rootjl.com
+  - DOMAIN-SUFFIX,rtx.com.cn
   - DOMAIN-SUFFIX,rtxapp.com
   - DOMAIN-SUFFIX,rtxonline.com
   - DOMAIN-SUFFIX,safejmp.com
@@ -291,6 +299,7 @@ payload:
   - DOMAIN-SUFFIX,wxlagame.com
   - DOMAIN-SUFFIX,wxutil.com
   - DOMAIN-SUFFIX,xdxiaoshuo.com
+  - DOMAIN-SUFFIX,xn--r70as2s.xn--fiqs8s
   - DOMAIN-SUFFIX,xs.cn
   - DOMAIN-SUFFIX,xs8.cn
   - DOMAIN-SUFFIX,xuz0.cn

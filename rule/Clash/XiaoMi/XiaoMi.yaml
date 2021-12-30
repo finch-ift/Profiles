@@ -14,11 +14,15 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# DOMAIN-SUFFIX: 118
+# IP-CIDR: 2
+# TOTAL: 120
 payload:
   - DOMAIN-SUFFIX,408399.com
   - DOMAIN-SUFFIX,408399.net
   - DOMAIN-SUFFIX,816798.net
   - DOMAIN-SUFFIX,account-cn.huami.com
+  - DOMAIN-SUFFIX,airstar.com
   - DOMAIN-SUFFIX,aleenote.cn
   - DOMAIN-SUFFIX,aleenote.com
   - DOMAIN-SUFFIX,alibiji.cn
@@ -33,8 +37,10 @@ payload:
   - DOMAIN-SUFFIX,facephoto.com
   - DOMAIN-SUFFIX,fe-cdn.huami.com
   - DOMAIN-SUFFIX,fe-static.huami.com
+  - DOMAIN-SUFFIX,growth.ai.srv
   - DOMAIN-SUFFIX,heihei.com
   - DOMAIN-SUFFIX,hongmi.cn
+  - DOMAIN-SUFFIX,kewucool.com
   - DOMAIN-SUFFIX,kssdata-yz1.kuaipandata.com
   - DOMAIN-SUFFIX,kssdata-yz2-lt.kuaipandata.com
   - DOMAIN-SUFFIX,kssdata-yz2.kuaipandata.com
@@ -46,6 +52,10 @@ payload:
   - DOMAIN-SUFFIX,mgslb.com
   - DOMAIN-SUFFIX,mgslb.net
   - DOMAIN-SUFFIX,mgslb.org
+  - DOMAIN-SUFFIX,mi-ae.cn
+  - DOMAIN-SUFFIX,mi-ae.com
+  - DOMAIN-SUFFIX,mi-ae.com.cn
+  - DOMAIN-SUFFIX,mi-ae.net
   - DOMAIN-SUFFIX,mi-cache.com
   - DOMAIN-SUFFIX,mi-cdn.com
   - DOMAIN-SUFFIX,mi-customer.com
@@ -60,6 +70,7 @@ payload:
   - DOMAIN-SUFFIX,mi.cn
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,mi0.cc
+  - DOMAIN-SUFFIX,mi1.cc
   - DOMAIN-SUFFIX,micoce.com.cn
   - DOMAIN-SUFFIX,micode.cn
   - DOMAIN-SUFFIX,micode.com.cn
