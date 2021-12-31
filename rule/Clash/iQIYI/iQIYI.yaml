@@ -75,5 +75,3 @@ payload:
   - IP-CIDR,23.40.241.251/32
   - IP-CIDR,23.40.242.10/32
   - IP-CIDR,23.53.32.88/32
-  - PROCESS-NAME,com.iqiyi.i18n
-  - PROCESS-NAME,com.qiyi.video

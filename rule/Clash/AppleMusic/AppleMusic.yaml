@@ -27,4 +27,3 @@ payload:
   - DOMAIN,streamingaudio.itunes.apple.com
   - DOMAIN-SUFFIX,blobstore.apple.com
   - DOMAIN-SUFFIX,music.apple.com
-  - PROCESS-NAME,music

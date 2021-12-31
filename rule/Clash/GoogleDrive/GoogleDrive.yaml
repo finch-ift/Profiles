@@ -24,4 +24,3 @@ payload:
   - DOMAIN-SUFFIX,drive.google.com
   - DOMAIN-SUFFIX,googledrive.com
   - DOMAIN-SUFFIX,googleusercontent.com
-  - PROCESS-NAME,backupandsync

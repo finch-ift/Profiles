@@ -84241,8 +84241,3 @@ payload:
   - IP-CIDR6,2a0e:aa06:40e::/48
   - IP-CIDR6,2a0e:aa07:f012::/48
   - IP-CIDR6,2a10:1cc0::/29
-  - PROCESS-NAME,com.bilibili.app.in
-  - PROCESS-NAME,com.jjwxc.reader
-  - PROCESS-NAME,com.qiyi.video
-  - PROCESS-NAME,com.taobao.taobao
-  - PROCESS-NAME,tv.danmaku.bili

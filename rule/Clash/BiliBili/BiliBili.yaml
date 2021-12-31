@@ -132,5 +132,3 @@ payload:
   - IP-CIDR,203.107.1.65/32
   - IP-CIDR,203.107.1.66/32
   - IP-CIDR,45.43.32.234/32
-  - PROCESS-NAME,com.bilibili.app.in
-  - PROCESS-NAME,tv.danmaku.bili

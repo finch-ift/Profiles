@@ -36,4 +36,3 @@ payload:
   - DOMAIN-SUFFIX,spotifyjobs.com
   - DOMAIN-KEYWORD,spotify.com
   - IP-CIDR,35.186.224.47/32
-  - PROCESS-NAME,com.spotify.music

@@ -30,5 +30,3 @@ payload:
   - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,storage.msn.com
-  - PROCESS-NAME,onedrive
-  - PROCESS-NAME,onedriveupdater
