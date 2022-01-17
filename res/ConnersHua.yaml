@@ -277,8 +277,6 @@ rules:
 - RULE-SET,iQIYI,DIRECT
 - RULE-SET,Speedtest,DIRECT
 - RULE-SET,ChinaMobile,DIRECT
-- RULE-SET,ChinaMedia,DIRECT
-- RULE-SET,ChinaMax,DIRECT
 
 - RULE-SET,Twitter,PrimevalSelect
 - RULE-SET,Spotify,PrimevalSelect
@@ -304,6 +302,9 @@ rules:
 - RULE-SET,Google,Proxy
 - RULE-SET,Microsoft,Proxy
 - RULE-SET,Scholar,Proxy
+
+- RULE-SET,ChinaMedia,DIRECT
+- RULE-SET,ChinaMax,DIRECT
 - RULE-SET,GlobalMedia,Proxy
 
 - IP-CIDR,192.168.0.0/16,DIRECT
