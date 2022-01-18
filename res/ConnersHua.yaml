@@ -17,36 +17,6 @@ rule-providers:
     path: "./rule_provider/IFT/GlobalMedia.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/GlobalMedia/GlobalMedia.yaml
     interval: 21600
-  Privacy:
-    type: http
-    behavior: classical
-    path: "./rule_provider/IFT/Privacy.yaml"
-    url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/Privacy/Privacy.yaml
-    interval: 21600
-  ZhihuAds:
-    type: http
-    behavior: classical
-    path: "./rule_provider/IFT/ZhihuAds.yaml"
-    url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/ZhihuAds/ZhihuAds.yaml
-    interval: 21600
-  Hijacking:
-    type: http
-    behavior: classical
-    path: "./rule_provider/IFT/Hijacking.yaml"
-    url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/Hijacking/Hijacking.yaml
-    interval: 21600
-  AdvertisingLite:
-    type: http
-    behavior: classical
-    path: "./rule_provider/IFT/AdvertisingLite.yaml"
-    url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
-    interval: 21600
-  Advertising:
-    type: http
-    behavior: classical
-    path: "./rule_provider/IFT/Advertising.yaml"
-    url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/Advertising/Advertising.yaml
-    interval: 21600
   Tencent:
     type: http
     behavior: classical
@@ -259,12 +229,6 @@ rule-providers:
     interval: 21600
 
 rules:
-- RULE-SET,ZhihuAds,REJECT
-- RULE-SET,Privacy,REJECT
-- RULE-SET,Hijacking,REJECT
-- RULE-SET,AdvertisingLite,REJECT
-- RULE-SET,Advertising,REJECT
-
 - RULE-SET,115,DIRECT
 - RULE-SET,AppleMusic,DIRECT
 - RULE-SET,iCloud,DIRECT
