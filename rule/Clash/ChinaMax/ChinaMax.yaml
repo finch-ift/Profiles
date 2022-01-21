@@ -1352,7 +1352,6 @@ payload:
   - DOMAIN-SUFFIX,125y.com
   - DOMAIN-SUFFIX,126.am
   - DOMAIN-SUFFIX,126.com
-  - DOMAIN-SUFFIX,126.fm
   - DOMAIN-SUFFIX,126.la
   - DOMAIN-SUFFIX,126.link
   - DOMAIN-SUFFIX,126.net
@@ -1567,7 +1566,6 @@ payload:
   - DOMAIN-SUFFIX,1626.com
   - DOMAIN-SUFFIX,163.cm
   - DOMAIN-SUFFIX,163.com
-  - DOMAIN-SUFFIX,163.fm
   - DOMAIN-SUFFIX,163.gg
   - DOMAIN-SUFFIX,163.link
   - DOMAIN-SUFFIX,163.lu
@@ -9883,7 +9881,6 @@ payload:
   - DOMAIN-SUFFIX,anyuantec.com
   - DOMAIN-SUFFIX,anyunjianzhan.com
   - DOMAIN-SUFFIX,anyv.net
-  - DOMAIN-SUFFIX,anyway.fm
   - DOMAIN-SUFFIX,anywlan.com
   - DOMAIN-SUFFIX,anywood.com
   - DOMAIN-SUFFIX,anyxz.com
@@ -13206,7 +13203,6 @@ payload:
   - DOMAIN-SUFFIX,boweifeng.com
   - DOMAIN-SUFFIX,bowin8.com
   - DOMAIN-SUFFIX,bowuku.com
-  - DOMAIN-SUFFIX,bowuzhi.fm
   - DOMAIN-SUFFIX,boxgu.com
   - DOMAIN-SUFFIX,boxiaole.com
   - DOMAIN-SUFFIX,boxopened.com
@@ -21395,7 +21391,6 @@ payload:
   - DOMAIN-SUFFIX,donglishuzhai.net
   - DOMAIN-SUFFIX,dongliw.com
   - DOMAIN-SUFFIX,donglizhixin.com
-  - DOMAIN-SUFFIX,dongman.fm
   - DOMAIN-SUFFIX,dongmanwang.com
   - DOMAIN-SUFFIX,dongmanxingkong.com
   - DOMAIN-SUFFIX,dongmiban.com
@@ -21469,7 +21464,6 @@ payload:
   - DOMAIN-SUFFIX,dou.li
   - DOMAIN-SUFFIX,douban.co
   - DOMAIN-SUFFIX,douban.com
-  - DOMAIN-SUFFIX,douban.fm
   - DOMAIN-SUFFIX,doubanio.com
   - DOMAIN-SUFFIX,doubaojf.com
   - DOMAIN-SUFFIX,doubean.com
@@ -25917,7 +25911,6 @@ payload:
   - DOMAIN-SUFFIX,gaonengfun.com
   - DOMAIN-SUFFIX,gaopaiwood.com
   - DOMAIN-SUFFIX,gaopeng.com
-  - DOMAIN-SUFFIX,gaoqing.fm
   - DOMAIN-SUFFIX,gaoqing.la
   - DOMAIN-SUFFIX,gaoqing500.com
   - DOMAIN-SUFFIX,gaoqingpai.com
@@ -32987,7 +32980,6 @@ payload:
   - DOMAIN-SUFFIX,ifdesignstudio.cn
   - DOMAIN-SUFFIX,ifeimo.com
   - DOMAIN-SUFFIX,ifeng.com
-  - DOMAIN-SUFFIX,ifeng.fm
   - DOMAIN-SUFFIX,ifeng.name
   - DOMAIN-SUFFIX,ifengcdn.com
   - DOMAIN-SUFFIX,ifenghui.com
@@ -33861,7 +33853,6 @@ payload:
   - DOMAIN-SUFFIX,ip-cdn.com
   - DOMAIN-SUFFIX,ip-china.org
   - DOMAIN-SUFFIX,ip-guard.net
-  - DOMAIN-SUFFIX,ip.fm
   - DOMAIN-SUFFIX,ip.la
   - DOMAIN-SUFFIX,ip008.com
   - DOMAIN-SUFFIX,ip138.com
@@ -37883,7 +37874,6 @@ payload:
   - DOMAIN-SUFFIX,kexinyun.org
   - DOMAIN-SUFFIX,kexu.com
   - DOMAIN-SUFFIX,kexue.com
-  - DOMAIN-SUFFIX,kexue.fm
   - DOMAIN-SUFFIX,kexuezixunzzs.com
   - DOMAIN-SUFFIX,keyan.life
   - DOMAIN-SUFFIX,keyboardancer.com
@@ -40677,7 +40667,6 @@ payload:
   - DOMAIN-SUFFIX,lizhaoxiang.com
   - DOMAIN-SUFFIX,lizhenwang.com
   - DOMAIN-SUFFIX,lizhi.com
-  - DOMAIN-SUFFIX,lizhi.fm
   - DOMAIN-SUFFIX,lizhi.io
   - DOMAIN-SUFFIX,lizhi001.com
   - DOMAIN-SUFFIX,lizhi110.com
@@ -46088,7 +46077,6 @@ payload:
   - DOMAIN-SUFFIX,octjstz.com
   - DOMAIN-SUFFIX,octlink.com
   - DOMAIN-SUFFIX,octmami.com
-  - DOMAIN-SUFFIX,octo.fm
   - DOMAIN-SUFFIX,octoparse.com
   - DOMAIN-SUFFIX,octopgo.com
   - DOMAIN-SUFFIX,octopusgame.com
@@ -49252,7 +49240,6 @@ payload:
   - DOMAIN-SUFFIX,qingtian16265.com
   - DOMAIN-SUFFIX,qingtiancms.net
   - DOMAIN-SUFFIX,qingtin.com
-  - DOMAIN-SUFFIX,qingting.fm
   - DOMAIN-SUFFIX,qingting123.com
   - DOMAIN-SUFFIX,qingtingfm.com
   - DOMAIN-SUFFIX,qingtingip.com
@@ -61466,7 +61453,6 @@ payload:
   - DOMAIN-SUFFIX,weikaowu.com
   - DOMAIN-SUFFIX,weikasen.com
   - DOMAIN-SUFFIX,weikd.com
-  - DOMAIN-SUFFIX,weike.fm
   - DOMAIN-SUFFIX,weikebaba.net
   - DOMAIN-SUFFIX,weikeimg.com
   - DOMAIN-SUFFIX,weikejianghu.com
@@ -64184,7 +64170,6 @@ payload:
   - DOMAIN-SUFFIX,xiamenair.com
   - DOMAIN-SUFFIX,xiamentianqi114.com
   - DOMAIN-SUFFIX,xiami.com
-  - DOMAIN-SUFFIX,xiami.fm
   - DOMAIN-SUFFIX,xiami.net
   - DOMAIN-SUFFIX,xiami77.com
   - DOMAIN-SUFFIX,xiamiaopai.com
@@ -64859,7 +64844,6 @@ payload:
   - DOMAIN-SUFFIX,xima.org
   - DOMAIN-SUFFIX,xima.tv
   - DOMAIN-SUFFIX,ximalaya.com
-  - DOMAIN-SUFFIX,ximalaya.fm
   - DOMAIN-SUFFIX,ximalaya.tv
   - DOMAIN-SUFFIX,ximalayadata.com
   - DOMAIN-SUFFIX,ximalayaos.com
@@ -70542,7 +70526,6 @@ payload:
   - DOMAIN-SUFFIX,zhensoushu.com
   - DOMAIN-SUFFIX,zhentan.la
   - DOMAIN-SUFFIX,zhenwu.com
-  - DOMAIN-SUFFIX,zhenxian.fm
   - DOMAIN-SUFFIX,zhenyouhuo.com
   - DOMAIN-SUFFIX,zhenyouliao.com
   - DOMAIN-SUFFIX,zhenyouweb.com
