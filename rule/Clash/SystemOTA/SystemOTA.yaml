@@ -1,5 +1,5 @@
 # NAME: SystemOTA Apple
-# url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/SystemOTA/SystemOTA.yaml
+# url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/SystemOTA/SystemOTA.yaml
 
 # 目前Clash支持的规则类型如下:
 # DOMAIN-SUFFIX：域名后缀匹配

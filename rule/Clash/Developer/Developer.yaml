@@ -1,5 +1,5 @@
 # NAME: Developer Proxy
-# url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/Developer/Developer.yaml
+# url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Developer/Developer.yaml
 
 # 目前Clash支持的规则类型如下:
 # DOMAIN-SUFFIX：域名后缀匹配

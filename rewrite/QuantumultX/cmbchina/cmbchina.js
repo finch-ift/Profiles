@@ -2,10 +2,10 @@
 招商银行信用卡微信公众号：“领积分 - 🎁签到领积分” 获取 Cookie
 
 [task_local]
-8 0 * * * https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rewrite/QuantumultX/cmbchina/cmbchina.js
+8 0 * * * https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rewrite/QuantumultX/cmbchina/cmbchina.js
 
 [rewrite_local]
-https://weclub\.xyk\.cmbchina.com/SCRMCustomActivityFront/checkin-plus/request/get-home-data\.json\?activityCode=checkinPlus url script-request-header https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rewrite/QuantumultX/cmbchina/cmbchina.js
+https://weclub\.xyk\.cmbchina.com/SCRMCustomActivityFront/checkin-plus/request/get-home-data\.json\?activityCode=checkinPlus url script-request-header https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rewrite/QuantumultX/cmbchina/cmbchina.js
 
 [mitm]
 hostname = weclub.xyk.cmbchina.com

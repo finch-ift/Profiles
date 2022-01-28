@@ -1,5 +1,5 @@
 # NAME: Advertising REJECT
-# url: https://cdn.staticaly.com/gh/finch-ift/Profiles/main/rule/Clash/Advertising/Advertising.yaml
+# url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Advertising/Advertising.yaml
 # 目前Clash支持的规则类型如下:
 # DOMAIN-SUFFIX：域名后缀匹配
 # DOMAIN：域名匹配
