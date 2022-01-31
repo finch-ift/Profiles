@@ -33,13 +33,13 @@ http://ott.js.chinamobile.com/PLTV/3/224/3221225530/index.m3u8
 http://223.110.241.195:6610/gitv/live1/G_CCTV-2-HD/G_CCTV-2-HD/
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" tvg-id="14" tvg-name="CCTV3" group-title="央视",CCTV-3综艺
-http://223.110.241.195:6610/gitv/live1/G_CCTV-3-HQ/G_CCTV-3-HQ/
+http://ott.js.chinamobile.com/PLTV/3/224/3221225588/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" tvg-id="15" tvg-name="CCTV4" group-title="央视",CCTV-4中文国际
 http://223.110.241.195:6610/gitv/live1/G_CCTV-4-HQ/G_CCTV-4-HQ/
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" tvg-id="16" tvg-name="CCTV5" group-title="央视",CCTV-5体育
-http://223.110.241.195:6610/gitv/live1/G_CCTV-5-HQ/G_CCTV-5-HQ/
+http://ott.js.chinamobile.com/PLTV/3/224/3221227640/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" tvg-id="17" tvg-name="CCTV5+" group-title="央视",CCTV-5+体育赛事
 http://223.110.241.195:6610/gitv/live1/G_CCTV-5PLUS-CQ/G_CCTV-5PLUS-CQ/
