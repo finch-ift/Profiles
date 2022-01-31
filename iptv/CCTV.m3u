@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV-4K" group-title="CCTV",CCTV-4K
-http://223.110.236.8/ott.js.chinamobile.com/PLTV/3/224/3221228242/index.m3u8
+http://ott.js.chinamobile.com/PLTV/3/224/3221228242/index.m3u8
 
 #EXTINF:-1 tvg-id="1" tvg-name="舟山公共生活" group-title="舟山",舟山公共生活
 http://live.wifizs.cn/ggsh/sd/live.m3u8
@@ -27,7 +27,7 @@ http://hw-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8
 http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="12" tvg-name="CCTV1" group-title="央视",CCTV-1综合
-http://223.110.241.195:6610/gitv/live1/G_CCTV-1-HQ/G_CCTV-1-HQ/
+http://ott.js.chinamobile.com/PLTV/3/224/3221225530/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" tvg-id="13" tvg-name="CCTV2" group-title="央视",CCTV-2财经
 http://223.110.241.195:6610/gitv/live1/G_CCTV-2-HD/G_CCTV-2-HD/
