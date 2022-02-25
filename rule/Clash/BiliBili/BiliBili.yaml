@@ -14,11 +14,10 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# DOMAIN-SUFFIX: 54
-# PROCESS-NAME: 2
-# DOMAIN: 43
-# IP-CIDR: 15
-# TOTAL: 114
+# DOMAIN-SUFFIX: 51
+# DOMAIN: 48
+# IP-CIDR: 7
+# TOTAL: 106
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
@@ -34,8 +33,11 @@ payload:
   - DOMAIN,113-219-145-1.ksyungslb.com
   - DOMAIN,114-236-92-129.ksyungslb.com
   - DOMAIN,180-101-74-1.ksyungslb.com
+  - DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com
+  - DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com
   - DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com
   - DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com
+  - DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com
   - DOMAIN,1gr4uqmtt8y41hcjigazdqca.ourdvsss.com
   - DOMAIN,1gr4uqmtt8y41hcjigazdqce.ourdvsss.com
   - DOMAIN,1gr4uqmtt8y41hcjigazdqco.ourdvsss.com
@@ -52,6 +54,8 @@ payload:
   - DOMAIN,1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com
   - DOMAIN,1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com
   - DOMAIN,1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com
+  - DOMAIN,1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com
+  - DOMAIN,1graukmttga4nhcjtgozdgce.ourdvsss.com
   - DOMAIN,218-91-225-1.ksyungslb.com
   - DOMAIN,219-155-150-1.ksyungslb.com
   - DOMAIN,222-188-6-1.ksyungslb.com
@@ -93,6 +97,7 @@ payload:
   - DOMAIN-SUFFIX,biligame.com
   - DOMAIN-SUFFIX,biligame.net
   - DOMAIN-SUFFIX,biligo.com
+  - DOMAIN-SUFFIX,biliimg.com
   - DOMAIN-SUFFIX,biliintl.com
   - DOMAIN-SUFFIX,biliplus.com
   - DOMAIN-SUFFIX,bilivideo.cn
@@ -108,12 +113,8 @@ payload:
   - DOMAIN-SUFFIX,im9.com
   - DOMAIN-SUFFIX,mcbbs.net
   - DOMAIN-SUFFIX,mincdn.com
-  - DOMAIN-SUFFIX,p-bstarstatic.akamaized.net
-  - DOMAIN-SUFFIX,p.bstarstatic.com
   - DOMAIN-SUFFIX,sharejoytech.com
   - DOMAIN-SUFFIX,smtcdns.net
-  - DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
-  - DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
   - DOMAIN-SUFFIX,yo9.com
@@ -123,12 +124,4 @@ payload:
   - IP-CIDR,120.92.108.182/32
   - IP-CIDR,120.92.113.99/32
   - IP-CIDR,120.92.153.217/32
-  - IP-CIDR,128.1.62.200/31
   - IP-CIDR,134.175.207.130/32
-  - IP-CIDR,150.116.92.250/32
-  - IP-CIDR,164.52.76.18/32
-  - IP-CIDR,203.107.1.33/32
-  - IP-CIDR,203.107.1.34/32
-  - IP-CIDR,203.107.1.65/32
-  - IP-CIDR,203.107.1.66/32
-  - IP-CIDR,45.43.32.234/32

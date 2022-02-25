@@ -1,5 +1,6 @@
-# NAME: AppleTV Netflix
-# url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/AppleTV/AppleTV.yaml
+# NAME: BiliBiliIntl
+# NAME: BiliBiliIntl DIRECT
+# url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
 
 # 目前Clash支持的规则类型如下:
 # DOMAIN-SUFFIX：域名后缀匹配
@@ -14,14 +15,13 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# DOMAIN: 6
 # DOMAIN-SUFFIX: 1
-# TOTAL: 7
+# DOMAIN: 5
+# TOTAL: 6
 payload:
-  - DOMAIN,hls-amt.itunes.apple.com
-  - DOMAIN,hls.itunes.apple.com
-  - DOMAIN,np-edge.itunes.apple.com
-  - DOMAIN,play-edge.itunes.apple.com
-  - DOMAIN,tv.applemusic.com
-  - DOMAIN,uts-api.itunes.apple.com
-  - DOMAIN-SUFFIX,tv.apple.com
+  - DOMAIN,apm-misaka.biliapi.net
+  - DOMAIN,p-bstarstatic.akamaized.net
+  - DOMAIN,p.bstarstatic.com
+  - DOMAIN,upos-bstar-mirrorakam.akamaized.net
+  - DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+  - DOMAIN-SUFFIX,biliintl.com
