@@ -16,11 +16,13 @@
 
 # DOMAIN-SUFFIX: 25
 # IP-CIDR: 57
-# DOMAIN-KEYWORD: 3
-# PROCESS-NAME: 1
+# DOMAIN-KEYWORD: 6
+# DOMAIN: 2
 # IP-CIDR6: 4
-# TOTAL: 90
+# TOTAL: 94
 payload:
+  - DOMAIN,api.fast.com
+  - DOMAIN,netflix.com.edgesuite.net
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,netflix.ca
   - DOMAIN-SUFFIX,netflix.com
@@ -46,9 +48,12 @@ payload:
   - DOMAIN-SUFFIX,nflxso.net
   - DOMAIN-SUFFIX,nflxvideo.net
   - DOMAIN-SUFFIX,us-west-2.amazonaws.com
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.apiproxy-
   - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
+  - DOMAIN-KEYWORD,netflix
+  - DOMAIN-KEYWORD,netflixdnstest
   - IP-CIDR,103.87.204.0/22
   - IP-CIDR,108.175.32.0/20
   - IP-CIDR,185.2.220.0/22

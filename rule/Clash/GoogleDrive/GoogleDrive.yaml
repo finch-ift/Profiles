@@ -14,7 +14,6 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# PROCESS-NAME: 1
 # DOMAIN-SUFFIX: 4
 # DOMAIN: 1
 # TOTAL: 6

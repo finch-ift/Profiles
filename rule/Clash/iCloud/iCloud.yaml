@@ -14,19 +14,22 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# DOMAIN-SUFFIX: 55
-# DOMAIN: 1
-# TOTAL: 56
+# DOMAIN-SUFFIX: 57
+# DOMAIN-KEYWORD: 1
+# TOTAL: 58
 payload:
-  - DOMAIN,www-cdn.icloud.com.akadns.net
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,apple-icloud.cn
+  - DOMAIN-SUFFIX,apple-livephotoskit.com
   - DOMAIN-SUFFIX,appleicloud.cn
   - DOMAIN-SUFFIX,applemx-icloud.com
-  - DOMAIN-SUFFIX,applemxicloud.com
+  - DOMAIN-SUFFIX,apzones.com
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,gc.apple.com
   - DOMAIN-SUFFIX,icloud-apple.cn
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,icloud-isupport.com
+  - DOMAIN-SUFFIX,icloud.apple.com
   - DOMAIN-SUFFIX,icloud.ch
   - DOMAIN-SUFFIX,icloud.com
   - DOMAIN-SUFFIX,icloud.com.cn
@@ -52,10 +55,8 @@ payload:
   - DOMAIN-SUFFIX,icloudapple.cn
   - DOMAIN-SUFFIX,icloudbox.net
   - DOMAIN-SUFFIX,icloudbrowser.net
-  - DOMAIN-SUFFIX,icloudcontent.com
   - DOMAIN-SUFFIX,icloude.com
   - DOMAIN-SUFFIX,icloudhome.com
-  - DOMAIN-SUFFIX,icloudisupport.com
   - DOMAIN-SUFFIX,icloudmail.net
   - DOMAIN-SUFFIX,icloudmusic.net
   - DOMAIN-SUFFIX,icloudnet.net
@@ -68,9 +69,10 @@ payload:
   - DOMAIN-SUFFIX,icloudsecure.net
   - DOMAIN-SUFFIX,icloudsetup.com
   - DOMAIN-SUFFIX,ios-icloud.com
-  - DOMAIN-SUFFIX,iosicloud.com
+  - DOMAIN-SUFFIX,iwork.apple.com
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,myicloud.net
   - DOMAIN-SUFFIX,mylcloud.net
-  - DOMAIN-SUFFIX,wwwcdn.icloud.com.akadns.net
+  - DOMAIN-SUFFIX,www-cdn.icloud.com.akadns.net
   - DOMAIN-SUFFIX,wwwicloud.com
+  - DOMAIN-KEYWORD,icloud.com.akadns.net
