@@ -16,7 +16,6 @@
 
 # DOMAIN-SUFFIX: 2
 # DOMAIN: 6
-# PROCESS-NAME: 1
 # TOTAL: 9
 payload:
   - DOMAIN,aod-ssl.itunes.apple.com
