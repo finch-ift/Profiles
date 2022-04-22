@@ -16,7 +16,6 @@
 
 # DOMAIN-SUFFIX: 34
 # IP-CIDR: 22
-# PROCESS-NAME: 2
 # TOTAL: 58
 payload:
   - DOMAIN-SUFFIX,71.am

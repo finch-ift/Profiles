@@ -1,4 +1,4 @@
-# NAME: OneDrive PrimevalSelect
+# NAME: OneDrive Proxy
 # url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/OneDrive/OneDrive.yaml
 
 # 目前Clash支持的规则类型如下:
@@ -14,7 +14,6 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# PROCESS-NAME: 2
 # DOMAIN-SUFFIX: 12
 # TOTAL: 14
 payload:

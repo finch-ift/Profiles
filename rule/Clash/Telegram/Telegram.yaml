@@ -17,7 +17,6 @@
 # IP-CIDR: 6
 # IP-CIDR6: 4
 # DOMAIN-SUFFIX: 15
-# PROCESS-NAME: 3
 # TOTAL: 28
 payload:
   - DOMAIN-SUFFIX,comments.app
