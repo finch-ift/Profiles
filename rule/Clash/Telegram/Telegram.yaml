@@ -16,11 +16,15 @@
 
 # IP-CIDR: 6
 # IP-CIDR6: 4
-# DOMAIN-SUFFIX: 15
-# TOTAL: 28
+# DOMAIN-KEYWORD: 2
+# DOMAIN-SUFFIX: 18
+# PROCESS-NAME: 3
+# TOTAL: 33
 payload:
   - DOMAIN-SUFFIX,comments.app
+  - DOMAIN-SUFFIX,contest.com
   - DOMAIN-SUFFIX,graph.org
+  - DOMAIN-SUFFIX,quiz.directory
   - DOMAIN-SUFFIX,stel.com
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tdesktop.com
@@ -34,6 +38,9 @@ payload:
   - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,tg.dev
   - DOMAIN-SUFFIX,tx.me
+  - DOMAIN-SUFFIX,usercontent.dev
+  - DOMAIN-KEYWORD,nicegram
+  - DOMAIN-KEYWORD,telegram
   - IP-CIDR,109.239.140.0/24
   - IP-CIDR,149.154.160.0/20
   - IP-CIDR,185.76.151.0/24

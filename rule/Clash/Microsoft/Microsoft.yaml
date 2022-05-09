@@ -15,7 +15,8 @@
 # MATCH：全匹配
 
 # DOMAIN-SUFFIX: 417
-# TOTAL: 419
+# DOMAIN-KEYWORD: 4
+# TOTAL: 423
 payload:
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,a-msedge.net
@@ -434,3 +435,7 @@ payload:
   - DOMAIN-SUFFIX,xbx.lv
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,skydrive
