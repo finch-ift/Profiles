@@ -234,16 +234,18 @@ rule-providers:
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/NetEase/NetEase.yaml
     interval: 21600
 rules:
+
+- RULE-SET,BiliBili,AsianTV
+- RULE-SET,TencentVideo,AsianTV
+- RULE-SET,iQIYI,AsianTV
+
 - RULE-SET,AppleMusic,Domestic
 - RULE-SET,iCloud,Domestic
-- RULE-SET,BiliBili,AsianTV
 - RULE-SET,Weibo,Domestic
-- RULE-SET,TencentVideo,AsianTV
 - RULE-SET,Tencent,Domestic
 - RULE-SET,NetEaseMusic,Domestic
 - RULE-SET,NetEase,Domestic
 - RULE-SET,XiaoMi,Domestic
-- RULE-SET,iQIYI,AsianTV
 - RULE-SET,Speedtest,Domestic
 - RULE-SET,ChinaMobile,Domestic
 
