@@ -17,7 +17,18 @@
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
 payload:
-  - DOMAIN-SUFFIX,chinanews.com
-  - DOMAIN-SUFFIX,chinanews.com.cn
-  - DOMAIN-SUFFIX,cns.com.cn
-  - DOMAIN-SUFFIX,ecns.cn
+  - DOMAIN-KEYWORD,-cn
+  - DOMAIN-KEYWORD,.tmall.com
+  - DOMAIN-KEYWORD,alicdn
+  - DOMAIN-KEYWORD,alipay
+  - DOMAIN-KEYWORD,aliyun
+  - DOMAIN-KEYWORD,baidu
+  - DOMAIN-KEYWORD,beplay
+  - DOMAIN-KEYWORD,bilibili
+  - DOMAIN-KEYWORD,hnagroup
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,netease
+  - DOMAIN-KEYWORD,officecdn
+  - DOMAIN-KEYWORD,qiyi
+  - DOMAIN-KEYWORD,taobao
+  - DOMAIN-KEYWORD,weibo
