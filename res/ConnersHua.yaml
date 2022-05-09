@@ -227,7 +227,12 @@ rule-providers:
     path: "./rule_provider/IFT/Cloudflare.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Cloudflare/Cloudflare.yaml
     interval: 21600
-
+  NetEase:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/NetEase.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/NetEase/NetEase.yaml
+    interval: 21600
 rules:
 - RULE-SET,AppleMusic,Domestic
 - RULE-SET,iCloud,Domestic
@@ -236,6 +241,7 @@ rules:
 - RULE-SET,TencentVideo,AsianTV
 - RULE-SET,Tencent,Domestic
 - RULE-SET,NetEaseMusic,Domestic
+- RULE-SET,NetEase,Domestic
 - RULE-SET,XiaoMi,Domestic
 - RULE-SET,iQIYI,AsianTV
 - RULE-SET,Speedtest,Domestic
