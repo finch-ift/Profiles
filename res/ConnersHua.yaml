@@ -233,12 +233,20 @@ rule-providers:
     path: "./rule_provider/IFT/NetEase.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/NetEase/NetEase.yaml
     interval: 21600
+  CCTV:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/CCTV.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/CCTV/CCTV.yaml
+    interval: 21600
+
 rules:
 
 - RULE-SET,BiliBili,AsianTV
 - RULE-SET,TencentVideo,AsianTV
 - RULE-SET,iQIYI,AsianTV
 
+- RULE-SET,CCTV,Domestic
 - RULE-SET,AppleMusic,Domestic
 - RULE-SET,iCloud,Domestic
 - RULE-SET,Weibo,Domestic
