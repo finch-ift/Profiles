@@ -15,7 +15,6 @@
 # MATCH：全匹配
 
 payload:
-  - DOMAIN-SUFFIX,miwifi.com
   - DOMAIN-SUFFIX,seejav.club
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,xvideos.com
@@ -30,4 +29,31 @@ payload:
   - DOMAIN-KEYWORD,javmost
   - DOMAIN-KEYWORD,avgle
   - DOMAIN-KEYWORD,avple
-  - DOMAIN-KEYWORD,mdapp 
+  - DOMAIN-KEYWORD,mdapp
+
+  - DOMAIN-SUFFIX,miwifi.com
+  
+  - DOMAIN,ad.10010.com
+  - DOMAIN,analytics.95516.com
+  - DOMAIN,analytics.strava.com
+  - DOMAIN,app.adjust.com
+  - DOMAIN,app.appsflyer.com
+  - DOMAIN,bdtj.tagtic.cn
+  - DOMAIN,errlog.umeng.com
+  - DOMAIN,fairplay.l.qq.com
+  - DOMAIN,fonts.gstatic.com
+  - DOMAIN,log.mmstat.com
+  - DOMAIN,msg.umeng.com
+  - DOMAIN,msg.umengcloud.com
+  - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN,picanalysis.vivo.com.cn
+  - DOMAIN,sycm.mmstat.com
+  - DOMAIN,tracking.miui.com
+  - DOMAIN,vi.l.qq.com
+  - DOMAIN,xivanalysis.com
+  - DOMAIN-SUFFIX,dizhensubao.getui.com
+  - DOMAIN-SUFFIX,f.video.weibocdn.com
+  - DOMAIN-SUFFIX,fus.cdn.krcom.cn
+  - DOMAIN-SUFFIX,ol.epicgames.com
+  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+  - DOMAIN-KEYWORD,wb_ad
