@@ -15,9 +15,9 @@
 # MATCH：全匹配
 
 # DOMAIN-SUFFIX: 51
-# DOMAIN: 48
+# DOMAIN: 52
 # IP-CIDR: 7
-# TOTAL: 106
+# TOTAL: 110
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
@@ -67,6 +67,10 @@ payload:
   - DOMAIN,3geauymtsgrzdrcbzfahue.ourdvsss.com
   - DOMAIN,3geauymtsgrzdrcbzfahuk.ourdvsss.com
   - DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com
+  - DOMAIN,p-bstarstatic.akamaized.net
+  - DOMAIN,p.bstarstatic.com
+  - DOMAIN,upos-bstar-mirrorakam.akamaized.net
+  - DOMAIN,upos-bstar1-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,b23.tv
