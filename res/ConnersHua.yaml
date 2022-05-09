@@ -229,47 +229,52 @@ rule-providers:
     interval: 21600
 
 rules:
-- RULE-SET,115,DIRECT
-- RULE-SET,AppleMusic,DIRECT
-- RULE-SET,iCloud,DIRECT
-- RULE-SET,BiliBili,DIRECT
-- RULE-SET,Weibo,DIRECT
-- RULE-SET,TencentVideo,DIRECT
-- RULE-SET,Tencent,DIRECT
-- RULE-SET,NetEaseMusic,DIRECT
-- RULE-SET,XiaoMi,DIRECT
-- RULE-SET,iQIYI,DIRECT
-- RULE-SET,Speedtest,DIRECT
-- RULE-SET,ChinaMobile,DIRECT
+- RULE-SET,115,Domestic
+- RULE-SET,AppleMusic,Domestic
+- RULE-SET,iCloud,Domestic
+- RULE-SET,BiliBili,AsianTV
+- RULE-SET,Weibo,Domestic
+- RULE-SET,TencentVideo,AsianTV
+- RULE-SET,Tencent,Domestic
+- RULE-SET,NetEaseMusic,Domestic
+- RULE-SET,XiaoMi,Domestic
+- RULE-SET,iQIYI,AsianTV
+- RULE-SET,Speedtest,Domestic
+- RULE-SET,ChinaMobile,Domestic
 
 - RULE-SET,Twitter,Proxy
-- RULE-SET,Spotify,Proxy
 - RULE-SET,Telegram,Proxy
-- RULE-SET,YouTubeMusic,Proxy
 - RULE-SET,Jetbrains,Proxy
-- RULE-SET,Notion,Proxy
-- RULE-SET,Nintendo,Proxy
-- RULE-SET,PlayStation,Proxy
-- RULE-SET,PayPal,Proxy
-- RULE-SET,Netflix,Proxy
 - RULE-SET,Sony,Proxy
 - RULE-SET,OneDrive,Proxy
 - RULE-SET,GoogleDrive,Proxy
-- RULE-SET,SystemOTA,Proxy
-- RULE-SET,AppleTV,Proxy
-- RULE-SET,TestFlight,Proxy
-- RULE-SET,YouTube,Proxy
 
-- RULE-SET,GitHub,Proxy
+- RULE-SET,YouTubeMusic,YouTube
+- RULE-SET,YouTube,YouTube
+
+- RULE-SET,Netflix,Netflix
+- RULE-SET,AppleTV,Netflix
+
+- RULE-SET,Spotify,PrimevalSelect
+- RULE-SET,Notion,PrimevalSelect
+- RULE-SET,Nintendo,PrimevalSelect
+- RULE-SET,PlayStation,PrimevalSelect
+- RULE-SET,PayPal,PrimevalSelect
+- RULE-SET,GitHub,PrimevalSelect
+- RULE-SET,Scholar,PrimevalSelect
+- RULE-SET,Developer,PrimevalSelect
+
+- RULE-SET,SystemOTA,Proxy
+- RULE-SET,TestFlight,Proxy
 - RULE-SET,AppleProxy,Proxy
-- RULE-SET,Developer,Proxy
 - RULE-SET,Google,Proxy
 - RULE-SET,Microsoft,Proxy
-- RULE-SET,Scholar,Proxy
 
-- RULE-SET,ChinaMedia,DIRECT
+- RULE-SET,ChinaMedia,AsianTV
+
 - RULE-SET,ChinaMax,DIRECT
-- RULE-SET,GlobalMedia,Proxy
+
+- RULE-SET,GlobalMedia,GlobalTV
 
 - IP-CIDR,192.168.0.0/16,DIRECT
 - IP-CIDR,10.0.0.0/8,DIRECT
