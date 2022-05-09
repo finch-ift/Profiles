@@ -227,6 +227,12 @@ rule-providers:
     path: "./rule_provider/IFT/Jetbrains.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Jetbrains/Jetbrains.yaml
     interval: 21600
+  Cloudflare:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Cloudflare.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Cloudflare/Cloudflare.yaml
+    interval: 21600
 
 rules:
 - RULE-SET,115,Domestic
@@ -263,6 +269,7 @@ rules:
 - RULE-SET,GitHub,PrimevalSelect
 - RULE-SET,Scholar,PrimevalSelect
 - RULE-SET,Developer,PrimevalSelect
+- RULE-SET,Cloudflare,PrimevalSelect
 
 - RULE-SET,SystemOTA,Proxy
 - RULE-SET,TestFlight,Proxy
