@@ -1,0 +1,64 @@
+# NAME: Cloudflare Proxy
+# url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Cloudflare/Cloudflare.yaml
+
+# 目前Clash支持的规则类型如下:
+# DOMAIN-SUFFIX：域名后缀匹配
+# DOMAIN：域名匹配
+# DOMAIN-KEYWORD：域名关键字匹配
+# IP-CIDR：IP段匹配
+# SRC-IP-CIDR：源IP段匹配
+# GEOIP：GEOIP数据库（国家代码）匹配
+# DST-PORT：目标端口匹配
+# SRC-PORT：源端口匹配
+# PROCESS-NAME：源进程名匹配
+# RULE-SET：Rule Provider规则匹配
+# MATCH：全匹配
+
+# DOMAIN-SUFFIX: 22
+# IP-CIDR: 14
+# IP-CIDR6: 7
+# TOTAL: 43
+payload:
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,cloudflare-ipfs.com
+  - DOMAIN-SUFFIX,cloudflare-quic.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare.net
+  - DOMAIN-SUFFIX,cloudflareapps.com
+  - DOMAIN-SUFFIX,cloudflarebolt.com
+  - DOMAIN-SUFFIX,cloudflareclient.com
+  - DOMAIN-SUFFIX,cloudflareinsights.com
+  - DOMAIN-SUFFIX,cloudflareok.com
+  - DOMAIN-SUFFIX,cloudflareresolve.com
+  - DOMAIN-SUFFIX,cloudflaressl.com
+  - DOMAIN-SUFFIX,cloudflarestatus.com
+  - DOMAIN-SUFFIX,cloudflarestream.com
+  - DOMAIN-SUFFIX,cloudflaretest.com
+  - DOMAIN-SUFFIX,cloudflarewarp.com
+  - DOMAIN-SUFFIX,one.one.one
+  - DOMAIN-SUFFIX,pages.dev
+  - DOMAIN-SUFFIX,trycloudflare.com
+  - DOMAIN-SUFFIX,videodelivery.net
+  - DOMAIN-SUFFIX,warp.plus
+  - DOMAIN-SUFFIX,workers.dev
+  - IP-CIDR,103.21.244.0/22
+  - IP-CIDR,103.22.200.0/22
+  - IP-CIDR,103.31.4.0/22
+  - IP-CIDR,104.16.0.0/12
+  - IP-CIDR,108.162.192.0/18
+  - IP-CIDR,131.0.72.0/22
+  - IP-CIDR,141.101.64.0/18
+  - IP-CIDR,162.158.0.0/15
+  - IP-CIDR,172.64.0.0/13
+  - IP-CIDR,173.245.48.0/20
+  - IP-CIDR,188.114.96.0/20
+  - IP-CIDR,190.93.240.0/20
+  - IP-CIDR,197.234.240.0/22
+  - IP-CIDR,198.41.128.0/17
+  - IP-CIDR6,2400:cb00::/32
+  - IP-CIDR6,2405:8100::/32
+  - IP-CIDR6,2405:b500::/32
+  - IP-CIDR6,2606:4700::/32
+  - IP-CIDR6,2803:f800::/32
+  - IP-CIDR6,2a06:98c0::/29
+  - IP-CIDR6,2c0f:f248::/32
