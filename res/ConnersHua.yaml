@@ -191,12 +191,6 @@ rule-providers:
     path: "./rule_provider/IFT/Notion.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Notion/Notion.yaml
     interval: 21600
-  115:
-    type: http
-    behavior: classical
-    path: "./rule_provider/IFT/115.yaml"
-    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/115/115.yaml
-    interval: 21600
   ChinaMobile:
     type: http
     behavior: classical
@@ -235,7 +229,6 @@ rule-providers:
     interval: 21600
 
 rules:
-- RULE-SET,115,Domestic
 - RULE-SET,AppleMusic,Domestic
 - RULE-SET,iCloud,Domestic
 - RULE-SET,BiliBili,AsianTV
