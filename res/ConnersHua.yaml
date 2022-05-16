@@ -241,64 +241,58 @@ rule-providers:
     interval: 21600
 
 rules:
+  - RULE-SET,BiliBili,Asian TV
+  - RULE-SET,TencentVideo,Asian TV
+  - RULE-SET,iQIYI,Asian TV
+  - RULE-SET,CCTV,Asian TV
 
-- RULE-SET,BiliBili,AsianTV
-- RULE-SET,TencentVideo,AsianTV
-- RULE-SET,iQIYI,AsianTV
+  - RULE-SET,AppleMusic,Domestic
+  - RULE-SET,iCloud,Domestic
+  - RULE-SET,Weibo,Domestic
+  - RULE-SET,Tencent,Domestic
+  - RULE-SET,NetEaseMusic,Domestic
+  - RULE-SET,NetEase,Domestic
+  - RULE-SET,XiaoMi,Domestic
+  - RULE-SET,Speedtest,Domestic
+  - RULE-SET,ChinaMobile,Domestic
 
-- RULE-SET,CCTV,Domestic
-- RULE-SET,AppleMusic,Domestic
-- RULE-SET,iCloud,Domestic
-- RULE-SET,Weibo,Domestic
-- RULE-SET,Tencent,Domestic
-- RULE-SET,NetEaseMusic,Domestic
-- RULE-SET,NetEase,Domestic
-- RULE-SET,XiaoMi,Domestic
-- RULE-SET,Speedtest,Domestic
-- RULE-SET,ChinaMobile,Domestic
+  - RULE-SET,Twitter,Proxy
+  - RULE-SET,Telegram,Proxy
+  - RULE-SET,Jetbrains,Proxy
+  - RULE-SET,Sony,Proxy
+  - RULE-SET,OneDrive,Proxy
+  - RULE-SET,GoogleDrive,Proxy
+  - RULE-SET,YouTubeMusic,Proxy
+  - RULE-SET,YouTube,Proxy
+  - RULE-SET,Netflix,Proxy
+  - RULE-SET,AppleTV,Proxy
+  - RULE-SET,Spotify,Proxy
+  - RULE-SET,Notion,Proxy
+  - RULE-SET,Nintendo,Proxy
+  - RULE-SET,PlayStation,Proxy
+  - RULE-SET,PayPal,Proxy
+  - RULE-SET,GitHub,Proxy
+  - RULE-SET,Scholar,Proxy
+  - RULE-SET,Developer,Proxy
+  - RULE-SET,Cloudflare,Proxy
 
-- RULE-SET,Twitter,Proxy
-- RULE-SET,Telegram,Proxy
-- RULE-SET,Jetbrains,Proxy
-- RULE-SET,Sony,Proxy
-- RULE-SET,OneDrive,Proxy
-- RULE-SET,GoogleDrive,Proxy
+  - RULE-SET,SystemOTA,Proxy
+  - RULE-SET,TestFlight,Proxy
+  - RULE-SET,AppleProxy,Proxy
+  - RULE-SET,Google,Proxy
+  - RULE-SET,Microsoft,Proxy
 
-- RULE-SET,YouTubeMusic,YouTube
-- RULE-SET,YouTube,YouTube
+  - RULE-SET,ChinaMedia,Asian TV
+  - RULE-SET,ChinaMax,DIRECT
+  - RULE-SET,GlobalMedia,Global TV
 
-- RULE-SET,Netflix,Netflix
-- RULE-SET,AppleTV,Netflix
-
-- RULE-SET,Spotify,PrimevalSelect
-- RULE-SET,Notion,PrimevalSelect
-- RULE-SET,Nintendo,PrimevalSelect
-- RULE-SET,PlayStation,PrimevalSelect
-- RULE-SET,PayPal,PrimevalSelect
-- RULE-SET,GitHub,PrimevalSelect
-- RULE-SET,Scholar,PrimevalSelect
-- RULE-SET,Developer,PrimevalSelect
-- RULE-SET,Cloudflare,PrimevalSelect
-
-- RULE-SET,SystemOTA,Proxy
-- RULE-SET,TestFlight,Proxy
-- RULE-SET,AppleProxy,Proxy
-- RULE-SET,Google,Proxy
-- RULE-SET,Microsoft,Proxy
-
-- RULE-SET,ChinaMedia,AsianTV
-
-- RULE-SET,ChinaMax,DIRECT
-
-- RULE-SET,GlobalMedia,GlobalTV
-
-- IP-CIDR,192.168.0.0/16,DIRECT
-- IP-CIDR,10.0.0.0/8,DIRECT
-- IP-CIDR,172.16.0.0/12,DIRECT
-- IP-CIDR,127.0.0.0/8,DIRECT
-- IP-CIDR,100.64.0.0/10,DIRECT
-- IP-CIDR,224.0.0.0/4,DIRECT
-- IP-CIDR,fe80::/10,DIRECT
-- IP-CIDR,119.28.28.28/32,DIRECT
-- IP-CIDR,182.254.116.0/24,DIRECT
-- MATCH,MATCH
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR,fe80::/10,DIRECT
+  - IP-CIDR,119.28.28.28/32,DIRECT
+  - IP-CIDR,182.254.116.0/24,DIRECT
+  - MATCH,MATCH
