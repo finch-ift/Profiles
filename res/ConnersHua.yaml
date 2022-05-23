@@ -258,12 +258,12 @@ rules:
   - RULE-SET,iQIYI,Asian TV
   - RULE-SET,CCTV,Asian TV
   - RULE-SET,Youku,Asian TV
+  - RULE-SET,NetEaseMusic,Asian TV
 
   - RULE-SET,AppleMusic,Domestic
   - RULE-SET,iCloud,Domestic
   - RULE-SET,Weibo,Domestic
   - RULE-SET,Tencent,Domestic
-  - RULE-SET,NetEaseMusic,Domestic
   - RULE-SET,NetEase,Domestic
   - RULE-SET,XiaoMi,Domestic
   - RULE-SET,Speedtest,Domestic
