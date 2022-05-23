@@ -197,6 +197,12 @@ rule-providers:
     path: "./rule_provider/IFT/ChinaMobile.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/ChinaMobile/ChinaMobile.yaml
     interval: 21600
+  ChinaTelecom:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/ChinaTelecom.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/ChinaTelecom/ChinaTelecom.yaml
+    interval: 21600
   GoogleDrive:
     type: http
     behavior: classical
@@ -255,6 +261,7 @@ rules:
   - RULE-SET,XiaoMi,Domestic
   - RULE-SET,Speedtest,Domestic
   - RULE-SET,ChinaMobile,Domestic
+  - RULE-SET,ChinaTelecom,Domestic
 
   - RULE-SET,Twitter,Proxy
   - RULE-SET,Telegram,Proxy
