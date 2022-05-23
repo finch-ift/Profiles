@@ -14,10 +14,12 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# UPDATED: 2022-04-03 10:56:31
 # DOMAIN-SUFFIX: 51
+# PROCESS-NAME: 2
 # DOMAIN: 52
 # IP-CIDR: 7
-# TOTAL: 110
+# TOTAL: 112
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
