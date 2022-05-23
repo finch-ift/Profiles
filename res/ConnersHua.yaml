@@ -23,6 +23,12 @@ rule-providers:
     path: "./rule_provider/IFT/Tencent.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Tencent/Tencent.yaml
     interval: 21600
+  Youku:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Youku.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Youku/Youku.yaml
+    interval: 21600
   NetEaseMusic:
     type: http
     behavior: classical
@@ -251,6 +257,7 @@ rules:
   - RULE-SET,TencentVideo,Asian TV
   - RULE-SET,iQIYI,Asian TV
   - RULE-SET,CCTV,Asian TV
+  - RULE-SET,Youku,Asian TV
 
   - RULE-SET,AppleMusic,Domestic
   - RULE-SET,iCloud,Domestic
