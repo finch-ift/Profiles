@@ -1,7 +1,7 @@
 @@ -1,394 +0,0 @@
 !Title: own-AD
 !Version: 20210421212727
-!Homepage: https://github.com/finch-ift/Profiles
+!Homepage: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/AdGuard/easylist.txt
 
 # NAME: vivo
 ||bbk.com^
@@ -393,3 +393,6 @@
 ||drivergenius.com^
 ||snssdk.com^
 ||sogou.com^
+||gz-data.com^$important
+||weread.qq.com^$important
+||api.miwifi.com^$important
