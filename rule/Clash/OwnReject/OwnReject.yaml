@@ -16,31 +16,31 @@
 
 payload:
 
-  # - DOMAIN-SUFFIX,pornhub.com
-  # - DOMAIN-SUFFIX,xvideos.com
-  # - DOMAIN-SUFFIX,91porn.com
-  # - DOMAIN-SUFFIX,91porny.com
-  # - DOMAIN-SUFFIX,porntrex.com
-  # - DOMAIN-SUFFIX,javfan.one
-  # - DOMAIN-SUFFIX,hpjav.tv
-  # - DOMAIN-SUFFIX,javgg.net
-  # - DOMAIN-SUFFIX,pornbest.org
-  # - DOMAIN-SUFFIX,jable.tv
-  # - DOMAIN-SUFFIX,fs1.app
-  # - DOMAIN-SUFFIX,missav.com
-  # - DOMAIN-SUFFIX,javmix.tv
-  # - DOMAIN-SUFFIX,netflav.com
-  # - DOMAIN-SUFFIX,supjav.com
-  # - DOMAIN-SUFFIX,cableav.tv
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,91porn.com
+  - DOMAIN-SUFFIX,91porny.com
+  - DOMAIN-SUFFIX,porntrex.com
+  - DOMAIN-SUFFIX,javfan.one
+  - DOMAIN-SUFFIX,hpjav.tv
+  - DOMAIN-SUFFIX,javgg.net
+  - DOMAIN-SUFFIX,pornbest.org
+  - DOMAIN-SUFFIX,jable.tv
+  - DOMAIN-SUFFIX,fs1.app
+  - DOMAIN-SUFFIX,missav.com
+  - DOMAIN-SUFFIX,javmix.tv
+  - DOMAIN-SUFFIX,netflav.com
+  - DOMAIN-SUFFIX,supjav.com
+  - DOMAIN-SUFFIX,cableav.tv
 
-  # - DOMAIN-KEYWORD,seejav
-  # - DOMAIN-KEYWORD,javdb
-  # - DOMAIN-KEYWORD,javbus
-  # - DOMAIN-KEYWORD,javsee
-  # - DOMAIN-KEYWORD,javmost
-  # - DOMAIN-KEYWORD,avgle
-  # - DOMAIN-KEYWORD,avple
-  # - DOMAIN-KEYWORD,mdapp
+  - DOMAIN-KEYWORD,seejav
+  - DOMAIN-KEYWORD,javdb
+  - DOMAIN-KEYWORD,javbus
+  - DOMAIN-KEYWORD,javsee
+  - DOMAIN-KEYWORD,javmost
+  - DOMAIN-KEYWORD,avgle
+  - DOMAIN-KEYWORD,avple
+  - DOMAIN-KEYWORD,mdapp
 
   - DOMAIN-SUFFIX,miwifi.com
 
