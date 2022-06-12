@@ -1,9 +1,7 @@
-! Title: Privacy
-! Author: blackmatrix7
-! Homepage: https://github.com/blackmatrix7/ios_rule_script
+! NAME: Privacy
+! url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/AdGuard/Privacy/Privacy.txt
 ! Updated: 2022-06-12 02:25:48
 ! Total: 12583
-
 
 ||0sbm.consobaby.co.uk^
 ||0x1f4b0.com^
