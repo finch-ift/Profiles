@@ -1,6 +1,7 @@
-# NAME: Advertising
-# url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/AdGuard/Advertising/Advertising.txt
-
+! NAME: Advertising
+! url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/AdGuard/Advertising/Advertising.txt
+! Updated: 2022-06-12 02:24:54
+! Total: 121588
 
 ||0.code.cotsta.ru^
 ||0.nextyourcontent.com^
