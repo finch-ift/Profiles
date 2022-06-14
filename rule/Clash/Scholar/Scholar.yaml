@@ -14,8 +14,10 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# DOMAIN-SUFFIX: 178
+# TOTAL: 178
+
 payload:
-  - DOMAIN,scholar.google.com
   - DOMAIN-SUFFIX,aclweb.org
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
@@ -154,6 +156,7 @@ payload:
   - DOMAIN-SUFFIX,sagepub.com
   - DOMAIN-SUFFIX,scholarpedia.org
   - DOMAIN-SUFFIX,sci-hub.tw
+  - DOMAIN-SUFFIX,science.org
   - DOMAIN-SUFFIX,sciencedirect.com
   - DOMAIN-SUFFIX,sciencedirectassets.com
   - DOMAIN-SUFFIX,sciencemag.org

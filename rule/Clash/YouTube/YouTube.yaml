@@ -14,15 +14,13 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-01-18 23:33:36
-# DOMAIN-SUFFIX: 172
-# DOMAIN: 2
+# UPDATED: 2022-06-10 21:20:22
 # DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 172
 # IP-CIDR: 2
-# TOTAL: 178
+# IP-CIDR6: 1
+# TOTAL: 176
 payload:
-  - DOMAIN,youtubei.googleapis.com
-  - DOMAIN,yt3.ggpht.com
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com

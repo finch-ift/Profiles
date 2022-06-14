@@ -14,10 +14,12 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-01-18 23:33:36
+# UPDATED: 2022-06-10 21:20:52
+# DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 3
-# TOTAL: 3
+# TOTAL: 4
 payload:
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN-SUFFIX,weibo.com
   - DOMAIN-SUFFIX,weibocdn.com
+  - DOMAIN-KEYWORD,weibo

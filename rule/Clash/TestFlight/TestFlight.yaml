@@ -14,9 +14,11 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-01-18 23:33:36
+# UPDATED: 2022-06-10 21:20:23
 # DOMAIN: 2
-# TOTAL: 2
+# DOMAIN-KEYWORD: 1
+# TOTAL: 3
 payload:
   - DOMAIN,beta.apple.com
   - DOMAIN,testflight.apple.com
+  - DOMAIN-KEYWORD,testflight

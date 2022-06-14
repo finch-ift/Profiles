@@ -18,6 +18,7 @@
 # DOMAIN-SUFFIX: 115
 # DOMAIN: 1
 # TOTAL: 116
+
 payload:
   - DOMAIN,sonyliveevents-nonssai.akamaized.net
   - DOMAIN-SUFFIX,cn-playnow.com.cn

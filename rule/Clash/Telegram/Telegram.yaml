@@ -14,12 +14,12 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-01-18 23:33:36
-# IP-CIDR: 6
+# UPDATED: 2022-06-10 21:20:44
 # DOMAIN-KEYWORD: 2
-# DOMAIN-SUFFIX: 18
-# PROCESS-NAME: 3
-# TOTAL: 33
+# DOMAIN-SUFFIX: 19
+# IP-CIDR: 6
+# IP-CIDR6: 4
+# TOTAL: 34
 payload:
   - DOMAIN-SUFFIX,comments.app
   - DOMAIN-SUFFIX,contest.com
@@ -30,6 +30,7 @@ payload:
   - DOMAIN-SUFFIX,tdesktop.com
   - DOMAIN-SUFFIX,telega.one
   - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,telegram-cdn.org
   - DOMAIN-SUFFIX,telegram.dog
   - DOMAIN-SUFFIX,telegram.me
   - DOMAIN-SUFFIX,telegram.org
