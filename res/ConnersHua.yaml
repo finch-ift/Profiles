@@ -347,13 +347,13 @@ rules:
   - RULE-SET,Google,Proxy
   - RULE-SET,Microsoft,Proxy
 
-  - RULE-SET,ChinaMedia,Asian TV
   - RULE-SET,China,DIRECT
   - RULE-SET,ChinaIPs,DIRECT
   - RULE-SET,ChinaIPsBGP,DIRECT
   - RULE-SET,ChinaMax,DIRECT
-  - RULE-SET,GlobalMedia,Global TV
+  - RULE-SET,ChinaMedia,Asian TV
   - RULE-SET,AsianMedia,Asian TV
+  - RULE-SET,GlobalMedia,Global TV
 
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
