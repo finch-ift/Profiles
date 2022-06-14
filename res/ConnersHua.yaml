@@ -209,6 +209,24 @@ rule-providers:
     path: "./rule_provider/IFT/ChinaTelecom.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/ChinaTelecom/ChinaTelecom.yaml
     interval: 21600
+  China:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/China.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/China/China.yaml
+    interval: 21600
+  ChinaIPs:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/ChinaIPs.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/ChinaIPs/ChinaIPs.yaml
+    interval: 21600
+  ChinaIPsBGP:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/ChinaIPsBGP.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/ChinaIPsBGP/ChinaIPsBGP.yaml
+    interval: 21600
   GoogleDrive:
     type: http
     behavior: classical
@@ -297,6 +315,9 @@ rules:
   - RULE-SET,Microsoft,Proxy
 
   - RULE-SET,ChinaMedia,Asian TV
+  - RULE-SET,China,DIRECT
+  - RULE-SET,ChinaIPs,DIRECT
+  - RULE-SET,ChinaIPsBGP,DIRECT
   - RULE-SET,ChinaMax,DIRECT
   - RULE-SET,GlobalMedia,Global TV
 
