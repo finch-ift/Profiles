@@ -299,7 +299,12 @@ rule-providers:
     path: "./rule_provider/IFT/Rarbg.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Rarbg/Rarbg.yaml
     interval: 21600
-
+  FitnessPlus:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/FitnessPlus.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/FitnessPlus/FitnessPlus.yaml
+    interval: 21600
 rules:
   - RULE-SET,BiliBili,Asian TV
   - RULE-SET,TencentVideo,Asian TV
@@ -332,6 +337,7 @@ rules:
   - RULE-SET,YouTube,Proxy
   - RULE-SET,Netflix,Proxy
   - RULE-SET,AppleTV,Proxy
+  - RULE-SET,FitnessPlus,Proxy
   - RULE-SET,Spotify,Proxy
   - RULE-SET,Notion,Proxy
   - RULE-SET,Nintendo,Proxy
