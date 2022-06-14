@@ -615,7 +615,3 @@ payload:
   - IP-CIDR,185.188.32.0/22
   - IP-CIDR,203.205.238.0/23
   - IP-CIDR,203.205.254.0/23
-  - IP-CIDR6,2a0b:b580::/48
-  - IP-CIDR6,2a0b:b581::/48
-  - IP-CIDR6,2a0b:b582::/48
-  - IP-CIDR6,2a0b:b583::/48
