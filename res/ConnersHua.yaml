@@ -269,7 +269,18 @@ rule-providers:
     path: "./rule_provider/IFT/CCTV.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/CCTV/CCTV.yaml
     interval: 21600
-
+  AsianMedia:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/AsianMedia.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/AsianMedia/AsianMedia.yaml
+    interval: 21600
+  Baidu:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Baidu.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Baidu/Baidu.yaml
+    interval: 21600
 rules:
   - RULE-SET,BiliBili,Asian TV
   - RULE-SET,TencentVideo,Asian TV
@@ -284,6 +295,7 @@ rules:
   - RULE-SET,Tencent,Domestic
   - RULE-SET,NetEase,Domestic
   - RULE-SET,XiaoMi,Domestic
+  - RULE-SET,Baidu,Domestic
   - RULE-SET,Speedtest,Domestic
   - RULE-SET,ChinaMobile,Domestic
   - RULE-SET,ChinaTelecom,Domestic
@@ -320,6 +332,7 @@ rules:
   - RULE-SET,ChinaIPsBGP,DIRECT
   - RULE-SET,ChinaMax,DIRECT
   - RULE-SET,GlobalMedia,Global TV
+  - RULE-SET,AsianMedia,Asian TV
 
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
