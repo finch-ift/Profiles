@@ -18,6 +18,7 @@
 # DOMAIN-SUFFIX: 13
 # DOMAIN: 65
 # TOTAL: 78
+
 payload:
   - DOMAIN,appldnld-cdn.apple.com.akadns.net
   - DOMAIN,appldnld-cdn.origin-apple.com.akadns.net

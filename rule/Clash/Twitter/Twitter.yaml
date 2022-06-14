@@ -19,6 +19,7 @@
 # DOMAIN-SUFFIX: 18
 # IP-CIDR: 8
 # TOTAL: 27
+
 payload:
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,periscope.tv

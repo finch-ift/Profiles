@@ -18,6 +18,7 @@
 # DOMAIN-SUFFIX: 8
 # DOMAIN-KEYWORD: 3
 # TOTAL: 13
+
 payload:
   - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,oneclient.sfx.ms

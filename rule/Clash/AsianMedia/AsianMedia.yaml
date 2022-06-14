@@ -20,6 +20,7 @@
 # DOMAIN-SUFFIX: 20
 # IP-CIDR: 11
 # TOTAL: 44
+
 payload:
   - DOMAIN,akmcdnoversea-tw.inter.iqiyi.com
   - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv

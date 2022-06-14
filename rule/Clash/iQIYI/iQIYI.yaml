@@ -18,6 +18,7 @@
 # DOMAIN-SUFFIX: 34
 # IP-CIDR: 22
 # TOTAL: 58
+
 payload:
   - DOMAIN-SUFFIX,71.am
   - DOMAIN-SUFFIX,71.am.com

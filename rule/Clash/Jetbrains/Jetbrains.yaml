@@ -17,6 +17,7 @@
 # UPDATED: 2022-01-18 23:33:36
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
+
 payload:
   - DOMAIN-SUFFIX,datalore.io
   - DOMAIN-SUFFIX,intellij.com

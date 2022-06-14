@@ -18,6 +18,7 @@
 # DOMAIN-SUFFIX: 4
 # DOMAIN: 1
 # TOTAL: 6
+
 payload:
   - DOMAIN,www.googleapis.com
   - DOMAIN-SUFFIX,docs.google.com

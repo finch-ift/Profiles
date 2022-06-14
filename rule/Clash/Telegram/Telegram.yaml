@@ -20,6 +20,7 @@
 # IP-CIDR: 6
 # IP-CIDR6: 4
 # TOTAL: 34
+
 payload:
   - DOMAIN-SUFFIX,comments.app
   - DOMAIN-SUFFIX,contest.com

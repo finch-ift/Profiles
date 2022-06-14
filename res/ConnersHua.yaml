@@ -299,6 +299,7 @@ rule-providers:
     path: "./rule_provider/IFT/Rarbg.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Rarbg/Rarbg.yaml
     interval: 21600
+
 rules:
   - RULE-SET,BiliBili,Asian TV
   - RULE-SET,TencentVideo,Asian TV

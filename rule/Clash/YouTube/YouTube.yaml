@@ -20,6 +20,7 @@
 # IP-CIDR: 2
 # IP-CIDR6: 1
 # TOTAL: 176
+
 payload:
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com

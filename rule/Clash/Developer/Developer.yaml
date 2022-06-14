@@ -17,6 +17,7 @@
 # UPDATED: 2022-01-18 23:33:36
 # DOMAIN-SUFFIX: 25
 # TOTAL: 25
+
 payload:
   - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,atlassian.com

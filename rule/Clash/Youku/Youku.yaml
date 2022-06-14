@@ -18,6 +18,7 @@
 # DOMAIN-SUFFIX: 34
 # IP-CIDR: 1
 # TOTAL: 35
+
 payload:
   - DOMAIN-SUFFIX,0co3geye.cn
   - DOMAIN-SUFFIX,2isbbess.cn

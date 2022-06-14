@@ -18,6 +18,7 @@
 # DOMAIN-SUFFIX: 296
 # IP-CIDR: 11
 # TOTAL: 307
+
 payload:
   - DOMAIN-SUFFIX,1700.cn
   - DOMAIN-SUFFIX,17roco.com

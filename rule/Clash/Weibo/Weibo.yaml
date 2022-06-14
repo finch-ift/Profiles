@@ -18,6 +18,7 @@
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 3
 # TOTAL: 4
+
 payload:
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN-SUFFIX,weibo.com

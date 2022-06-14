@@ -18,6 +18,7 @@
 # DOMAIN-SUFFIX: 22
 # IP-CIDR: 14
 # TOTAL: 43
+
 payload:
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflare-ipfs.com

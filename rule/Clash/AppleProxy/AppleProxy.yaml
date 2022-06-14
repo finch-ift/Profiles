@@ -19,6 +19,7 @@
 # DOMAIN-SUFFIX: 5
 # PROCESS-NAME: 1
 # TOTAL: 15
+
 payload:
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,books.itunes.apple.com

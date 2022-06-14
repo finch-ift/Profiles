@@ -17,6 +17,7 @@
 # UPDATED: 2022-01-18 23:33:36
 # DOMAIN-SUFFIX: 37
 # TOTAL: 37
+
 payload:
   - DOMAIN-SUFFIX,cctv.cn
   - DOMAIN-SUFFIX,cctv.com

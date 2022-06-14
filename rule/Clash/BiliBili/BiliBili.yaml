@@ -20,6 +20,7 @@
 # DOMAIN: 52
 # IP-CIDR: 7
 # TOTAL: 112
+
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com

@@ -18,6 +18,7 @@
 # DOMAIN-SUFFIX: 417
 # DOMAIN-KEYWORD: 4
 # TOTAL: 423
+
 payload:
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,a-msedge.net

@@ -14,6 +14,13 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# UPDATED: 2022-06-11 02:30:07
+# DOMAIN: 43
+# DOMAIN-KEYWORD: 23
+# DOMAIN-SUFFIX: 231
+# IP-CIDR: 863
+# TOTAL: 1160
+
 payload:
   - DOMAIN,api.okzy.tv
   - DOMAIN,apple.comscoreresearch.com

@@ -20,6 +20,7 @@
 # DOMAIN-KEYWORD: 6
 # DOMAIN: 2
 # TOTAL: 94
+
 payload:
   - DOMAIN,api.fast.com
   - DOMAIN,netflix.com.edgesuite.net
