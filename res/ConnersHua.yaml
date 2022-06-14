@@ -17,6 +17,12 @@ rule-providers:
     path: "./rule_provider/IFT/GlobalMedia.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/GlobalMedia/GlobalMedia.yaml
     interval: 21600
+  Global:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Global.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Global/Global.yaml
+    interval: 21600
   Tencent:
     type: http
     behavior: classical
@@ -361,6 +367,7 @@ rules:
   - RULE-SET,ChinaMedia,Asian TV
   - RULE-SET,AsianMedia,Asian TV
   - RULE-SET,GlobalMedia,Global TV
+  - RULE-SET,Global,Proxy
 
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
