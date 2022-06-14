@@ -311,6 +311,13 @@ rule-providers:
     path: "./rule_provider/IFT/FitnessPlus.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/FitnessPlus/FitnessPlus.yaml
     interval: 21600
+  Alibaba:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Alibaba.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Alibaba/Alibaba.yaml
+    interval: 21600
+
 rules:
   - RULE-SET,BiliBili,Asian TV
   - RULE-SET,TencentVideo,Asian TV
@@ -330,6 +337,7 @@ rules:
   - RULE-SET,Speedtest,Domestic
   - RULE-SET,ChinaMobile,Domestic
   - RULE-SET,ChinaTelecom,Domestic
+  - RULE-SET,Alibaba,Domestic
 
   - RULE-SET,Twitter,Proxy
   - RULE-SET,Rarbg,Proxy
