@@ -281,6 +281,24 @@ rule-providers:
     path: "./rule_provider/IFT/Baidu.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Baidu/Baidu.yaml
     interval: 21600
+  JingDong:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/JingDong.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/JingDong/JingDong.yaml
+    interval: 21600
+  Logitech:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Logitech.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Logitech/Logitech.yaml
+    interval: 21600
+  Rarbg:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Rarbg.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Rarbg/Rarbg.yaml
+    interval: 21600
 rules:
   - RULE-SET,BiliBili,Asian TV
   - RULE-SET,TencentVideo,Asian TV
@@ -296,11 +314,14 @@ rules:
   - RULE-SET,NetEase,Domestic
   - RULE-SET,XiaoMi,Domestic
   - RULE-SET,Baidu,Domestic
+  - RULE-SET,JingDong,Domestic
   - RULE-SET,Speedtest,Domestic
   - RULE-SET,ChinaMobile,Domestic
   - RULE-SET,ChinaTelecom,Domestic
 
   - RULE-SET,Twitter,Proxy
+  - RULE-SET,Rarbg,Proxy
+  - RULE-SET,Logitech,Proxy
   - RULE-SET,Telegram,Proxy
   - RULE-SET,Jetbrains,Proxy
   - RULE-SET,Sony,Proxy
