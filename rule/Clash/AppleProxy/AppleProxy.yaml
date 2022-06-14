@@ -14,6 +14,11 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# UPDATED: 2022-06-10 21:20:52
+# DOMAIN: 9
+# DOMAIN-SUFFIX: 5
+# PROCESS-NAME: 1
+# TOTAL: 15
 payload:
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,books.itunes.apple.com

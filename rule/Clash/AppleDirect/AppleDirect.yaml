@@ -14,6 +14,11 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
+# UPDATED: 2022-06-10 21:20:47
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 16
+# TOTAL: 18
+
 payload:
   - DOMAIN,safebrowsing.urlsec.qq.com
   - DOMAIN,safebrowsing.googleapis.com
