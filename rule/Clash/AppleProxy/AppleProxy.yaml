@@ -14,11 +14,10 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-06-10 21:20:52
+# UPDATED: 2022-06-23 17:32:47
 # DOMAIN: 9
 # DOMAIN-SUFFIX: 5
 # TOTAL: 15
-
 payload:
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,books.itunes.apple.com
@@ -34,17 +33,3 @@ payload:
   - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,blobstore.apple.com
   - DOMAIN-SUFFIX,digicert.com
-  - DOMAIN,apple.comscoreresearch.com
-  - DOMAIN,gateway.icloud.com
-  - DOMAIN,gspe1-ssl.ls.apple.com
-  - DOMAIN,news-assets.apple.com
-  - DOMAIN,news-client.apple.com
-  - DOMAIN,news-edge.apple.com
-  - DOMAIN,news-events.apple.com
-  - DOMAIN-SUFFIX,apple.news
-  - DOMAIN-SUFFIX,push.apple.com
-  - IP-CIDR,17.249.0.0/16
-  - IP-CIDR,17.252.0.0/16
-  - IP-CIDR,17.57.144.0/16
-  - IP-CIDR,17.188.128.0/16
-  - IP-CIDR,17.188.20.0/16

@@ -14,11 +14,10 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-06-10 21:20:23
+# UPDATED: 2022-06-23 17:32:17
 # DOMAIN: 6
 # DOMAIN-SUFFIX: 1
 # TOTAL: 8
-
 payload:
   - DOMAIN,hls-amt.itunes.apple.com
   - DOMAIN,hls.itunes.apple.com

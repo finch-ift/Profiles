@@ -14,10 +14,9 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-06-10 21:20:51
+# UPDATED: 2022-06-23 17:32:47
 # DOMAIN-SUFFIX: 251
 # TOTAL: 251
-
 payload:
   - DOMAIN-SUFFIX,17swan.com
   - DOMAIN-SUFFIX,37swan.com
