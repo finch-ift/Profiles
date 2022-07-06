@@ -341,6 +341,7 @@ rule-providers:
     path: "./rule_provider/IFT/AmazonPrimeVideo.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.yaml
     interval: 21600
+    
 rules:
   - RULE-SET,BiliBili,Asian TV
   - RULE-SET,TencentVideo,Asian TV
