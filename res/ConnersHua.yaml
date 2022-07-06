@@ -317,6 +317,18 @@ rule-providers:
     path: "./rule_provider/IFT/Alibaba.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Alibaba/Alibaba.yaml
     interval: 21600
+  Steam:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Steam.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/Steam/Steam.yaml
+    interval: 21600
+  SteamCN:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/SteamCN.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/SteamCN/SteamCN.yaml
+    interval: 21600
 
 rules:
   - RULE-SET,BiliBili,Asian TV
@@ -338,6 +350,7 @@ rules:
   - RULE-SET,ChinaMobile,Domestic
   - RULE-SET,ChinaTelecom,Domestic
   - RULE-SET,Alibaba,Domestic
+  - RULE-SET,SteamCN,Domestic
 
   - RULE-SET,Twitter,Proxy
   - RULE-SET,Rarbg,Proxy
@@ -361,6 +374,7 @@ rules:
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Developer,Proxy
   - RULE-SET,Cloudflare,Proxy
+  - RULE-SET,Steam,Proxy
 
   - RULE-SET,SystemOTA,Proxy
   - RULE-SET,TestFlight,Proxy
