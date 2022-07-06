@@ -341,7 +341,13 @@ rule-providers:
     path: "./rule_provider/IFT/AmazonPrimeVideo.yaml"
     url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.yaml
     interval: 21600
-    
+  ByteDance:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/ByteDance.yaml"
+    url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/ByteDance/ByteDance.yaml
+    interval: 21600
+
 rules:
   - RULE-SET,BiliBili,Asian TV
   - RULE-SET,TencentVideo,Asian TV
@@ -349,6 +355,7 @@ rules:
   - RULE-SET,CCTV,Asian TV
   - RULE-SET,Youku,Asian TV
   - RULE-SET,NetEaseMusic,Asian TV
+  - RULE-SET,ByteDance,Asian TV
 
   - RULE-SET,AppleMusic,Domestic
   - RULE-SET,iCloud,Domestic
