@@ -349,65 +349,65 @@ rule-providers:
     interval: 21600
 
 rules:
-  - RULE-SET,BiliBili,Asian TV
-  - RULE-SET,TencentVideo,Asian TV
+  - RULE-SET,BiliBili,BiliBili
+  - RULE-SET,TencentVideo,Tencent
   - RULE-SET,iQIYI,Asian TV
   - RULE-SET,CCTV,Asian TV
   - RULE-SET,Youku,Asian TV
   - RULE-SET,NetEaseMusic,Asian TV
   - RULE-SET,ByteDance,Asian TV
 
-  - RULE-SET,AppleMusic,Domestic
-  - RULE-SET,iCloud,Domestic
+  - RULE-SET,AppleMusic,AppleDIRECT
+  - RULE-SET,iCloud,AppleDIRECT
   - RULE-SET,Weibo,Domestic
-  - RULE-SET,Tencent,Domestic
+  - RULE-SET,Tencent,Tencent
   - RULE-SET,NetEase,Domestic
   - RULE-SET,XiaoMi,Domestic
   - RULE-SET,Baidu,Domestic
   - RULE-SET,JingDong,Domestic
-  - RULE-SET,Speedtest,Domestic
   - RULE-SET,ChinaMobile,Domestic
   - RULE-SET,ChinaTelecom,Domestic
   - RULE-SET,Alibaba,Domestic
   - RULE-SET,SteamCN,Domestic
 
-  - RULE-SET,Twitter,Proxy
-  - RULE-SET,Rarbg,Proxy
-  - RULE-SET,Logitech,Proxy
-  - RULE-SET,Telegram,Proxy
-  - RULE-SET,Jetbrains,Proxy
-  - RULE-SET,Sony,Proxy
-  - RULE-SET,OneDrive,Proxy
-  - RULE-SET,GoogleDrive,Proxy
-  - RULE-SET,YouTubeMusic,Proxy
-  - RULE-SET,YouTube,Proxy
-  - RULE-SET,Netflix,Proxy
-  - RULE-SET,AppleTV,Proxy
-  - RULE-SET,FitnessPlus,Proxy
-  - RULE-SET,Spotify,Proxy
-  - RULE-SET,Notion,Proxy
-  - RULE-SET,Nintendo,Proxy
-  - RULE-SET,PlayStation,Proxy
-  - RULE-SET,PayPal,Proxy
-  - RULE-SET,GitHub,Proxy
-  - RULE-SET,Scholar,Proxy
-  - RULE-SET,Developer,Proxy
-  - RULE-SET,Cloudflare,Proxy
-  - RULE-SET,Steam,Proxy
-  - RULE-SET,AmazonPrimeVideo,Proxy
-  - RULE-SET,Amazon,Proxy
+  - RULE-SET,Speedtest,Speedtest
+  - RULE-SET,Twitter,Twitter
+  - RULE-SET,Rarbg,Rarbg
+  - RULE-SET,Logitech,Developer
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,Jetbrains,Developer
+  - RULE-SET,Sony,Steam
+  - RULE-SET,OneDrive,Microsoft
+  - RULE-SET,GoogleDrive,Google
+  - RULE-SET,YouTubeMusic,YouTube
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,Notion,Notion
+  - RULE-SET,Nintendo,Steam
+  - RULE-SET,PlayStation,Steam
+  - RULE-SET,PayPal,PayPal
+  - RULE-SET,GitHub,Microsoft
+  - RULE-SET,Scholar,Developer
+  - RULE-SET,Developer,Developer
+  - RULE-SET,Cloudflare,Cloudflare
+  - RULE-SET,Steam,Steam
+  - RULE-SET,AmazonPrimeVideo,Amazon
+  - RULE-SET,Amazon,Amazon
 
-  - RULE-SET,SystemOTA,Proxy
-  - RULE-SET,TestFlight,Proxy
-  - RULE-SET,AppleProxy,Proxy
-  - RULE-SET,Google,Proxy
-  - RULE-SET,Microsoft,Proxy
+  - RULE-SET,AppleTV,AppleProxy
+  - RULE-SET,FitnessPlus,AppleProxy
+  - RULE-SET,SystemOTA,AppleProxy
+  - RULE-SET,TestFlight,AppleProxy
+  - RULE-SET,AppleProxy,AppleProxy
+  - RULE-SET,Google,Google
+  - RULE-SET,Microsoft,Microsoft
 
   - RULE-SET,China,Domestic
   - RULE-SET,ChinaIPs,Domestic
   - RULE-SET,ChinaIPsBGP,Domestic
   - RULE-SET,ChinaMax,Domestic
-  - RULE-SET,ChinaMedia,Asian TV
+  - RULE-SET,ChinaMedia,Domestic
   - RULE-SET,AsianMedia,Asian TV
   - RULE-SET,GlobalMedia,Global TV
   - RULE-SET,Global,Proxy
