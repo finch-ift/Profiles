@@ -16,3 +16,4 @@
 
 payload:
   - DOMAIN-KEYWORD,javdb
+  - DOMAIN-KEYWORD,jdbstatic
