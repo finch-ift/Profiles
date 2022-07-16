@@ -15,4 +15,4 @@
 # MATCH：全匹配
 
 payload:
-  - DOMAIN-KEYWORD,javdb
+  - DOMAIN-SUFFIX,yahoo.co.jp
