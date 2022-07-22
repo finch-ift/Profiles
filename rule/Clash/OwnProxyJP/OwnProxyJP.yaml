@@ -15,4 +15,4 @@
 # MATCH：全匹配
 
 payload:
-  - DOMAIN-SUFFIX,yahoo.co.jp
+  - DOMAIN-SUFFIX,speed.cloudflare.com
