@@ -395,6 +395,7 @@ rules:
   - RULE-SET,AmazonPrimeVideo,ProxyUS
   - RULE-SET,OneDrive,ProxyUS
   - RULE-SET,GoogleDrive,ProxyUS
+  - RULE-SET,Cloudflare,ProxyUS
 
   - RULE-SET,Rarbg,Proxy
   - RULE-SET,Logitech,Proxy
@@ -406,7 +407,6 @@ rules:
   - RULE-SET,GitHub,Proxy
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Developer,Proxy
-  - RULE-SET,Cloudflare,Proxy
   - RULE-SET,Steam,Proxy
   - RULE-SET,SystemOTA,Proxy
   - RULE-SET,TestFlight,Proxy
