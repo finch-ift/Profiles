@@ -383,39 +383,40 @@ rules:
   - RULE-SET,Alibaba,Domestic
   - RULE-SET,SteamCN,Domestic
 
-  - RULE-SET,Twitter,Proxy
-  - RULE-SET,Instagram,Proxy
-  - RULE-SET,Facebook,Proxy
+  - RULE-SET,Twitter,ProxyUS
+  - RULE-SET,Instagram,ProxyUS
+  - RULE-SET,Jetbrains,ProxyUS
+  - RULE-SET,YouTubeMusic,ProxyUS
+  - RULE-SET,YouTube,ProxyUS
+  - RULE-SET,Netflix,ProxyUS
+  - RULE-SET,AppleTV,ProxyUS
+  - RULE-SET,Spotify,ProxyUS
+  - RULE-SET,PayPal,ProxyUS
+  - RULE-SET,AmazonPrimeVideo,ProxyUS
+  - RULE-SET,OneDrive,ProxyUS
+  - RULE-SET,GoogleDrive,ProxyUS
+
   - RULE-SET,Rarbg,Proxy
   - RULE-SET,Logitech,Proxy
   - RULE-SET,Telegram,Proxy
-  - RULE-SET,Jetbrains,Proxy
   - RULE-SET,Sony,Proxy
-  - RULE-SET,OneDrive,Proxy
-  - RULE-SET,GoogleDrive,Proxy
-  - RULE-SET,YouTubeMusic,Proxy
-  - RULE-SET,YouTube,Proxy
-  - RULE-SET,Netflix,Proxy
-  - RULE-SET,AppleTV,Proxy
-  - RULE-SET,FitnessPlus,Proxy
-  - RULE-SET,Spotify,Proxy
   - RULE-SET,Notion,Proxy
   - RULE-SET,Nintendo,Proxy
   - RULE-SET,PlayStation,Proxy
-  - RULE-SET,PayPal,Proxy
   - RULE-SET,GitHub,Proxy
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Developer,Proxy
   - RULE-SET,Cloudflare,Proxy
   - RULE-SET,Steam,Proxy
-  - RULE-SET,AmazonPrimeVideo,Proxy
-  - RULE-SET,Amazon,Proxy
-
   - RULE-SET,SystemOTA,Proxy
   - RULE-SET,TestFlight,Proxy
+  - RULE-SET,FitnessPlus,ProxyUS
   - RULE-SET,AppleProxy,Proxy
+
   - RULE-SET,Google,Proxy
   - RULE-SET,Microsoft,Proxy
+  - RULE-SET,Facebook,Proxy
+  - RULE-SET,Amazon,Proxy
 
   - RULE-SET,China,Domestic
   - RULE-SET,ChinaIPs,Domestic
