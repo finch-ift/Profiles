@@ -10,7 +10,7 @@ obj = {
             "want_watch_count": 0,
             "promotion_code": "s8rvea",
             "vip_expired_at": "2099-09-09T22:16:31.000+08:00",
-            "username": "ios榛戠鎶�?",
+            "username": "IOS16",
             "share_url": "https://jav3.app/?source=s8rvea",
             "last_checkin_at": null,
             "promote_users_count": 999,
