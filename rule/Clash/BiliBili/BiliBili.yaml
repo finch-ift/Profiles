@@ -14,11 +14,11 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-06-23 17:32:46
+# UPDATED: 2022-08-15 14:25:42
 # DOMAIN: 52
 # DOMAIN-SUFFIX: 51
-# IP-CIDR: 7
-# TOTAL: 112
+# IP-CIDR: 8
+# TOTAL: 117
 
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
@@ -131,3 +131,4 @@ payload:
   - IP-CIDR,120.92.113.99/32
   - IP-CIDR,120.92.153.217/32
   - IP-CIDR,134.175.207.130/32
+  - IP-CIDR,203.107.1.0/24
