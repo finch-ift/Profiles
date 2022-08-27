@@ -19,6 +19,7 @@
 # DOMAIN-KEYWORD: 2
 # IP-CIDR: 1
 # TOTAL: 20
+
 payload:
   - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
   - DOMAIN-SUFFIX,byspotify.com

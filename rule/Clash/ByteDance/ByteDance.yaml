@@ -17,8 +17,8 @@
 # UPDATED: 2022-06-23 17:32:47
 # DOMAIN-SUFFIX: 270
 # IP-CIDR: 1
-# PROCESS-NAME: 1
 # TOTAL: 272
+
 payload:
   - DOMAIN-SUFFIX,2333333333333.com
   - DOMAIN-SUFFIX,365yg.com
@@ -291,4 +291,3 @@ payload:
   - DOMAIN-SUFFIX,zjgslb.com
   - DOMAIN-SUFFIX,zjurl.cn
   - IP-CIDR,114.246.10.65/32
-  - PROCESS-NAME,com.zhiliaoapp.musically

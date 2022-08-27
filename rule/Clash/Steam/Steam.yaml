@@ -18,6 +18,7 @@
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 36
 # TOTAL: 39
+
 payload:
   - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
   - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com

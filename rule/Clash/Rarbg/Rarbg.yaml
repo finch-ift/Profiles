@@ -17,6 +17,7 @@
 # UPDATED: 2022-06-10 21:21:38
 # DOMAIN-SUFFIX: 22
 # TOTAL: 22
+
 payload:
   - DOMAIN-SUFFIX,dyncdn.me
   - DOMAIN-SUFFIX,proxyrarbg.org
