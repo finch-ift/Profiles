@@ -18,6 +18,7 @@
 # DOMAIN: 6
 # DOMAIN-SUFFIX: 3
 # TOTAL: 10
+
 payload:
   - DOMAIN,aod-ssl.itunes.apple.com
   - DOMAIN,aod.itunes.apple.com

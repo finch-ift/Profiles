@@ -19,6 +19,7 @@
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 18
 # TOTAL: 25
+
 payload:
   - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
   - DOMAIN,d22qjgkvxw22r6.cloudfront.net

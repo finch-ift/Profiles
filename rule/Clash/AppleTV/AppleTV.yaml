@@ -18,6 +18,7 @@
 # DOMAIN: 6
 # DOMAIN-SUFFIX: 1
 # TOTAL: 8
+
 payload:
   - DOMAIN,hls-amt.itunes.apple.com
   - DOMAIN,hls.itunes.apple.com
