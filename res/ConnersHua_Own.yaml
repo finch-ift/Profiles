@@ -359,6 +359,12 @@ rule-providers:
     path: "./rule_provider/IFT/ByteDance.yaml"
     url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/ByteDance/ByteDance.yaml
     interval: 21600
+  AppleDirect:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/AppleDirect.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/AppleDirect/AppleDirect.yaml
+    interval: 21600
 
 rules:
   - RULE-SET,BiliBili,Asian TV
@@ -369,54 +375,60 @@ rules:
   - RULE-SET,NetEaseMusic,Asian TV
   - RULE-SET,ByteDance,Asian TV
 
-  - RULE-SET,AppleMusic,Domestic
-  - RULE-SET,iCloud,Domestic
-  - RULE-SET,Weibo,Domestic
-  - RULE-SET,Tencent,Domestic
-  - RULE-SET,NetEase,Domestic
-  - RULE-SET,XiaoMi,Domestic
-  - RULE-SET,Baidu,Domestic
-  - RULE-SET,JingDong,Domestic
-  - RULE-SET,Speedtest,Domestic
   - RULE-SET,ChinaMobile,Domestic
   - RULE-SET,ChinaTelecom,Domestic
-  - RULE-SET,Alibaba,Domestic
   - RULE-SET,SteamCN,Domestic
+  - RULE-SET,Weibo,Domestic
+  - RULE-SET,NetEase,Domestic
+  - RULE-SET,XiaoMi,Domestic
+  - RULE-SET,JingDong,Domestic
 
-  - RULE-SET,Twitter,ProxyUS
-  - RULE-SET,Instagram,ProxyUS
-  - RULE-SET,Jetbrains,ProxyUS
-  - RULE-SET,YouTubeMusic,ProxyUS
-  - RULE-SET,YouTube,ProxyUS
-  - RULE-SET,Netflix,ProxyUS
-  - RULE-SET,AppleTV,ProxyUS
-  - RULE-SET,Spotify,ProxyUS
-  - RULE-SET,PayPal,ProxyUS
-  - RULE-SET,AmazonPrimeVideo,ProxyUS
-  - RULE-SET,OneDrive,ProxyUS
-  - RULE-SET,GoogleDrive,ProxyUS
-  - RULE-SET,Cloudflare,ProxyUS
+  - RULE-SET,Baidu,Domestic
+  - RULE-SET,Alibaba,Domestic
+  - RULE-SET,Tencent,Domestic
 
-  - RULE-SET,Rarbg,Proxy
-  - RULE-SET,Logitech,Proxy
-  - RULE-SET,Telegram,Proxy
-  - RULE-SET,Sony,Proxy
+  - RULE-SET,AppleMusic,AppleDirect
+  - RULE-SET,iCloud,AppleDirect
+  - RULE-SET,AppleDirect,AppleDirect
+
+  - RULE-SET,Speedtest,Speedtest
+  - RULE-SET,Twitter,Twitter
+  - RULE-SET,Instagram,Instagram
+  - RULE-SET,YouTubeMusic,YouTube
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,PayPal,PayPal
+  - RULE-SET,Cloudflare,Cloudflare
+  - RULE-SET,Rarbg,Rarbg
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,GitHub,GitHub
+  - RULE-SET,GoogleDrive,GoogleDrive
+  - RULE-SET,OneDrive,OneDrive
+  - RULE-SET,AmazonPrimeVideo,AmazonPrimeVideo
+  - RULE-SET,Jetbrains,Jetbrains
+
+  - RULE-SET,AppleTV,AppleProxy
+  - RULE-SET,FitnessPlus,AppleProxy
+  - RULE-SET,SystemOTA,AppleProxy
+  - RULE-SET,TestFlight,AppleProxy
+  - RULE-SET,AppleProxy,AppleProxy
+
+  - RULE-SET,Google,Google
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Amazon,Amazon
+  - RULE-SET,Facebook,Facebook
+
   - RULE-SET,Notion,Proxy
+  - RULE-SET,Logitech,Proxy
+
+  - RULE-SET,Sony,Proxy
+  - RULE-SET,Steam,Proxy
   - RULE-SET,Nintendo,Proxy
   - RULE-SET,PlayStation,Proxy
-  - RULE-SET,GitHub,Proxy
+
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Developer,Proxy
-  - RULE-SET,Steam,Proxy
-  - RULE-SET,SystemOTA,Proxy
-  - RULE-SET,TestFlight,Proxy
-  - RULE-SET,FitnessPlus,ProxyUS
-  - RULE-SET,AppleProxy,Proxy
-
-  - RULE-SET,Google,Proxy
-  - RULE-SET,Microsoft,Proxy
-  - RULE-SET,Facebook,Proxy
-  - RULE-SET,Amazon,Proxy
 
   - RULE-SET,China,Domestic
   - RULE-SET,ChinaIPs,Domestic
