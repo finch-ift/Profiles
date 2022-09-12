@@ -1,0 +1,124 @@
+# NAME: Sina
+# url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/ChinaTelecom/ChinaTelecom.yaml
+
+# 目前Clash支持的规则类型如下:
+# DOMAIN-SUFFIX：域名后缀匹配
+# DOMAIN：域名匹配
+# DOMAIN-KEYWORD：域名关键字匹配
+# IP-CIDR：IP段匹配
+# SRC-IP-CIDR：源IP段匹配
+# GEOIP：GEOIP数据库（国家代码）匹配
+# DST-PORT：目标端口匹配
+# SRC-PORT：源端口匹配
+# PROCESS-NAME：源进程名匹配
+# RULE-SET：Rule Provider规则匹配
+# MATCH：全匹配
+
+# UPDATED: 2022-08-05 22:36:51
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 102
+# TOTAL: 103
+payload:
+  - DOMAIN-SUFFIX,001wifi.com
+  - DOMAIN-SUFFIX,1kapp.com
+  - DOMAIN-SUFFIX,4sender.com
+  - DOMAIN-SUFFIX,4sender.net
+  - DOMAIN-SUFFIX,51xiancheng.com
+  - DOMAIN-SUFFIX,7g8g.cn
+  - DOMAIN-SUFFIX,aduspot.com
+  - DOMAIN-SUFFIX,appchizi.com
+  - DOMAIN-SUFFIX,applinzi.com
+  - DOMAIN-SUFFIX,appsina.com
+  - DOMAIN-SUFFIX,ctws.com.cn
+  - DOMAIN-SUFFIX,cva.com.cn
+  - DOMAIN-SUFFIX,dnssina.com
+  - DOMAIN-SUFFIX,huoxing.com
+  - DOMAIN-SUFFIX,ikaola.cn
+  - DOMAIN-SUFFIX,ilangqu.cn
+  - DOMAIN-SUFFIX,ilangqu.com
+  - DOMAIN-SUFFIX,ilangqu.com.cn
+  - DOMAIN-SUFFIX,imark.cn
+  - DOMAIN-SUFFIX,kandian.cn
+  - DOMAIN-SUFFIX,kandian.com
+  - DOMAIN-SUFFIX,kandian.net
+  - DOMAIN-SUFFIX,kandian.tv
+  - DOMAIN-SUFFIX,kanyouxi.cn
+  - DOMAIN-SUFFIX,kanyouxi.com
+  - DOMAIN-SUFFIX,kanyouxi.com.cn
+  - DOMAIN-SUFFIX,kanyouxi.tv
+  - DOMAIN-SUFFIX,leju.com
+  - DOMAIN-SUFFIX,maileds.com
+  - DOMAIN-SUFFIX,miaopai.com
+  - DOMAIN-SUFFIX,mingxigu.com
+  - DOMAIN-SUFFIX,paogame.cn
+  - DOMAIN-SUFFIX,picself.cn
+  - DOMAIN-SUFFIX,picself.com.cn
+  - DOMAIN-SUFFIX,qingmail.cn
+  - DOMAIN-SUFFIX,qingmail.com
+  - DOMAIN-SUFFIX,saebbs.com
+  - DOMAIN-SUFFIX,sc2yun.com
+  - DOMAIN-SUFFIX,senderline.com
+  - DOMAIN-SUFFIX,senderline.net
+  - DOMAIN-SUFFIX,simadata.cn
+  - DOMAIN-SUFFIX,sina.cn
+  - DOMAIN-SUFFIX,sina.com
+  - DOMAIN-SUFFIX,sina.com.cn
+  - DOMAIN-SUFFIX,sina.net
+  - DOMAIN-SUFFIX,sinaapp.cn
+  - DOMAIN-SUFFIX,sinaapp.com
+  - DOMAIN-SUFFIX,sinacdn.com
+  - DOMAIN-SUFFIX,sinacloud.cn
+  - DOMAIN-SUFFIX,sinacloud.com
+  - DOMAIN-SUFFIX,sinacloud.com.cn
+  - DOMAIN-SUFFIX,sinacloud.net
+  - DOMAIN-SUFFIX,sinacorp.cn
+  - DOMAIN-SUFFIX,sinadaxue.cn
+  - DOMAIN-SUFFIX,sinadaxue.com
+  - DOMAIN-SUFFIX,sinadaxue.com.cn
+  - DOMAIN-SUFFIX,sinaedge.cn
+  - DOMAIN-SUFFIX,sinaedge.com
+  - DOMAIN-SUFFIX,sinaimg.cn
+  - DOMAIN-SUFFIX,sinaimg.com
+  - DOMAIN-SUFFIX,sinaimg.com.cn
+  - DOMAIN-SUFFIX,sinajs.cn
+  - DOMAIN-SUFFIX,sinanet.com
+  - DOMAIN-SUFFIX,sinanode.com
+  - DOMAIN-SUFFIX,sinas3.com
+  - DOMAIN-SUFFIX,sinas3.net
+  - DOMAIN-SUFFIX,sinastorage.cn
+  - DOMAIN-SUFFIX,sinastorage.com
+  - DOMAIN-SUFFIX,sinasws.com
+  - DOMAIN-SUFFIX,sinauda.com
+  - DOMAIN-SUFFIX,sinaurl.cn
+  - DOMAIN-SUFFIX,smtcdn.com
+  - DOMAIN-SUFFIX,t.cn
+  - DOMAIN-SUFFIX,talldns.cn
+  - DOMAIN-SUFFIX,talldns.com
+  - DOMAIN-SUFFIX,talldns.net
+  - DOMAIN-SUFFIX,twgame.cn
+  - DOMAIN-SUFFIX,twgame.com.cn
+  - DOMAIN-SUFFIX,ufc.cn
+  - DOMAIN-SUFFIX,videoself.cn
+  - DOMAIN-SUFFIX,vipappsina.com
+  - DOMAIN-SUFFIX,vipsinaapp.com
+  - DOMAIN-SUFFIX,vmoso.cn
+  - DOMAIN-SUFFIX,volleychina.org
+  - DOMAIN-SUFFIX,vshoucang.com
+  - DOMAIN-SUFFIX,wan68.com
+  - DOMAIN-SUFFIX,wapone.net
+  - DOMAIN-SUFFIX,wbimg.cn
+  - DOMAIN-SUFFIX,wbimg.com
+  - DOMAIN-SUFFIX,wbimg.com.cn
+  - DOMAIN-SUFFIX,wcdn.cn
+  - DOMAIN-SUFFIX,weibo.com.cn
+  - DOMAIN-SUFFIX,weibo.tv
+  - DOMAIN-SUFFIX,weibocdn.cn
+  - DOMAIN-SUFFIX,weiboums.com
+  - DOMAIN-SUFFIX,weipan.cn
+  - DOMAIN-SUFFIX,weipan.com.cn
+  - DOMAIN-SUFFIX,xiaoka.tv
+  - DOMAIN-SUFFIX,yangfan.org.cn
+  - DOMAIN-SUFFIX,weibo.cn
+  - DOMAIN-SUFFIX,weibo.com
+  - DOMAIN-SUFFIX,weibocdn.com
+  - DOMAIN-KEYWORD,weibo
