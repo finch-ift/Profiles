@@ -468,7 +468,7 @@ rules:
   - RULE-SET,GoogleSearch,Google
   - RULE-SET,GoogleVoice,Google
   - RULE-SET,MicrosoftEdge,Microsoft
-  - RULE-SET,Xbox,Microsoft
+  - RULE-SET,Xbox,Xbox
 
   - RULE-SET,AppleTV,AppleProxy
   - RULE-SET,FitnessPlus,AppleProxy
