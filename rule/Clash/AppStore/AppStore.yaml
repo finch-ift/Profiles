@@ -1,5 +1,5 @@
-# NAME: AppleDirect AppleDirect
-# url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/AppleDirect/AppleDirect.yaml
+# NAME: AppStore AppleProxy
+# url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/AppStore/AppStore.yaml
 
 # 目前Clash支持的规则类型如下:
 # DOMAIN-SUFFIX：域名后缀匹配
@@ -14,11 +14,9 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-06-10 21:20:47
+# UPDATED: 2022-08-05 22:36:20
 # DOMAIN: 2
-# DOMAIN-SUFFIX: 16
-# TOTAL: 18
-
+# TOTAL: 2
 payload:
-  - DOMAIN-SUFFIX,apple.com.cn
-
+  - DOMAIN,apps.apple.com
+  - DOMAIN,itunes.apple.com
