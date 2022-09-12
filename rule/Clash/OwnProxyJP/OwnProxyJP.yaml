@@ -15,5 +15,4 @@
 # MATCH：全匹配
 
 payload:
-  - DOMAIN-SUFFIX,speed.cloudflare.com
   - DOMAIN-SUFFIX,litvp.com
