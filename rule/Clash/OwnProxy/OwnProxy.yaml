@@ -20,7 +20,3 @@ payload:
   - DOMAIN-SUFFIX,cdn.jsdelivr.net
   - DOMAIN-SUFFIX,tracker.trackerfix.com
   - DOMAIN-SUFFIX,sukebei.tracker.wf
-
-  - DOMAIN-SUFFIX,ooklaserver.net
-  - DOMAIN-KEYWORD,speedtest
-  - DOMAIN-KEYWORD,speed

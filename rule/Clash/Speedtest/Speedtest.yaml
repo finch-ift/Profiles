@@ -17,3 +17,4 @@
 payload:
   - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-KEYWORD,speed
