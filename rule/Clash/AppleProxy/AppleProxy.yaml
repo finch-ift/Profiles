@@ -1,5 +1,5 @@
 # NAME: AppleProxy AppleProxy
-# url: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/Clash/AppleProxy/AppleProxy.yaml
+# url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/AppleProxy/AppleProxy.yaml
 
 # 目前Clash支持的规则类型如下:
 # DOMAIN-SUFFIX：域名后缀匹配
