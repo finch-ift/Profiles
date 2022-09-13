@@ -359,63 +359,146 @@ rule-providers:
     path: "./rule_provider/IFT/ByteDance.yaml"
     url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/ByteDance/ByteDance.yaml
     interval: 21600
+  AppleDirect:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/AppleDirect.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/AppleDirect/AppleDirect.yaml
+    interval: 21600
+  AppStore:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/AppStore.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/AppStore/AppStore.yaml
+    interval: 21600
+  FindMy:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/FindMy.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/FindMy/FindMy.yaml
+    interval: 21600
+  Sina:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Sina.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Sina/Sina.yaml
+    interval: 21600
+  ChinaUnicom:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/ChinaUnicom.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/ChinaUnicom/ChinaUnicom.yaml
+    interval: 21600
+  GoogleSearch:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/GoogleSearch.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/GoogleSearch/GoogleSearch.yaml
+    interval: 21600
+  GoogleVoice:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/GoogleVoice.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/GoogleVoice/GoogleVoice.yaml
+    interval: 21600
+  MicrosoftEdge:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/MicrosoftEdge.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/MicrosoftEdge/MicrosoftEdge.yaml
+    interval: 21600
+  Siri:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Siri.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Siri/Siri.yaml
+    interval: 21600
+  Xbox:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Xbox.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Xbox/Xbox.yaml
+    interval: 21600
+  iCloudPrivateRelay:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/iCloudPrivateRelay.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/iCloudPrivateRelay/iCloudPrivateRelay.yaml
+    interval: 21600
 
 rules:
   - RULE-SET,BiliBili,Asian TV
   - RULE-SET,TencentVideo,Asian TV
   - RULE-SET,iQIYI,Asian TV
-  - RULE-SET,CCTV,Asian TV
   - RULE-SET,Youku,Asian TV
   - RULE-SET,NetEaseMusic,Asian TV
+  - RULE-SET,Weibo,Asian TV
+  - RULE-SET,CCTV,Asian TV
   - RULE-SET,ByteDance,Asian TV
 
-  - RULE-SET,AppleMusic,Domestic
-  - RULE-SET,iCloud,Domestic
-  - RULE-SET,Weibo,Domestic
-  - RULE-SET,Tencent,Domestic
-  - RULE-SET,NetEase,Domestic
-  - RULE-SET,XiaoMi,Domestic
-  - RULE-SET,Baidu,Domestic
-  - RULE-SET,JingDong,Domestic
-  - RULE-SET,Speedtest,Domestic
   - RULE-SET,ChinaMobile,Domestic
   - RULE-SET,ChinaTelecom,Domestic
+  - RULE-SET,ChinaUnicom,Domestic
+
+  - RULE-SET,NetEase,Domestic
+  - RULE-SET,XiaoMi,Domestic
+  - RULE-SET,JingDong,Domestic
+  - RULE-SET,Baidu,Domestic
   - RULE-SET,Alibaba,Domestic
+  - RULE-SET,Tencent,Domestic
+  - RULE-SET,Sina,Domestic
   - RULE-SET,SteamCN,Domestic
 
-  - RULE-SET,Twitter,Proxy
-  - RULE-SET,Instagram,Proxy
-  - RULE-SET,Facebook,Proxy
-  - RULE-SET,Rarbg,Proxy
-  - RULE-SET,Logitech,Proxy
-  - RULE-SET,Telegram,Proxy
-  - RULE-SET,Jetbrains,Proxy
-  - RULE-SET,Sony,Proxy
-  - RULE-SET,OneDrive,Proxy
-  - RULE-SET,GoogleDrive,Proxy
-  - RULE-SET,YouTubeMusic,Proxy
-  - RULE-SET,YouTube,Proxy
-  - RULE-SET,Netflix,Proxy
-  - RULE-SET,AppleTV,Proxy
-  - RULE-SET,FitnessPlus,Proxy
-  - RULE-SET,Spotify,Proxy
-  - RULE-SET,Notion,Proxy
-  - RULE-SET,Nintendo,Proxy
-  - RULE-SET,PlayStation,Proxy
-  - RULE-SET,PayPal,Proxy
-  - RULE-SET,GitHub,Proxy
-  - RULE-SET,Scholar,Proxy
-  - RULE-SET,Developer,Proxy
-  - RULE-SET,Cloudflare,Proxy
-  - RULE-SET,Steam,Proxy
-  - RULE-SET,AmazonPrimeVideo,Proxy
-  - RULE-SET,Amazon,Proxy
+  - RULE-SET,iCloud,Domestic
+  - RULE-SET,AppleMusic,Domestic
+  - RULE-SET,Siri,Domestic
+  - RULE-SET,FindMy,Domestic
+  - RULE-SET,AppleDirect,Domestic
 
   - RULE-SET,SystemOTA,Proxy
   - RULE-SET,TestFlight,Proxy
+  - RULE-SET,AppleTV,Proxy
+  - RULE-SET,FitnessPlus,Proxy
+  - RULE-SET,AppStore,Proxy
+  - RULE-SET,iCloudPrivateRelay,Proxy
   - RULE-SET,AppleProxy,Proxy
+
+  - RULE-SET,Speedtest,Proxy
+  - RULE-SET,Twitter,Proxy
+  - RULE-SET,Instagram,Proxy
+  - RULE-SET,YouTubeMusic,Proxy
+  - RULE-SET,YouTube,Proxy
+  - RULE-SET,Netflix,Proxy
+  - RULE-SET,Spotify,Proxy
+  - RULE-SET,PayPal,Proxy
+  - RULE-SET,Cloudflare,Proxy
+  - RULE-SET,Rarbg,Proxy
+  - RULE-SET,Telegram,Proxy
+  - RULE-SET,GitHub,Proxy
+  - RULE-SET,GoogleDrive,Proxy
+  - RULE-SET,OneDrive,Proxy
+  - RULE-SET,AmazonPrimeVideo,Proxy
+  - RULE-SET,Jetbrains,Proxy
+  - RULE-SET,GoogleSearch,Proxy
+  - RULE-SET,GoogleVoice,Proxy
+  - RULE-SET,MicrosoftEdge,Proxy
+  - RULE-SET,Xbox,Proxy
+
   - RULE-SET,Google,Proxy
   - RULE-SET,Microsoft,Proxy
+  - RULE-SET,Amazon,Proxy
+  - RULE-SET,Facebook,Proxy
+
+  - RULE-SET,Notion,Proxy
+  - RULE-SET,Logitech,Proxy
+
+  - RULE-SET,Sony,Proxy
+  - RULE-SET,Steam,Proxy
+  - RULE-SET,Nintendo,Proxy
+  - RULE-SET,PlayStation,Proxy
+
+  - RULE-SET,Scholar,Proxy
+  - RULE-SET,Developer,Proxy
 
   - RULE-SET,China,Domestic
   - RULE-SET,ChinaIPs,Domestic

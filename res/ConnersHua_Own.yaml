@@ -432,7 +432,7 @@ rules:
   - RULE-SET,iQIYI,Asian TV
   - RULE-SET,Youku,Asian TV
   - RULE-SET,NetEaseMusic,Asian TV
-  - RULE-SET,Weibo,Domestic
+  - RULE-SET,Weibo,Asian TV
   - RULE-SET,CCTV,Asian TV
   - RULE-SET,ByteDance,Asian TV
 
