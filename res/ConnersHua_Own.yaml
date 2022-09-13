@@ -443,11 +443,18 @@ rules:
   - RULE-SET,Sina,Domestic
   - RULE-SET,SteamCN,Domestic
 
+  - RULE-SET,iCloud,AppleDirect
+  - RULE-SET,AppleMusic,AppleDirect
   - RULE-SET,Siri,AppleDirect
   - RULE-SET,FindMy,AppleDirect
-  - RULE-SET,AppleMusic,AppleDirect
-  - RULE-SET,iCloud,AppleDirect
   - RULE-SET,AppleDirect,AppleDirect
+
+  - RULE-SET,SystemOTA,AppleProxy
+  - RULE-SET,TestFlight,AppleProxy
+  - RULE-SET,AppleTV,AppleProxy
+  - RULE-SET,FitnessPlus,AppleProxy
+  - RULE-SET,AppStore,AppleProxy
+  - RULE-SET,AppleProxy,AppleProxy
 
   - RULE-SET,Speedtest,Speedtest
   - RULE-SET,Twitter,Twitter
@@ -469,13 +476,6 @@ rules:
   - RULE-SET,GoogleVoice,Google
   - RULE-SET,MicrosoftEdge,Microsoft
   - RULE-SET,Xbox,Xbox
-
-  - RULE-SET,AppleTV,AppleProxy
-  - RULE-SET,FitnessPlus,AppleProxy
-  - RULE-SET,SystemOTA,AppleProxy
-  - RULE-SET,TestFlight,AppleProxy
-  - RULE-SET,AppleProxy,AppleProxy
-  - RULE-SET,AppStore,AppleProxy
 
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
