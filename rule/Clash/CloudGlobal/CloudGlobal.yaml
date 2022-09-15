@@ -19,6 +19,7 @@
 # IP-CIDR: 1983
 # IP-CIDR6: 859
 # TOTAL: 2861
+
 payload:
   - DOMAIN-SUFFIX,1fhjlv1.oloadcdn.net
   - DOMAIN-SUFFIX,a.o333o.com
