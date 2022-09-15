@@ -527,12 +527,15 @@ rules:
   - RULE-SET,GoogleVoice,Google
   - RULE-SET,MicrosoftEdge,Microsoft
   - RULE-SET,Xbox,Xbox
+  - RULE-SET,PikPak,PikPak
+  - RULE-SET,Disney,Disney
+  - RULE-SET,TikTok,TikTok
 
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Amazon,Amazon
   - RULE-SET,Facebook,Facebook
-  - RULE-SET,ByteDance,Asian TV
+  - RULE-SET,ByteDance,ByteDance
 
   - RULE-SET,Notion,Proxy
   - RULE-SET,Logitech,Proxy
@@ -541,9 +544,6 @@ rules:
   - RULE-SET,Steam,Proxy
   - RULE-SET,Nintendo,Proxy
   - RULE-SET,PlayStation,Proxy
-  - RULE-SET,PikPak,Proxy
-  - RULE-SET,Disney,Proxy
-  - RULE-SET,TikTok,Proxy
 
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Developer,Proxy
