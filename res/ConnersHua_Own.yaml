@@ -431,8 +431,16 @@ rule-providers:
     path: "./rule_provider/IFT/PikPak.yaml"
     url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/PikPak/PikPak.yaml
     interval: 21600
+  AdvertisingMiTV:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/AdvertisingMiTV.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.yaml
+    interval: 21600
 
 rules:
+  - RULE-SET,AdvertisingMiTV,REJECT
+
   - RULE-SET,BiliBili,Asian TV
   - RULE-SET,TencentVideo,Asian TV
   - RULE-SET,iQIYI,Asian TV
