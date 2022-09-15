@@ -437,6 +437,18 @@ rule-providers:
     path: "./rule_provider/IFT/AdvertisingMiTV.yaml"
     url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.yaml
     interval: 21600
+  CloudCN:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/CloudCN.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/CloudCN/CloudCN.yaml
+    interval: 21600
+  CloudGlobal:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/CloudGlobal.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/CloudGlobal/CloudGlobal.yaml
+    interval: 21600
 
 rules:
   - RULE-SET,AdvertisingMiTV,REJECT
@@ -514,6 +526,9 @@ rules:
 
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Developer,Proxy
+
+  - RULE-SET,CloudCN,Domestic
+  - RULE-SET,CloudGlobal,Proxy
 
   - RULE-SET,China,Domestic
   - RULE-SET,ChinaIPs,Domestic
