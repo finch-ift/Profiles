@@ -478,7 +478,6 @@ rules:
   - RULE-SET,NetEaseMusic,Asian TV
   - RULE-SET,Weibo,Asian TV
   - RULE-SET,CCTV,Asian TV
-  - RULE-SET,ByteDance,Asian TV
   - RULE-SET,DouYin,Asian TV
 
   - RULE-SET,ChinaMobile,Domestic
@@ -533,6 +532,7 @@ rules:
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Amazon,Amazon
   - RULE-SET,Facebook,Facebook
+  - RULE-SET,ByteDance,Asian TV
 
   - RULE-SET,Notion,Proxy
   - RULE-SET,Logitech,Proxy
