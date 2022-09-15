@@ -535,6 +535,13 @@ rules:
   - RULE-SET,Disney,Disney
   - RULE-SET,TikTok,TikTok
 
+  - RULE-SET,Notion,Proxy
+  - RULE-SET,Logitech,Proxy
+  - RULE-SET,Sony,Proxy
+  - RULE-SET,Steam,Proxy
+  - RULE-SET,Nintendo,Proxy
+  - RULE-SET,PlayStation,Proxy
+
   - RULE-SET,Cloudflare,Cloudflare
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
@@ -543,14 +550,6 @@ rules:
   - RULE-SET,ByteDance,ByteDance
   - RULE-SET,Twitter,Twitter
   - RULE-SET,Apple,Apple
-
-  - RULE-SET,Notion,Proxy
-  - RULE-SET,Logitech,Proxy
-
-  - RULE-SET,Sony,Proxy
-  - RULE-SET,Steam,Proxy
-  - RULE-SET,Nintendo,Proxy
-  - RULE-SET,PlayStation,Proxy
 
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Developer,Proxy
@@ -562,6 +561,7 @@ rules:
   - RULE-SET,ChinaIPs,Domestic
   - RULE-SET,ChinaIPsBGP,Domestic
   - RULE-SET,ChinaMax,Domestic
+  
   - RULE-SET,ChinaMedia,Asian TV
   - RULE-SET,AsianMedia,Asian TV
   - RULE-SET,GlobalMedia,Global TV
