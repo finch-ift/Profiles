@@ -21,4 +21,4 @@
 
 payload:
   - DOMAIN-SUFFIX,apple.com.cn
-
+  - DOMAIN-SUFFIX,idmsa.apple.com
