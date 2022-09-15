@@ -471,51 +471,49 @@ rule-providers:
 rules:
   - RULE-SET,AdvertisingMiTV,REJECT
 
-  - RULE-SET,BiliBili,Asian TV
+  - RULE-SET,Weibo,Asian TV
+  - RULE-SET,DouYin,Asian TV
   - RULE-SET,TencentVideo,Asian TV
+  - RULE-SET,BiliBili,Asian TV
   - RULE-SET,iQIYI,Asian TV
   - RULE-SET,Youku,Asian TV
   - RULE-SET,NetEaseMusic,Asian TV
-  - RULE-SET,Weibo,Asian TV
   - RULE-SET,CCTV,Asian TV
-  - RULE-SET,DouYin,Asian TV
 
   - RULE-SET,ChinaMobile,Domestic
-  - RULE-SET,ChinaTelecom,Domestic
   - RULE-SET,ChinaUnicom,Domestic
+  - RULE-SET,ChinaTelecom,Domestic
 
+  - RULE-SET,SteamCN,Domestic
   - RULE-SET,NetEase,Domestic
   - RULE-SET,XiaoMi,Domestic
   - RULE-SET,JingDong,Domestic
   - RULE-SET,Baidu,Domestic
-  - RULE-SET,Alibaba,Domestic
   - RULE-SET,Tencent,Domestic
   - RULE-SET,Sina,Domestic
-  - RULE-SET,SteamCN,Domestic
+  - RULE-SET,Alibaba,Domestic
 
-  - RULE-SET,iCloud,AppleDirect
-  - RULE-SET,AppleMusic,AppleDirect
   - RULE-SET,Siri,AppleDirect
+  - RULE-SET,AppleMusic,AppleDirect
   - RULE-SET,FindMy,AppleDirect
+  - RULE-SET,iCloud,AppleDirect
   - RULE-SET,AppleDirect,AppleDirect
 
-  - RULE-SET,SystemOTA,AppleProxy
-  - RULE-SET,TestFlight,AppleProxy
-  - RULE-SET,AppleTV,AppleProxy
-  - RULE-SET,FitnessPlus,AppleProxy
   - RULE-SET,AppStore,AppleProxy
+  - RULE-SET,TestFlight,AppleProxy
+  - RULE-SET,FitnessPlus,AppleProxy
+  - RULE-SET,AppleTV,AppleProxy
   - RULE-SET,iCloudPrivateRelay,AppleProxy
+  - RULE-SET,SystemOTA,AppleProxy
   - RULE-SET,AppleProxy,AppleProxy
 
   - RULE-SET,Speedtest,Speedtest
-  - RULE-SET,Twitter,Twitter
   - RULE-SET,Instagram,Instagram
   - RULE-SET,YouTubeMusic,YouTube
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,Netflix
   - RULE-SET,Spotify,Spotify
   - RULE-SET,PayPal,PayPal
-  - RULE-SET,Cloudflare,Cloudflare
   - RULE-SET,Rarbg,Rarbg
   - RULE-SET,Telegram,Telegram
   - RULE-SET,GitHub,GitHub
@@ -531,11 +529,13 @@ rules:
   - RULE-SET,Disney,Disney
   - RULE-SET,TikTok,TikTok
 
-  - RULE-SET,ByteDance,ByteDance
+  - RULE-SET,Cloudflare,Cloudflare
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Amazon,Amazon
   - RULE-SET,Facebook,Facebook
+  - RULE-SET,ByteDance,ByteDance
+  - RULE-SET,Twitter,Twitter
 
   - RULE-SET,Notion,Proxy
   - RULE-SET,Logitech,Proxy
