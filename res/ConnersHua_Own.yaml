@@ -531,11 +531,11 @@ rules:
   - RULE-SET,Disney,Disney
   - RULE-SET,TikTok,TikTok
 
+  - RULE-SET,ByteDance,ByteDance
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Amazon,Amazon
   - RULE-SET,Facebook,Facebook
-  - RULE-SET,ByteDance,ByteDance
 
   - RULE-SET,Notion,Proxy
   - RULE-SET,Logitech,Proxy
