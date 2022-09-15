@@ -449,6 +449,24 @@ rule-providers:
     path: "./rule_provider/IFT/CloudGlobal.yaml"
     url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/CloudGlobal/CloudGlobal.yaml
     interval: 21600
+  TikTok:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/TikTok.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/TikTok/TikTok.yaml
+    interval: 21600
+  Disney:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Disney.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Disney/Disney.yaml
+    interval: 21600
+  DouYin:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/DouYin.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/DouYin/DouYin.yaml
+    interval: 21600
 
 rules:
   - RULE-SET,AdvertisingMiTV,REJECT
@@ -461,6 +479,7 @@ rules:
   - RULE-SET,Weibo,Asian TV
   - RULE-SET,CCTV,Asian TV
   - RULE-SET,ByteDance,Asian TV
+  - RULE-SET,DouYin,Asian TV
 
   - RULE-SET,ChinaMobile,Domestic
   - RULE-SET,ChinaTelecom,Domestic
@@ -523,6 +542,8 @@ rules:
   - RULE-SET,Nintendo,Proxy
   - RULE-SET,PlayStation,Proxy
   - RULE-SET,PikPak,Proxy
+  - RULE-SET,Disney,Proxy
+  - RULE-SET,TikTok,Proxy
 
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Developer,Proxy
