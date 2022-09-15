@@ -1,0 +1,61 @@
+# NAME: AdvertisingMiTV
+# url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Alibaba/Alibaba.yaml
+
+# 目前Clash支持的规则类型如下:
+# DOMAIN-SUFFIX：域名后缀匹配
+# DOMAIN：域名匹配
+# DOMAIN-KEYWORD：域名关键字匹配
+# IP-CIDR：IP段匹配
+# SRC-IP-CIDR：源IP段匹配
+# GEOIP：GEOIP数据库（国家代码）匹配
+# DST-PORT：目标端口匹配
+# SRC-PORT：源端口匹配
+# PROCESS-NAME：源进程名匹配
+# RULE-SET：Rule Provider规则匹配
+# MATCH：全匹配
+
+# UPDATED: 2022-08-05 22:37:46
+# DOMAIN: 41
+# TOTAL: 41
+payload:
+  - DOMAIN,519332da.rtc.youme.im
+  - DOMAIN,ad.hpplay.cn
+  - DOMAIN,ad.mi.com
+  - DOMAIN,ad.xiaomi.com
+  - DOMAIN,ad1.xiaomi.com
+  - DOMAIN,adcdn.hpplay.cn
+  - DOMAIN,adeng.hpplay.cn
+  - DOMAIN,alog.umeng.com
+  - DOMAIN,android.bugly.qq.com
+  - DOMAIN,api.ad.xiaomi.com
+  - DOMAIN,bss.pandora.xiaomi.com
+  - DOMAIN,cdn.hpplay.com.cn
+  - DOMAIN,conf.hpplay.cn
+  - DOMAIN,config.kuyun.com
+  - DOMAIN,data.mistat.xiaomi.com
+  - DOMAIN,de.pandora.xiaomi.com
+  - DOMAIN,dvb.pandora.xiaomi.com
+  - DOMAIN,fix.hpplay.cn
+  - DOMAIN,g.dtv.cn.miaozhen.com
+  - DOMAIN,gallery.pandora.xiaomi.com
+  - DOMAIN,gslb.hpplay.cn
+  - DOMAIN,gvod.aiseejapp.atianqi.com
+  - DOMAIN,h5.hpplay.com.cn
+  - DOMAIN,hotupgrade.hpplay.cn
+  - DOMAIN,hpplay.cdn.cibn.cc
+  - DOMAIN,image.hpplay.cn
+  - DOMAIN,imdns.hpplay.cn
+  - DOMAIN,jellyfish.pandora.xiaomi.com
+  - DOMAIN,logonext.tv.kuyun.com
+  - DOMAIN,mishop.pandora.xiaomi.com
+  - DOMAIN,pin.hpplay.cn
+  - DOMAIN,rp.hpplay.cn
+  - DOMAIN,sdkauth.hpplay.cn
+  - DOMAIN,sdkconfig.ad.xiaomi.com
+  - DOMAIN,sl.hpplay.cn
+  - DOMAIN,stat.pandora.xiaomi.com
+  - DOMAIN,t7z.cupid.ptqy.gitv.tv
+  - DOMAIN,tat.pandora.xiaomi.com
+  - DOMAIN,tvapp.hpplay.cn
+  - DOMAIN,upgrade.mishop.pandora.xiaomi.com
+  - DOMAIN,vipauth.hpplay.cn
