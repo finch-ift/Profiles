@@ -467,6 +467,12 @@ rule-providers:
     path: "./rule_provider/IFT/DouYin.yaml"
     url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/DouYin/DouYin.yaml
     interval: 21600
+  Apple:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Apple.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Apple/Apple.yaml
+    interval: 21600
 
 rules:
   - RULE-SET,AdvertisingMiTV,REJECT
@@ -536,6 +542,7 @@ rules:
   - RULE-SET,Facebook,Facebook
   - RULE-SET,ByteDance,ByteDance
   - RULE-SET,Twitter,Twitter
+  - RULE-SET,Apple,Apple
 
   - RULE-SET,Notion,Proxy
   - RULE-SET,Logitech,Proxy
