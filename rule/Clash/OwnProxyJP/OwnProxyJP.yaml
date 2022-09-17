@@ -15,4 +15,9 @@
 # MATCH：全匹配
 
 payload:
+  - DOMAIN-SUFFIX,supjav.com
+  - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,litvp.com
+  - DOMAIN-SUFFIX,javtvnow.xyz
+  - DOMAIN-SUFFIX,streamjav.top
+  - DOMAIN-SUFFIX,streamjav.top
