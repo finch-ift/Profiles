@@ -18,3 +18,4 @@ payload:
   # JAVDB
   - DOMAIN-KEYWORD,javdb
   - DOMAIN-KEYWORD,jdbstatic
+  - DOMAIN-SUFFIX,yandex.com
