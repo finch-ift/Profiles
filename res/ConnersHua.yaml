@@ -425,53 +425,65 @@ rule-providers:
     path: "./rule_provider/IFT/iCloudPrivateRelay.yaml"
     url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/iCloudPrivateRelay/iCloudPrivateRelay.yaml
     interval: 21600
+  PikPak:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/PikPak.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/PikPak/PikPak.yaml
+    interval: 21600
+  AdvertisingMiTV:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/AdvertisingMiTV.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.yaml
+    interval: 21600
+  CloudCN:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/CloudCN.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/CloudCN/CloudCN.yaml
+    interval: 21600
+  CloudGlobal:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/CloudGlobal.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/CloudGlobal/CloudGlobal.yaml
+    interval: 21600
+  TikTok:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/TikTok.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/TikTok/TikTok.yaml
+    interval: 21600
+  Disney:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Disney.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Disney/Disney.yaml
+    interval: 21600
+  DouYin:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/DouYin.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/DouYin/DouYin.yaml
+    interval: 21600
+  Apple:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Apple.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Apple/Apple.yaml
+    interval: 21600
 
 rules:
-  - RULE-SET,BiliBili,Asian TV
-  - RULE-SET,TencentVideo,Asian TV
-  - RULE-SET,iQIYI,Asian TV
-  - RULE-SET,Youku,Asian TV
-  - RULE-SET,NetEaseMusic,Asian TV
-  - RULE-SET,Weibo,Asian TV
-  - RULE-SET,CCTV,Asian TV
-  - RULE-SET,ByteDance,Asian TV
-
-  - RULE-SET,ChinaMobile,Domestic
-  - RULE-SET,ChinaTelecom,Domestic
-  - RULE-SET,ChinaUnicom,Domestic
-
-  - RULE-SET,NetEase,Domestic
-  - RULE-SET,XiaoMi,Domestic
-  - RULE-SET,JingDong,Domestic
-  - RULE-SET,Baidu,Domestic
-  - RULE-SET,Alibaba,Domestic
-  - RULE-SET,Tencent,Domestic
-  - RULE-SET,Sina,Domestic
-  - RULE-SET,SteamCN,Domestic
-
-  - RULE-SET,iCloud,Domestic
-  - RULE-SET,AppleMusic,Domestic
-  - RULE-SET,Siri,Domestic
-  - RULE-SET,FindMy,Domestic
-  - RULE-SET,AppleDirect,Domestic
-
-  - RULE-SET,SystemOTA,Proxy
-  - RULE-SET,TestFlight,Proxy
-  - RULE-SET,AppleTV,Proxy
-  - RULE-SET,FitnessPlus,Proxy
-  - RULE-SET,AppStore,Proxy
-  - RULE-SET,iCloudPrivateRelay,Proxy
-  - RULE-SET,AppleProxy,Proxy
+  - RULE-SET,AdvertisingMiTV,REJECT
 
   - RULE-SET,Speedtest,Proxy
-  - RULE-SET,Twitter,Proxy
   - RULE-SET,Instagram,Proxy
   - RULE-SET,YouTubeMusic,Proxy
   - RULE-SET,YouTube,Proxy
   - RULE-SET,Netflix,Proxy
   - RULE-SET,Spotify,Proxy
   - RULE-SET,PayPal,Proxy
-  - RULE-SET,Cloudflare,Proxy
   - RULE-SET,Rarbg,Proxy
   - RULE-SET,Telegram,Proxy
   - RULE-SET,GitHub,Proxy
@@ -483,27 +495,73 @@ rules:
   - RULE-SET,GoogleVoice,Proxy
   - RULE-SET,MicrosoftEdge,Proxy
   - RULE-SET,Xbox,Proxy
+  - RULE-SET,PikPak,Proxy
+  - RULE-SET,Disney,Proxy
+  - RULE-SET,TikTok,Proxy
 
-  - RULE-SET,Google,Proxy
-  - RULE-SET,Microsoft,Proxy
-  - RULE-SET,Amazon,Proxy
-  - RULE-SET,Facebook,Proxy
+  - RULE-SET,Siri,Domestic
+  - RULE-SET,FindMy,Domestic
+  - RULE-SET,iCloud,Domestic
+  - RULE-SET,AppleMusic,Domestic
+  - RULE-SET,AppleDirect,Domestic
+
+  - RULE-SET,AppStore,Proxy
+  - RULE-SET,TestFlight,Proxy
+  - RULE-SET,FitnessPlus,Proxy
+  - RULE-SET,AppleTV,Proxy
+  - RULE-SET,SystemOTA,Proxy
+  - RULE-SET,iCloudPrivateRelay,Proxy
+  - RULE-SET,AppleProxy,Proxy
+
+  - RULE-SET,Weibo,Asian TV
+  - RULE-SET,DouYin,Asian TV
+  - RULE-SET,TencentVideo,Asian TV
+  - RULE-SET,Youku,Asian TV
+  - RULE-SET,NetEaseMusic,Asian TV
+  - RULE-SET,CCTV,Asian TV
+  - RULE-SET,BiliBili,Asian TV
+  - RULE-SET,iQIYI,Asian TV
+
+  - RULE-SET,ChinaMobile,Domestic
+  - RULE-SET,ChinaUnicom,Domestic
+  - RULE-SET,ChinaTelecom,Domestic
+
+  - RULE-SET,SteamCN,Domestic
+  - RULE-SET,NetEase,Domestic
+  - RULE-SET,XiaoMi,Domestic
+  - RULE-SET,JingDong,Domestic
+  - RULE-SET,Baidu,Domestic
+  - RULE-SET,Tencent,Domestic
+  - RULE-SET,Sina,Domestic
 
   - RULE-SET,Notion,Proxy
   - RULE-SET,Logitech,Proxy
-
   - RULE-SET,Sony,Proxy
   - RULE-SET,Steam,Proxy
   - RULE-SET,Nintendo,Proxy
   - RULE-SET,PlayStation,Proxy
 
+  - RULE-SET,Cloudflare,Proxy
+  - RULE-SET,Google,Proxy
+  - RULE-SET,Microsoft,Proxy
+  - RULE-SET,Amazon,Proxy
+  - RULE-SET,Facebook,Proxy
+  - RULE-SET,ByteDance,Proxy
+  - RULE-SET,Twitter,Proxy
+  - RULE-SET,Apple,Proxy
+
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Developer,Proxy
 
+  - RULE-SET,Alibaba,Domestic
+  - RULE-SET,CloudCN,Domestic
+  - RULE-SET,CloudGlobal,Proxy
+
+  - RULE-SET,ChinaMax,Domestic
   - RULE-SET,China,Domestic
   - RULE-SET,ChinaIPs,Domestic
   - RULE-SET,ChinaIPsBGP,Domestic
-  - RULE-SET,ChinaMax,Domestic
+
   - RULE-SET,ChinaMedia,Asian TV
   - RULE-SET,AsianMedia,Asian TV
   - RULE-SET,GlobalMedia,Global TV
