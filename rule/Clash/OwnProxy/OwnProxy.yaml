@@ -24,3 +24,4 @@ payload:
 
   - DOMAIN-SUFFIX,bandwagonhost.com
   - DOMAIN-SUFFIX,bwh.net
+  - DOMAIN-SUFFIX,vercel.app
