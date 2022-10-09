@@ -19,3 +19,6 @@ payload:
   - DOMAIN-KEYWORD,javdb
   - DOMAIN-KEYWORD,jdbstatic
   - DOMAIN-SUFFIX,yandex.com
+  - DOMAIN-SUFFIX,u.com.my
+  - DOMAIN-SUFFIX,zaobao.com
+  - DOMAIN-SUFFIX,zaobao.com.sg
