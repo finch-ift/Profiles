@@ -495,9 +495,3 @@ payload:
   - IP-CIDR,205.180.175.0/24
   - IP-CIDR,63.92.224.0/19
   - IP-CIDR,65.199.22.0/23
-  - PROCESS-NAME,storedownloadd
-  - PROCESS-NAME,com.apple.geod
-  - PROCESS-NAME,music
-  - PROCESS-NAME,news
-  - PROCESS-NAME,lookupviewservice
-  - PROCESS-NAME,tv
