@@ -18,10 +18,14 @@ payload:
   - DOMAIN-SUFFIX,ghproxy.fsou.cc
   - DOMAIN-SUFFIX,pd.zwc365.com
   - DOMAIN-SUFFIX,cdn.jsdelivr.net
-  - DOMAIN-SUFFIX,tracker.trackerfix.com
-  - DOMAIN-SUFFIX,sukebei.tracker.wf
+
   - DOMAIN-SUFFIX,subhd.tv
 
   - DOMAIN-SUFFIX,bandwagonhost.com
-  - DOMAIN-SUFFIX,bwh.net
+  - DOMAIN-SUFFIX,bwh88.net
+
   - DOMAIN-SUFFIX,vercel.app
+
+  - DOMAIN-KEYWORD,announce
+  - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,tracker
