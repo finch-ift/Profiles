@@ -1,5 +1,6 @@
 # NAME: Apple Apple
 # url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Apple/Apple.yaml
+# sourceURL: https://github.com/blackmatrix7/ios_rule_script/raw/release/rule/Clash/Apple/Apple.yaml
 
 # 目前Clash支持的规则类型如下:
 # DOMAIN-SUFFIX：域名后缀匹配
@@ -21,6 +22,7 @@
 # IP-CIDR: 10
 # PROCESS-NAME: 6
 # TOTAL: 479
+
 payload:
   - DOMAIN,api.smoot.apple.cn
   - DOMAIN,apple-events.akamaized.net
