@@ -18,6 +18,7 @@
 # UPDATED: 2022-08-05 22:38:04
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
+
 payload:
   - DOMAIN-SUFFIX,fengkongcloud.com
   - DOMAIN-SUFFIX,xhscdn.com
