@@ -15,12 +15,11 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-06-23 17:32:41
+# UPDATED: 2022-08-05 22:36:46
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 182
 # IP-CIDR: 15
 # TOTAL: 199
-
 payload:
   - DOMAIN-SUFFIX,a2z.com
   - DOMAIN-SUFFIX,aboutamazon.cn
