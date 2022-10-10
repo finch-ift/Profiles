@@ -20,6 +20,7 @@
 # DOMAIN-SUFFIX: 182
 # IP-CIDR: 15
 # TOTAL: 199
+
 payload:
   - DOMAIN-SUFFIX,a2z.com
   - DOMAIN-SUFFIX,aboutamazon.cn

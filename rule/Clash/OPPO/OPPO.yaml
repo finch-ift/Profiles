@@ -18,6 +18,7 @@
 # UPDATED: 2022-08-05 22:37:29
 # DOMAIN-SUFFIX: 51
 # TOTAL: 51
+
 payload:
   - DOMAIN-SUFFIX,aibreeno.com
   - DOMAIN-SUFFIX,allawnfs.com

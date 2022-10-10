@@ -19,6 +19,7 @@
 # DOMAIN: 84
 # IP-CIDR: 22
 # TOTAL: 106
+
 payload:
   - DOMAIN,1dot1dot1dot1.cloudflare-dns.com
   - DOMAIN,8888.google

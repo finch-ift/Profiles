@@ -18,6 +18,7 @@
 # UPDATED: 2022-08-05 22:37:26
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
+
 payload:
   - DOMAIN-SUFFIX,hzcnc.com
   - DOMAIN-SUFFIX,hzdtv.tv

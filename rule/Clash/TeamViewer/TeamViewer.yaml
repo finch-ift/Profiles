@@ -20,6 +20,7 @@
 # IP-CIDR: 5
 # IP-CIDR6: 4
 # TOTAL: 10
+
 payload:
   - DOMAIN-SUFFIX,teamviewer.com
   - IP-CIDR,109.239.140.0/24

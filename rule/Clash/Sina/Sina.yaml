@@ -19,6 +19,7 @@
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 102
 # TOTAL: 103
+
 payload:
   - DOMAIN-SUFFIX,001wifi.com
   - DOMAIN-SUFFIX,1kapp.com

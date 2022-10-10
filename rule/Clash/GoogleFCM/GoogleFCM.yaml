@@ -19,6 +19,7 @@
 # DOMAIN: 9
 # IP-CIDR: 26
 # TOTAL: 35
+
 payload:
   - DOMAIN,alt1-mtalk.google.com
   - DOMAIN,alt2-mtalk.google.com

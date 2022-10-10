@@ -19,6 +19,7 @@
 # DOMAIN: 4
 # DOMAIN-SUFFIX: 38
 # TOTAL: 42
+
 payload:
   - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,login.live.com
