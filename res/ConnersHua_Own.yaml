@@ -473,6 +473,138 @@ rule-providers:
     path: "./rule_provider/IFT/Apple.yaml"
     url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Apple/Apple.yaml
     interval: 21600
+  Game:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Game.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Game/Game.yaml
+    interval: 21600
+  GitLab:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/GitLab.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/GitLab/GitLab.yaml
+    interval: 21600
+  GitBook:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/GitBook.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/GitBook/GitBook.yaml
+    interval: 21600
+  BiliBiliIntl:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/BiliBiliIntl.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
+    interval: 21600
+  Dubox:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Dubox.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Dubox/Dubox.yaml
+    interval: 21600
+  Himalaya:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Himalaya.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Himalaya/Himalaya.yaml
+    interval: 21600
+  XiaoHongShu:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/XiaoHongShu.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/XiaoHongShu/XiaoHongShu.yaml
+    interval: 21600
+  OPPO:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/OPPO.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/OPPO/OPPO.yaml
+    interval: 21600
+  Zhihu:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Zhihu.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Zhihu/Zhihu.yaml
+    interval: 21600
+  WeChat:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/WeChat.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/WeChat/WeChat.yaml
+    interval: 21600
+  Wikipedia:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Wikipedia.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Wikipedia/Wikipedia.yaml
+    interval: 21600
+  TeamViewer:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/TeamViewer.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/TeamViewer/TeamViewer.yaml
+    interval: 21600
+  Xunlei:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Xunlei.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Xunlei/Xunlei.yaml
+    interval: 21600
+  GoogleFCM:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/GoogleFCM.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/GoogleFCM/GoogleFCM.yaml
+    interval: 21600
+  Teams:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Teams.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Teams/Teams.yaml
+    interval: 21600
+  Beats:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Beats.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Beats/Beats.yaml
+    interval: 21600
+  TVB:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/TVB.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/TVB/TVB.yaml
+    interval: 21600
+  Huawei:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Huawei.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/Huawei/Huawei.yaml
+    interval: 21600
+  HuaShuTV:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/HuaShuTV.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/HuaShuTV/HuaShuTV.yaml
+    interval: 21600
+  DNS:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/DNS.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/DNS/DNS.yaml
+    interval: 21600
+  NTPService:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/NTPService.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/NTPService/NTPService.yaml
+    interval: 21600
+  PrivateTracker:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/PrivateTracker.yaml"
+    url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/PrivateTracker/PrivateTracker.yaml
+    interval: 21600
 
 rules:
   - RULE-SET,AdvertisingMiTV,REJECT
@@ -487,17 +619,26 @@ rules:
   - RULE-SET,Rarbg,Rarbg
   - RULE-SET,Telegram,Telegram
   - RULE-SET,GitHub,GitHub
+  - RULE-SET,GitBook,GitHub
+  - RULE-SET,GitLab,GitHub
   - RULE-SET,GoogleDrive,GoogleDrive
   - RULE-SET,OneDrive,OneDrive
   - RULE-SET,AmazonPrimeVideo,AmazonPrimeVideo
   - RULE-SET,Jetbrains,Jetbrains
   - RULE-SET,GoogleSearch,Google
   - RULE-SET,GoogleVoice,Google
+  - RULE-SET,GoogleFCM,Google
   - RULE-SET,MicrosoftEdge,Microsoft
+  - RULE-SET,Teams,Microsoft
   - RULE-SET,Xbox,Xbox
   - RULE-SET,PikPak,PikPak
   - RULE-SET,Disney,Disney
   - RULE-SET,TikTok,TikTok
+  - RULE-SET,BiliBiliIntl,BiliBiliIntl
+  - RULE-SET,Steam,Game
+  - RULE-SET,Nintendo,Game
+  - RULE-SET,PlayStation,Game
+  - RULE-SET,Game,Game
 
   - RULE-SET,Siri,AppleDirect
   - RULE-SET,FindMy,AppleDirect
@@ -512,6 +653,7 @@ rules:
   - RULE-SET,SystemOTA,AppleProxy
   - RULE-SET,iCloudPrivateRelay,AppleProxy
   - RULE-SET,AppleProxy,AppleProxy
+  - RULE-SET,Beats,Apple
 
   - RULE-SET,Weibo,Asian TV
   - RULE-SET,DouYin,Asian TV
@@ -521,25 +663,37 @@ rules:
   - RULE-SET,CCTV,Asian TV
   - RULE-SET,BiliBili,Asian TV
   - RULE-SET,iQIYI,Asian TV
+  - RULE-SET,Himalaya,Asian TV
+  - RULE-SET,HuaShuTV,Asian TV
 
   - RULE-SET,ChinaMobile,Domestic
   - RULE-SET,ChinaUnicom,Domestic
   - RULE-SET,ChinaTelecom,Domestic
+  - RULE-SET,DNS,Domestic
+  - RULE-SET,NTPService,Domestic
 
-  - RULE-SET,SteamCN,Domestic
+  - RULE-SET,XiaoHongShu,Domestic
+  - RULE-SET,Zhihu,Domestic
+  - RULE-SET,WeChat,Domestic
+  - RULE-SET,OPPO,Domestic
+  - RULE-SET,Huawei,Domestic
   - RULE-SET,NetEase,Domestic
   - RULE-SET,XiaoMi,Domestic
   - RULE-SET,JingDong,Domestic
   - RULE-SET,Baidu,Domestic
   - RULE-SET,Tencent,Domestic
   - RULE-SET,Sina,Domestic
+  - RULE-SET,TeamViewer,Domestic
+  - RULE-SET,Xunlei,Domestic
+  - RULE-SET,SteamCN,Domestic
 
+  - RULE-SET,TVB,Proxy
   - RULE-SET,Notion,Proxy
   - RULE-SET,Logitech,Proxy
   - RULE-SET,Sony,Proxy
-  - RULE-SET,Steam,Proxy
-  - RULE-SET,Nintendo,Proxy
-  - RULE-SET,PlayStation,Proxy
+  - RULE-SET,Dubox,Proxy
+  - RULE-SET,Wikipedia,Proxy
+  - RULE-SET,PrivateTracker,PrivateTracker
 
   - RULE-SET,Cloudflare,Cloudflare
   - RULE-SET,Google,Google
