@@ -15,9 +15,9 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-01-18 23:33:37
-# DOMAIN-SUFFIX: 121
-# TOTAL: 121
+# UPDATED: 2022-09-03 02:30:21
+# DOMAIN-SUFFIX: 123
+# TOTAL: 123
 
 payload:
   - DOMAIN-SUFFIX,100classicbooks.com
@@ -87,7 +87,9 @@ payload:
   - DOMAIN-SUFFIX,nintendonetwork.net
   - DOMAIN-SUFFIX,nintendonyc.com
   - DOMAIN-SUFFIX,nintendostore.com
+  - DOMAIN-SUFFIX,nintendoswitch.cn
   - DOMAIN-SUFFIX,nintendoswitch.com
+  - DOMAIN-SUFFIX,nintendoswitch.com.cn
   - DOMAIN-SUFFIX,nintendoswitch.net
   - DOMAIN-SUFFIX,nintendoswitchtogether.com
   - DOMAIN-SUFFIX,nintendowii.com
@@ -140,4 +142,3 @@ payload:
   - DOMAIN-SUFFIX,xenoblade.com
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.cn
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net
-  - DOMAIN-SUFFIX,yoshisnewisland.com
