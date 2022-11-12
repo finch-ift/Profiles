@@ -37,7 +37,6 @@ payload:
   - DOMAIN-SUFFIX,pornbest.org
   - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,fs1.app
-  - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,javmix.tv
   - DOMAIN-SUFFIX,netflav.com
   - DOMAIN-SUFFIX,supjav.com
@@ -66,3 +65,5 @@ payload:
   - DOMAIN-SUFFIX,streamjav.top
   - DOMAIN-SUFFIX,litvp.com
   - DOMAIN-SUFFIX,javtvnow.xyz
+  
+  # - DOMAIN-SUFFIX,missav.com
