@@ -45,8 +45,8 @@ payload:
   - DOMAIN,dns.dns-over-https.com
   - DOMAIN,dns.dnsoverhttps.net
   - DOMAIN,dns.flatuslifir.is
-  - DOMAIN,dns.google
-  - DOMAIN,dns.google.com
+  # - DOMAIN,dns.google
+  # - DOMAIN,dns.google.com
   - DOMAIN,dns.hostux.net
   - DOMAIN,dns.keweon.center
   - DOMAIN,dns.nextdns.io
@@ -105,7 +105,7 @@ payload:
   - DOMAIN,sdns.233py.com
   - DOMAIN,security-filter-dns.cleanbrowsing.org
   - DOMAIN,security.cloudflare-dns.com
-  - IP-CIDR,1.1.1.1/32
+  # - IP-CIDR,1.1.1.1/32
   - IP-CIDR,101.101.101.101/32
   - IP-CIDR,114.114.114.114/32
   - IP-CIDR,118.89.110.78/32
@@ -124,6 +124,6 @@ payload:
   - IP-CIDR,47.96.179.163/32
   - IP-CIDR,58.20.127.170/32
   - IP-CIDR,58.20.127.238/32
-  - IP-CIDR,8.8.4.4/32
-  - IP-CIDR,8.8.8.8/32
+  # - IP-CIDR,8.8.4.4/32
+  # - IP-CIDR,8.8.8.8/32
   - IP-CIDR,9.9.9.9/32
