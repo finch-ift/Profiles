@@ -36,3 +36,4 @@ payload:
   - DOMAIN-SUFFIX,blobstore.apple.com
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,gsa.apple.com
+  - DOMAIN-SUFFIX,ess.apple.com
