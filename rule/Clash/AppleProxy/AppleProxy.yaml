@@ -37,3 +37,6 @@ payload:
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,gsa.apple.com
   - DOMAIN-SUFFIX,ess.apple.com
+  - DOMAIN-SUFFIX,help.apple.com
+  - DOMAIN-SUFFIX,ls.apple.com
+  - DOMAIN-SUFFIX,stocks-data-service.apple.com
