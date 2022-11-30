@@ -19,3 +19,4 @@ payload:
   - DOMAIN-KEYWORD,javdb
   - DOMAIN-KEYWORD,jdbstatic
   - DOMAIN-SUFFIX,yandex.com
+  - DOMAIN-SUFFIX,javdb.com
