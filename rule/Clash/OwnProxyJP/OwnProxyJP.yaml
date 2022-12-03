@@ -17,10 +17,11 @@
 payload:
   - DOMAIN-SUFFIX,supjav.com
   - DOMAIN-SUFFIX,missav.com
+  - DOMAIN-SUFFIX,thisiscdn.com
   - DOMAIN-SUFFIX,litvp.com
   - DOMAIN-SUFFIX,javtvnow.xyz
   - DOMAIN-SUFFIX,streamjav.top
-
+  
   - DOMAIN-SUFFIX,qnapclub.eu
 
   - DOMAIN-SUFFIX,u.com.my
