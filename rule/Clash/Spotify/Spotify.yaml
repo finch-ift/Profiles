@@ -15,11 +15,11 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-01-18 23:33:36
-# DOMAIN-SUFFIX: 16
+# UPDATED: 2022-08-31 02:29:52
 # DOMAIN-KEYWORD: 2
+# DOMAIN-SUFFIX: 19
 # IP-CIDR: 1
-# TOTAL: 20
+# TOTAL: 23
 
 payload:
   - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
@@ -38,6 +38,9 @@ payload:
   - DOMAIN-SUFFIX,spotifycodes.com
   - DOMAIN-SUFFIX,spotifyforbrands.com
   - DOMAIN-SUFFIX,spotifyjobs.com
+  - DOMAIN-SUFFIX,spotifynewsroom.jp
+  - DOMAIN-SUFFIX,spotilocal.com
+  - DOMAIN-SUFFIX,tospotify.com
   - DOMAIN-KEYWORD,-spotify-com
   - DOMAIN-KEYWORD,spotify.com
   - IP-CIDR,35.186.224.47/32

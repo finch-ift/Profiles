@@ -15,13 +15,11 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-01-18 23:33:36
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 245
-# TOTAL: 246
-
+# UPDATED: 2022-08-05 22:36:45
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 246
+# TOTAL: 247
 payload:
-  - DOMAIN,www.paypal-mktg.com
   - DOMAIN-SUFFIX,account-paypal.info
   - DOMAIN-SUFFIX,account-paypal.net
   - DOMAIN-SUFFIX,account-paypal.org
@@ -132,6 +130,7 @@ payload:
   - DOMAIN-SUFFIX,paypal-marketing.com
   - DOMAIN-SUFFIX,paypal-media.com
   - DOMAIN-SUFFIX,paypal-merchantloyalty.com
+  - DOMAIN-SUFFIX,paypal-mktg.com
   - DOMAIN-SUFFIX,paypal-mobilemoney.com
   - DOMAIN-SUFFIX,paypal-network.org
   - DOMAIN-SUFFIX,paypal-notice.com
@@ -267,3 +266,4 @@ payload:
   - DOMAIN-SUFFIX,xoom.net.cn
   - DOMAIN-SUFFIX,xoom.us
   - DOMAIN-SUFFIX,xoomcom.com
+  - DOMAIN-KEYWORD,paypal
