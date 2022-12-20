@@ -15,18 +15,17 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-06-23 17:32:47
-# DOMAIN-SUFFIX: 270
+# UPDATED: 2022-08-05 22:36:52
+# DOMAIN-SUFFIX: 271
 # IP-CIDR: 1
-# TOTAL: 272
-
+# PROCESS-NAME: 1
+# TOTAL: 273
 payload:
   - DOMAIN-SUFFIX,2333333333333.com
   - DOMAIN-SUFFIX,365yg.com
   - DOMAIN-SUFFIX,activitybyte.com
   - DOMAIN-SUFFIX,aihst8.com
   - DOMAIN-SUFFIX,amemv.cn
-  - DOMAIN-SUFFIX,amemv.com
   - DOMAIN-SUFFIX,amemv.net
   - DOMAIN-SUFFIX,baike.com
   - DOMAIN-SUFFIX,bdactivity.com
@@ -52,6 +51,7 @@ payload:
   - DOMAIN-SUFFIX,bytedns2.com
   - DOMAIN-SUFFIX,bytednsdoc.com
   - DOMAIN-SUFFIX,bytefcdn.com
+  - DOMAIN-SUFFIX,bytegecko.com
   - DOMAIN-SUFFIX,bytegoofy.com
   - DOMAIN-SUFFIX,byteimg.com
   - DOMAIN-SUFFIX,bytescm.com
@@ -151,8 +151,6 @@ payload:
   - DOMAIN-SUFFIX,ihuoshanvod.com
   - DOMAIN-SUFFIX,inluckcalendar.com
   - DOMAIN-SUFFIX,ixgvideo.com
-  - DOMAIN-SUFFIX,ixigua.com
-  - DOMAIN-SUFFIX,ixiguavideo.com
   - DOMAIN-SUFFIX,jinritoutiao.com
   - DOMAIN-SUFFIX,jiyunhudong.cn
   - DOMAIN-SUFFIX,jiyunhudong.com
@@ -202,7 +200,6 @@ payload:
   - DOMAIN-SUFFIX,pglstatp-toutiao-b.com
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
   - DOMAIN-SUFFIX,pipix.com
-  - DOMAIN-SUFFIX,pstatp.com
   - DOMAIN-SUFFIX,qmoji.mobi
   - DOMAIN-SUFFIX,qmoji.net
   - DOMAIN-SUFFIX,ribaoapi.com
@@ -215,7 +212,6 @@ payload:
   - DOMAIN-SUFFIX,tekkenthree.com
   - DOMAIN-SUFFIX,tetrisone.com
   - DOMAIN-SUFFIX,toscdn.com
-  - DOMAIN-SUFFIX,toutiao.com
   - DOMAIN-SUFFIX,toutiao11.com
   - DOMAIN-SUFFIX,toutiao12.com
   - DOMAIN-SUFFIX,toutiao13.com
@@ -291,4 +287,9 @@ payload:
   - DOMAIN-SUFFIX,zjcdn.com
   - DOMAIN-SUFFIX,zjgslb.com
   - DOMAIN-SUFFIX,zjurl.cn
+  - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,ixiguavideo.com
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,toutiao.com
   - IP-CIDR,114.246.10.65/32
