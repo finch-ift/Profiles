@@ -15,9 +15,11 @@
 # MATCH：全匹配
 
 payload:
+  - DOMAIN-SUFFIX,doppiocdn.com
+
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
-
+  
   # - DOMAIN-KEYWORD,porn
 
   # - DOMAIN-KEYWORD,javdb
