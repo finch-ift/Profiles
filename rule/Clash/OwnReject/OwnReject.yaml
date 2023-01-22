@@ -19,9 +19,7 @@ payload:
 
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
-
-  - IP-CIDR,5.28.195.0/24
-  
+    
   # - DOMAIN-KEYWORD,porn
 
   # - DOMAIN-KEYWORD,javdb
