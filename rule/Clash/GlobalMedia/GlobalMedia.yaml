@@ -23,9 +23,6 @@
 # TOTAL: 1160
 
 payload:
-  - DOMAIN-SUFFIX,olemovienews.com
-  - DOMAIN-SUFFIX,olevod.com
-  
   - DOMAIN,api.okzy.tv
   - DOMAIN,apple.comscoreresearch.com
   - DOMAIN,atv-ps.amazon.com
