@@ -35,6 +35,8 @@ payload:
   - DOMAIN-SUFFIX,olemovienews.com
   - DOMAIN-SUFFIX,olevod.com
   
+  - DOMAIN-SUFFIX,arp220.us
+  
   - IP-CIDR,203.195.128.0/17
   - IP-CIDR,203.205.128.0/19
   - IP-CIDR,203.205.176.0/22
