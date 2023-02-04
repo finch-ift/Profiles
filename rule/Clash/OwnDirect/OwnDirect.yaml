@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,cdn.staticaly.com
   - DOMAIN-SUFFIX,qnap.com.cn
   - DOMAIN-SUFFIX,ift.one
+  - DOMAIN-SUFFIX,openai.com
 
   - IP-CIDR,192.243.127.211/32
   - IP-CIDR,23.105.221.70/32
