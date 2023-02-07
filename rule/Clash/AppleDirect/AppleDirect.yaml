@@ -28,6 +28,7 @@ payload:
 
   - DOMAIN-SUFFIX,time.apple.com
   - DOMAIN-SUFFIX,time-ios.apple.com
+  - DOMAIN-SUFFIX,time.asia.apple.com
 
   - DOMAIN-SUFFIX,push.apple.com
   - DOMAIN-SUFFIX,dns.apple.com
