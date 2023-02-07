@@ -21,12 +21,11 @@
 # TOTAL: 15
 
 payload:
-  - DOMAIN,google.com
+  - DOMAIN,developer.apple.com
 
   # - DOMAIN,api-glb-sea.smoot.apple.com
   # - DOMAIN,books.itunes.apple.com
   # - DOMAIN,cvws.icloud-content.com
-  # - DOMAIN,developer.apple.com
   # - DOMAIN,hls.itunes.apple.com
   # - DOMAIN,itunes.apple.com
   # - DOMAIN,lookup-api.apple.com
