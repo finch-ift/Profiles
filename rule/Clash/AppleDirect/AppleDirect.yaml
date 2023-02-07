@@ -21,6 +21,7 @@
 
 payload:
   - DOMAIN-SUFFIX,apple.com.cn
+  - DOMAIN-SUFFIX,icloud.com.cn
 
   - DOMAIN-SUFFIX,idmsa.apple.com
   - DOMAIN-SUFFIX,appleid.apple.com
@@ -30,5 +31,3 @@ payload:
 
   - DOMAIN-SUFFIX,push.apple.com
   - DOMAIN-SUFFIX,dns.apple.com
-
-  - DOMAIN-SUFFIX,icloud.com.cn
