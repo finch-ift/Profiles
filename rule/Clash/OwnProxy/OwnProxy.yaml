@@ -38,7 +38,8 @@ payload:
   - DOMAIN-SUFFIX,digitalocean.com
   
   - DOMAIN-SUFFIX,arp220.us
-  
+  - DOMAIN-SUFFIX,gstatic.com
+
   - IP-CIDR,203.195.128.0/17
   - IP-CIDR,203.205.128.0/19
   - IP-CIDR,203.205.176.0/22
