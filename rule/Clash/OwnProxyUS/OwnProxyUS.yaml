@@ -22,5 +22,5 @@ payload:
 
   # JAVDB
   - DOMAIN-KEYWORD,javdb
-  - DOMAIN-SUFFIX,javdb.com
   - DOMAIN-KEYWORD,jdbstatic
+  - DOMAIN-SUFFIX,javdb.com
