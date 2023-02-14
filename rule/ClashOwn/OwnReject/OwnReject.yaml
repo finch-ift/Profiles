@@ -1,0 +1,75 @@
+# NAME: OwnReject REJECT
+# url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/OwnReject/OwnReject.yaml
+
+# 目前Clash支持的规则类型如下:
+# DOMAIN-SUFFIX：域名后缀匹配
+# DOMAIN：域名匹配
+# DOMAIN-KEYWORD：域名关键字匹配
+# IP-CIDR：IP段匹配
+# SRC-IP-CIDR：源IP段匹配
+# GEOIP：GEOIP数据库（国家代码）匹配
+# DST-PORT：目标端口匹配
+# SRC-PORT：源端口匹配
+# PROCESS-NAME：源进程名匹配
+# RULE-SET：Rule Provider规则匹配
+# MATCH：全匹配
+
+payload:
+  - DOMAIN-SUFFIX,doppiocdn.com
+
+  - DOMAIN-SUFFIX,missav.com
+
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+
+  - DOMAIN-KEYWORD,porn
+
+  - DOMAIN-KEYWORD,javdb
+  - DOMAIN-KEYWORD,javbus
+
+  - DOMAIN-KEYWORD,seejav
+  - DOMAIN-KEYWORD,javsee
+  - DOMAIN-KEYWORD,javmost
+  - DOMAIN-KEYWORD,avgle
+  - DOMAIN-KEYWORD,avple
+  - DOMAIN-KEYWORD,mdapp
+
+  - DOMAIN-SUFFIX,91porn.com
+  - DOMAIN-SUFFIX,91porny.com
+  - DOMAIN-SUFFIX,porntrex.com
+  - DOMAIN-SUFFIX,javfan.one
+  - DOMAIN-SUFFIX,hpjav.tv
+  - DOMAIN-SUFFIX,javgg.net
+  - DOMAIN-SUFFIX,pornbest.org
+  - DOMAIN-SUFFIX,jable.tv
+  - DOMAIN-SUFFIX,fs1.app
+  - DOMAIN-SUFFIX,javmix.tv
+  - DOMAIN-SUFFIX,netflav.com
+  - DOMAIN-SUFFIX,supjav.com
+  - DOMAIN-SUFFIX,cableav.tv
+  - DOMAIN-SUFFIX,8teenxxx.com
+  - DOMAIN-SUFFIX,ahcdn.com
+  - DOMAIN-SUFFIX,bcvcdn.com
+  - DOMAIN-SUFFIX,bongacams.com
+  - DOMAIN-SUFFIX,chaturbate.com
+  - DOMAIN-SUFFIX,dditscdn.com
+  - DOMAIN-SUFFIX,livejasmin.com
+  - DOMAIN-SUFFIX,rdtcdn.com
+  - DOMAIN-SUFFIX,redtube.com
+  - DOMAIN-SUFFIX,sb-cd.com
+  - DOMAIN-SUFFIX,spankbang.com
+  - DOMAIN-SUFFIX,t66y.com
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,xnxx-cdn.com
+  - DOMAIN-SUFFIX,xnxx.com
+  - DOMAIN-SUFFIX,xvideos-cdn.com
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,ypncdn.com
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,pronstore.com
+  - DOMAIN-SUFFIX,streamjav.top
+  - DOMAIN-SUFFIX,litvp.com
+  - DOMAIN-SUFFIX,javtvnow.xyz
+
+  - IP-CIDR,5.28.195.0/24
