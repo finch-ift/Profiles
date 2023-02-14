@@ -15,8 +15,9 @@
 # MATCH：全匹配
 
 payload:
-  - DOMAIN-SUFFIX,doppiocdn.com
+  - DOMAIN-SUFFIX,api.miwifi.com
 
+  - DOMAIN-SUFFIX,doppiocdn.com
   - DOMAIN-SUFFIX,missav.com
 
   - DOMAIN-SUFFIX,pornhub.com
