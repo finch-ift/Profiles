@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,ift.one
   - DOMAIN-SUFFIX,happyn.vip
   - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,azk8s.cn
 
 #  - IP-CIDR,192.243.127.211/32
   - IP-CIDR,23.105.221.70/32
