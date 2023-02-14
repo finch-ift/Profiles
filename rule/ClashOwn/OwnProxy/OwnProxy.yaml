@@ -21,6 +21,7 @@ payload:
 
   - DOMAIN-SUFFIX,subhd.tv
 
+  # bwh
   - DOMAIN-SUFFIX,bandwagonhost.com
   - DOMAIN-SUFFIX,bwh88.net
   - DOMAIN-SUFFIX,justmysocks.net
