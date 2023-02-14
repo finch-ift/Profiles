@@ -17,16 +17,21 @@
 payload:
   - DOMAIN-SUFFIX,cdn.staticaly.com
   - DOMAIN-SUFFIX,qnap.com.cn
+
+  - DOMAIN-SUFFIX,ift.bar
   - DOMAIN-SUFFIX,ift.one
+
+  - DOMAIN-SUFFIX,happyn.cn
   - DOMAIN-SUFFIX,happyn.vip
+
   - DOMAIN-SUFFIX,openai.com
+
   - DOMAIN-SUFFIX,azk8s.cn
 
-# speedtest.singnet.com.sg
+  # speedtest
   - DOMAIN-SUFFIX,singnet.com
   - DOMAIN-SUFFIX,singnet.com.sg
 
-
-#  - IP-CIDR,192.243.127.211/32
+  # - IP-CIDR,192.243.127.211/32
   - IP-CIDR,23.105.221.70/32
   - IP-CIDR,89.208.240.50/32
