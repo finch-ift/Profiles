@@ -16,7 +16,7 @@
 
 payload:
   - DOMAIN-SUFFIX,cdn.staticaly.com
-  - DOMAIN-SUFFIX,qnap.com.cn
+  - DOMAIN-SUFFIX,cdn.statically.io
 
   - DOMAIN-SUFFIX,ift.bar
   - DOMAIN-SUFFIX,ift.one
@@ -24,9 +24,9 @@ payload:
   - DOMAIN-SUFFIX,happyn.cn
   - DOMAIN-SUFFIX,happyn.vip
 
-  # - DOMAIN-SUFFIX,openai.com
-
   - DOMAIN-SUFFIX,azk8s.cn
+
+  - DOMAIN-SUFFIX,qnap.com.cn
 
   # speedtest
   - DOMAIN-SUFFIX,singnet.com
