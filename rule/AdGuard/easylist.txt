@@ -13,3 +13,6 @@
 ||drivergenius.com^
 
 @@||notion-api.splitbee.io^
+
+||tracking.miui.com^
+||update.miui.com^
