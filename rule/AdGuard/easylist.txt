@@ -4,4 +4,12 @@
 
 # NAME: OWN
 ||sogou.com^
+
 ||api.miwifi.com^
+
+||conn3.coloros.com^
+||conn1.coloros.com^
+
+||drivergenius.com^
+
+@@||notion-api.splitbee.io^
