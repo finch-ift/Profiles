@@ -41,6 +41,7 @@ payload:
 
   - DOMAIN-SUFFIX,arp220.us
   - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,greasyfork.org
 
   - DOMAIN-SUFFIX,coder.com
   - DOMAIN-SUFFIX,qnap.com
