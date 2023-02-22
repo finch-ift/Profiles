@@ -477,40 +477,42 @@ rule-providers:
 rules:
 - RULE-SET,AdvertisingMiTV,REJECT
 
+- RULE-SET,YouTubeMusic,Global TV
+- RULE-SET,YouTube,Global TV
+- RULE-SET,Netflix,Global TV
+- RULE-SET,Spotify,Global TV
+- RULE-SET,AmazonPrimeVideo,Global TV
+- RULE-SET,Telegram,Global TV
+- RULE-SET,Disney,Global TV
+- RULE-SET,TikTok,Global TV
+
 - RULE-SET,Speedtest,Proxy
 - RULE-SET,Instagram,Proxy
-- RULE-SET,YouTubeMusic,Proxy
-- RULE-SET,YouTube,Proxy
-- RULE-SET,Netflix,Proxy
-- RULE-SET,Spotify,Proxy
 - RULE-SET,PayPal,Proxy
 - RULE-SET,Rarbg,Proxy
-- RULE-SET,Telegram,Proxy
 - RULE-SET,GitHub,Proxy
 - RULE-SET,GoogleDrive,Proxy
 - RULE-SET,OneDrive,Proxy
-- RULE-SET,AmazonPrimeVideo,Proxy
 - RULE-SET,Jetbrains,Proxy
 - RULE-SET,GoogleSearch,Proxy
 - RULE-SET,GoogleVoice,Proxy
 - RULE-SET,MicrosoftEdge,Proxy
 - RULE-SET,Xbox,Proxy
 - RULE-SET,PikPak,Proxy
-- RULE-SET,Disney,Proxy
-- RULE-SET,TikTok,Proxy
 
-- RULE-SET,Siri,Domestic
-- RULE-SET,FindMy,Domestic
-- RULE-SET,iCloud,Domestic
-- RULE-SET,AppleMusic,Domestic
-- RULE-SET,AppleDirect,Domestic
+- RULE-SET,Siri,Apple
+- RULE-SET,FindMy,Apple
+- RULE-SET,iCloud,Apple
+- RULE-SET,AppleMusic,Apple
+- RULE-SET,AppleTV,Apple
+- RULE-SET,AppStore,Apple
+- RULE-SET,TestFlight,Apple
+- RULE-SET,FitnessPlus,Apple
+- RULE-SET,SystemOTA,Apple
 
-- RULE-SET,AppStore,Proxy
-- RULE-SET,TestFlight,Proxy
-- RULE-SET,FitnessPlus,Proxy
-- RULE-SET,AppleTV,Proxy
-- RULE-SET,SystemOTA,Proxy
 - RULE-SET,iCloudPrivateRelay,Proxy
+
+- RULE-SET,AppleDirect,Domestic
 - RULE-SET,AppleProxy,Proxy
 
 - RULE-SET,Weibo,Asian TV
@@ -547,8 +549,8 @@ rules:
 - RULE-SET,Amazon,Proxy
 - RULE-SET,Facebook,Proxy
 - RULE-SET,ByteDance,Proxy
-- RULE-SET,Twitter,Proxy
-- RULE-SET,Apple,Proxy
+- RULE-SET,Twitter,Global TV
+- RULE-SET,Apple,Apple
 
 - RULE-SET,Scholar,Proxy
 - RULE-SET,Developer,Proxy

@@ -41,7 +41,9 @@ payload:
 
   - DOMAIN-SUFFIX,arp220.us
   - DOMAIN-SUFFIX,gstatic.com
+
   - DOMAIN-SUFFIX,coder.com
+  - DOMAIN-SUFFIX,qnap.com
 
   - IP-CIDR,203.195.128.0/17
   - IP-CIDR,203.205.128.0/19
