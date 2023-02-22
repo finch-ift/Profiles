@@ -23,6 +23,9 @@
 payload:
   - DOMAIN,developer.apple.com
 
+  - DOMAIN-SUFFIX,mzstatic.com #商店内容，如 App、图书和音乐
+
+
   # - DOMAIN,api-glb-sea.smoot.apple.com
   # - DOMAIN,books.itunes.apple.com
   # - DOMAIN,cvws.icloud-content.com
