@@ -475,105 +475,105 @@ rule-providers:
     interval: 21600
 
 rules:
-  - RULE-SET,AdvertisingMiTV,REJECT
+- RULE-SET,AdvertisingMiTV,REJECT
 
-  - RULE-SET,Speedtest,Proxy
-  - RULE-SET,Instagram,Proxy
-  - RULE-SET,YouTubeMusic,Proxy
-  - RULE-SET,YouTube,Proxy
-  - RULE-SET,Netflix,Proxy
-  - RULE-SET,Spotify,Proxy
-  - RULE-SET,PayPal,Proxy
-  - RULE-SET,Rarbg,Proxy
-  - RULE-SET,Telegram,Proxy
-  - RULE-SET,GitHub,Proxy
-  - RULE-SET,GoogleDrive,Proxy
-  - RULE-SET,OneDrive,Proxy
-  - RULE-SET,AmazonPrimeVideo,Proxy
-  - RULE-SET,Jetbrains,Proxy
-  - RULE-SET,GoogleSearch,Proxy
-  - RULE-SET,GoogleVoice,Proxy
-  - RULE-SET,MicrosoftEdge,Proxy
-  - RULE-SET,Xbox,Proxy
-  - RULE-SET,PikPak,Proxy
-  - RULE-SET,Disney,Proxy
-  - RULE-SET,TikTok,Proxy
+- RULE-SET,Speedtest,Proxy
+- RULE-SET,Instagram,Proxy
+- RULE-SET,YouTubeMusic,Proxy
+- RULE-SET,YouTube,Proxy
+- RULE-SET,Netflix,Proxy
+- RULE-SET,Spotify,Proxy
+- RULE-SET,PayPal,Proxy
+- RULE-SET,Rarbg,Proxy
+- RULE-SET,Telegram,Proxy
+- RULE-SET,GitHub,Proxy
+- RULE-SET,GoogleDrive,Proxy
+- RULE-SET,OneDrive,Proxy
+- RULE-SET,AmazonPrimeVideo,Proxy
+- RULE-SET,Jetbrains,Proxy
+- RULE-SET,GoogleSearch,Proxy
+- RULE-SET,GoogleVoice,Proxy
+- RULE-SET,MicrosoftEdge,Proxy
+- RULE-SET,Xbox,Proxy
+- RULE-SET,PikPak,Proxy
+- RULE-SET,Disney,Proxy
+- RULE-SET,TikTok,Proxy
 
-  - RULE-SET,Siri,Domestic
-  - RULE-SET,FindMy,Domestic
-  - RULE-SET,iCloud,Domestic
-  - RULE-SET,AppleMusic,Domestic
-  - RULE-SET,AppleDirect,Domestic
+- RULE-SET,Siri,Domestic
+- RULE-SET,FindMy,Domestic
+- RULE-SET,iCloud,Domestic
+- RULE-SET,AppleMusic,Domestic
+- RULE-SET,AppleDirect,Domestic
 
-  - RULE-SET,AppStore,Proxy
-  - RULE-SET,TestFlight,Proxy
-  - RULE-SET,FitnessPlus,Proxy
-  - RULE-SET,AppleTV,Proxy
-  - RULE-SET,SystemOTA,Proxy
-  - RULE-SET,iCloudPrivateRelay,Proxy
-  - RULE-SET,AppleProxy,Proxy
+- RULE-SET,AppStore,Proxy
+- RULE-SET,TestFlight,Proxy
+- RULE-SET,FitnessPlus,Proxy
+- RULE-SET,AppleTV,Proxy
+- RULE-SET,SystemOTA,Proxy
+- RULE-SET,iCloudPrivateRelay,Proxy
+- RULE-SET,AppleProxy,Proxy
 
-  - RULE-SET,Weibo,Asian TV
-  - RULE-SET,DouYin,Asian TV
-  - RULE-SET,TencentVideo,Asian TV
-  - RULE-SET,Youku,Asian TV
-  - RULE-SET,NetEaseMusic,Asian TV
-  - RULE-SET,CCTV,Asian TV
-  - RULE-SET,BiliBili,Asian TV
-  - RULE-SET,iQIYI,Asian TV
+- RULE-SET,Weibo,Asian TV
+- RULE-SET,DouYin,Asian TV
+- RULE-SET,TencentVideo,Asian TV
+- RULE-SET,Youku,Asian TV
+- RULE-SET,NetEaseMusic,Asian TV
+- RULE-SET,CCTV,Asian TV
+- RULE-SET,BiliBili,Asian TV
+- RULE-SET,iQIYI,Asian TV
 
-  - RULE-SET,ChinaMobile,Domestic
-  - RULE-SET,ChinaUnicom,Domestic
-  - RULE-SET,ChinaTelecom,Domestic
+- RULE-SET,ChinaMobile,Domestic
+- RULE-SET,ChinaUnicom,Domestic
+- RULE-SET,ChinaTelecom,Domestic
 
-  - RULE-SET,SteamCN,Domestic
-  - RULE-SET,NetEase,Domestic
-  - RULE-SET,XiaoMi,Domestic
-  - RULE-SET,JingDong,Domestic
-  - RULE-SET,Baidu,Domestic
-  - RULE-SET,Tencent,Domestic
-  - RULE-SET,Sina,Domestic
+- RULE-SET,SteamCN,Domestic
+- RULE-SET,NetEase,Domestic
+- RULE-SET,XiaoMi,Domestic
+- RULE-SET,JingDong,Domestic
+- RULE-SET,Baidu,Domestic
+- RULE-SET,Tencent,Domestic
+- RULE-SET,Sina,Domestic
 
-  - RULE-SET,Notion,Proxy
-  - RULE-SET,Logitech,Proxy
-  - RULE-SET,Sony,Proxy
-  - RULE-SET,Steam,Proxy
-  - RULE-SET,Nintendo,Proxy
-  - RULE-SET,PlayStation,Proxy
+- RULE-SET,Notion,Proxy
+- RULE-SET,Logitech,Proxy
+- RULE-SET,Sony,Proxy
+- RULE-SET,Steam,Proxy
+- RULE-SET,Nintendo,Proxy
+- RULE-SET,PlayStation,Proxy
 
-  - RULE-SET,Cloudflare,Proxy
-  - RULE-SET,Google,Proxy
-  - RULE-SET,Microsoft,Proxy
-  - RULE-SET,Amazon,Proxy
-  - RULE-SET,Facebook,Proxy
-  - RULE-SET,ByteDance,Proxy
-  - RULE-SET,Twitter,Proxy
-  - RULE-SET,Apple,Proxy
+- RULE-SET,Cloudflare,Proxy
+- RULE-SET,Google,Proxy
+- RULE-SET,Microsoft,Proxy
+- RULE-SET,Amazon,Proxy
+- RULE-SET,Facebook,Proxy
+- RULE-SET,ByteDance,Proxy
+- RULE-SET,Twitter,Proxy
+- RULE-SET,Apple,Proxy
 
-  - RULE-SET,Scholar,Proxy
-  - RULE-SET,Developer,Proxy
+- RULE-SET,Scholar,Proxy
+- RULE-SET,Developer,Proxy
 
-  - RULE-SET,Alibaba,Domestic
-  - RULE-SET,CloudCN,Domestic
-  - RULE-SET,CloudGlobal,Proxy
+- RULE-SET,Alibaba,Domestic
+- RULE-SET,CloudCN,Domestic
+- RULE-SET,CloudGlobal,Proxy
 
-  - RULE-SET,ChinaMax,Domestic
-  - RULE-SET,China,Domestic
-  - RULE-SET,ChinaIPs,Domestic
-  - RULE-SET,ChinaIPsBGP,Domestic
+- RULE-SET,ChinaMax,Domestic
+- RULE-SET,China,Domestic
+- RULE-SET,ChinaIPs,Domestic
+- RULE-SET,ChinaIPsBGP,Domestic
 
-  - RULE-SET,ChinaMedia,Asian TV
-  - RULE-SET,AsianMedia,Asian TV
-  - RULE-SET,GlobalMedia,Global TV
-  - RULE-SET,Global,Proxy
+- RULE-SET,ChinaMedia,Asian TV
+- RULE-SET,AsianMedia,Asian TV
+- RULE-SET,GlobalMedia,Global TV
+- RULE-SET,Global,Proxy
 
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,100.64.0.0/10,DIRECT
-  - IP-CIDR,224.0.0.0/4,DIRECT
-  - IP-CIDR,fe80::/10,DIRECT
-  - IP-CIDR,119.28.28.28/32,DIRECT
-  - IP-CIDR,182.254.116.0/24,DIRECT
-  - MATCH,MATCH
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,224.0.0.0/4,DIRECT
+- IP-CIDR,fe80::/10,DIRECT
+- IP-CIDR,119.28.28.28/32,DIRECT
+- IP-CIDR,182.254.116.0/24,DIRECT
+- MATCH,MATCH
