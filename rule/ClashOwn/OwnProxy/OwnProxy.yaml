@@ -45,6 +45,7 @@ payload:
 
   - DOMAIN-SUFFIX,coder.com
   - DOMAIN-SUFFIX,qnap.com
+  - DOMAIN-SUFFIX,grafana.com
 
   - IP-CIDR,192.243.127.211/32
   # - IP-CIDR,23.105.221.70/32
