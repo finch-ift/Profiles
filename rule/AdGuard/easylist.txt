@@ -12,6 +12,7 @@
 
 ||drivergenius.com^
 
+# Syncnext API
 @@||notion-api.splitbee.io^
 
 ||tracking.miui.com^
