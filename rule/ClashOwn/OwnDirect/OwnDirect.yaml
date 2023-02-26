@@ -35,3 +35,14 @@ payload:
   # - IP-CIDR,192.243.127.211/32
   - IP-CIDR,23.105.221.70/32
   - IP-CIDR,89.208.240.50/32
+
+  # 配套功能
+  - DOMAIN-SUFFIX,movie.douban.com # 首頁推薦內容（大陸內可用）
+
+  # 頻道
+  - DOMAIN-SUFFIX,mddcloud.com.cn #只能大陸 IP 訪問
+  - DOMAIN-SUFFIX,ddys.tv
+  - DOMAIN-SUFFIX,agefans.app
+
+  # VOD
+  - DOMAIN-SUFFIX,aliyundrive.asia # 猜測只能中國大陸或亞洲訪問
