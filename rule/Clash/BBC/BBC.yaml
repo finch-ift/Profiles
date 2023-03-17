@@ -33,6 +33,7 @@ payload:
   - DOMAIN,vod-thumb-uk-live.akamaized.net
   - DOMAIN,vod-thumb-ww-live.akamaized.net
   - DOMAIN,vs-cmaf-push-uk-live.akamaized.net
+  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,bbc
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,bbc.co.uk
