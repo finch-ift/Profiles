@@ -31,11 +31,12 @@ payload:
 
   - IP-CIDR,185.156.172.0/24
 
+  # 字幕
+  - DOMAIN-SUFFIX,subhd.tv
+
   - DOMAIN-SUFFIX,ghproxy.fsou.cc
   - DOMAIN-SUFFIX,pd.zwc365.com
   - DOMAIN-SUFFIX,cdn.jsdelivr.net
-
-  - DOMAIN-SUFFIX,subhd.tv
 
   # bwh
   - DOMAIN-SUFFIX,bandwagonhost.com
@@ -43,6 +44,7 @@ payload:
   - DOMAIN-SUFFIX,justmysocks.net
   - DOMAIN-SUFFIX,kiwivm.64clouds.com
 
+  # vps
   - DOMAIN-SUFFIX,digitalocean.com
   - DOMAIN-SUFFIX,vultr.com
   - DOMAIN-SUFFIX,linode.com
@@ -62,8 +64,11 @@ payload:
   - DOMAIN-SUFFIX,greasyfork.org
 
   - DOMAIN-SUFFIX,coder.com
+
   - DOMAIN-SUFFIX,qnap.com
+
   - DOMAIN-SUFFIX,grafana.com
+  
   - DOMAIN-SUFFIX,api.revenuecat.com
 
   # Syncnext API
