@@ -24,7 +24,8 @@ payload:
   - DOMAIN,developer.apple.com
 
   - DOMAIN-SUFFIX,mzstatic.com #商店内容，如 App、图书和音乐
-
+  - DOMAIN-SUFFIX,gsp64-ssl.ls.apple.com
+                  
 
   # - DOMAIN,api-glb-sea.smoot.apple.com
   # - DOMAIN,books.itunes.apple.com

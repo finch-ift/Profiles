@@ -27,7 +27,6 @@ payload:
   - DOMAIN,api.steampowered.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
-  - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN,client.amplifi.com
   - DOMAIN,dl.google.com
   - DOMAIN,download.jetbrains.com
