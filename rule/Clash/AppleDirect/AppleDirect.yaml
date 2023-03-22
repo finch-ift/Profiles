@@ -21,10 +21,17 @@
 
 payload:
   - DOMAIN-SUFFIX,apple.com.cn
+  - DOMAIN-SUFFIX,apple-icloud.cn
+  - DOMAIN-SUFFIX,appleicloud.cn
+  - DOMAIN-SUFFIX,icloud-apple.cn
+  - DOMAIN-SUFFIX,icloud.com.cn
+  - DOMAIN-SUFFIX,icloud.net.cn
+  - DOMAIN-SUFFIX,icloudapple.cn
+
+
 
   # iCloud
   - DOMAIN-SUFFIX, apzones.com #中国大陆的 iCloud 服务
-  - DOMAIN-SUFFIX, icloud.com.cn #中国大陆的 iCloud 服务
 
   - DOMAIN-SUFFIX, apple-cloudkit.com #iCloud 服务
   - DOMAIN-SUFFIX, apple-livephotoskit.com #iCloud 服务
