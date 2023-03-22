@@ -28,8 +28,6 @@ payload:
   - DOMAIN-SUFFIX,icloud.net.cn
   - DOMAIN-SUFFIX,icloudapple.cn
 
-
-
   # iCloud
   - DOMAIN-SUFFIX, apzones.com #中国大陆的 iCloud 服务
 
