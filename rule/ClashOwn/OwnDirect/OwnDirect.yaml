@@ -15,14 +15,16 @@
 # MATCH：全匹配
 
 payload:
-  - DOMAIN-SUFFIX,cdn.staticaly.com
-  - DOMAIN-SUFFIX,cdn.statically.io
-
-  - DOMAIN-SUFFIX,ift.bar
-  - DOMAIN-SUFFIX,ift.one
+  # - DOMAIN-SUFFIX,ift.bar
+  # - IP-CIDR,192.243.127.211/32
+  - IP-CIDR,23.105.221.70/32
+  - IP-CIDR,89.208.240.50/32
 
   - DOMAIN-SUFFIX,happyn.cn
   - DOMAIN-SUFFIX,happyn.vip
+
+  - DOMAIN-SUFFIX,cdn.staticaly.com
+  - DOMAIN-SUFFIX,cdn.statically.io
 
   - DOMAIN-SUFFIX,azk8s.cn
 
@@ -32,12 +34,8 @@ payload:
   - DOMAIN-SUFFIX,singnet.com
   - DOMAIN-SUFFIX,singnet.com.sg
 
-  # - IP-CIDR,192.243.127.211/32
-  - IP-CIDR,23.105.221.70/32
-  - IP-CIDR,89.208.240.50/32
-
   # 配套功能
-  - DOMAIN-SUFFIX,movie.douban.com # 首頁推薦內容（大陸內可用）
+  - DOMAIN-SUFFIX,movie.douban.com # 首頁推薦內容
 
   # 頻道
   - DOMAIN-SUFFIX,mddcloud.com.cn #只能大陸 IP 訪問
