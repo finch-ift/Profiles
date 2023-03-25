@@ -40,3 +40,6 @@ payload:
   - DOMAIN-SUFFIX,blobstore.apple.com
   - DOMAIN-SUFFIX,digicert.com
   - PROCESS-NAME,lookupviewservice
+
+  - DOMAIN-SUFFIX,init.ess.apple.com
+  - DOMAIN-SUFFIX,configuration.ls.apple.com
