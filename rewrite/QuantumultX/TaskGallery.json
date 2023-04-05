@@ -2,7 +2,7 @@
     "name": "QX Scripts All",
     "description": "QX Task Gallery",
     "task": [
-        "0 9 * * * https://p.ift.bar/https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=汇率监控, img-url=https://p.ift.bar/https://raw.githubusercontent.com/Orz-3/mini/master/Color/exchangerate.png, enabled=false",
-        "0 0 6 * * * https://p.ift.bar/https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图, img-url=https://p.ift.bar/https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/nasa.png, enabled=false"
+        "0 9 * * * https://p.ift.lat/https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=汇率监控, img-url=https://p.ift.lat/https://raw.githubusercontent.com/Orz-3/mini/master/Color/exchangerate.png, enabled=false",
+        "0 0 6 * * * https://p.ift.lat/https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图, img-url=https://p.ift.lat/https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/nasa.png, enabled=false"
     ]
 }

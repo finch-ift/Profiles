@@ -1,5 +1,5 @@
 # NAME: OwnProxy Proxy
-# url: https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/OwnProxy/OwnProxy.yaml
+# url: https://p.ift.lat/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/ClashOwn/OwnProxy/OwnProxy.yaml
 
 # 目前Clash支持的规则类型如下:
 # DOMAIN-SUFFIX：域名后缀匹配
@@ -15,7 +15,7 @@
 # MATCH：全匹配
 
 payload:
-  - DOMAIN-SUFFIX,p.ift.bar
+  - DOMAIN-SUFFIX,p.ift.lat
   - DOMAIN-SUFFIX,c.ift.bar
   - DOMAIN-SUFFIX,f.ift.bar
   - DOMAIN-SUFFIX,r.ift.bar

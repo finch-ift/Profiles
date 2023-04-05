@@ -1,4 +1,4 @@
 # Grow Lifetime
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/script/grow/grow.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://p.ift.lat/https://raw.githubusercontent.com/finch-ift/Profiles/main/script/grow/grow.js
 
 hostname = api.revenuecat.com

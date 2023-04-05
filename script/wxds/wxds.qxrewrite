@@ -1,5 +1,5 @@
 #微信读书
-^http[s]?:\/\/(i|res)\.weread\.qq.com\/(login|pay\/balance|book\/chapterInfos|user\?userVid\=|upload\?type\=avatar).*$ url script-response-body https://p.ift.bar/https://raw.githubusercontent.com/finch-ift/Profiles/main/script/wxds/wxds.js
+^http[s]?:\/\/(i|res)\.weread\.qq.com\/(login|pay\/balance|book\/chapterInfos|user\?userVid\=|upload\?type\=avatar).*$ url script-response-body https://p.ift.lat/https://raw.githubusercontent.com/finch-ift/Profiles/main/script/wxds/wxds.js
 ^http[s]:\/\/i\.weread\.qq\.com\/login url request-body [\s\S]+ request-body {}
 ^http[s]?:\/\/i\.weread\.qq\.com\/device\/logout url reject-200
 ^http[s]?:\/\/i\.weread\.qq\.com\/updateConfig url reject-200
