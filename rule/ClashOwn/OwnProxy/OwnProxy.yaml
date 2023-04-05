@@ -51,9 +51,9 @@ payload:
 
   - DOMAIN-SUFFIX,vercel.app
 
-  - DOMAIN-KEYWORD,announce
-  - DOMAIN-KEYWORD,torrent
-  - DOMAIN-KEYWORD,tracker
+  # - DOMAIN-KEYWORD,announce
+  # - DOMAIN-KEYWORD,torrent
+  # - DOMAIN-KEYWORD,tracker
 
   # letsencrypt
   - DOMAIN-SUFFIX,lencr.org
