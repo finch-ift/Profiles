@@ -16,14 +16,16 @@
 
 payload:
   - DOMAIN-SUFFIX,p.ift.lat
-  - DOMAIN-SUFFIX,c.ift.bar
-  - DOMAIN-SUFFIX,f.ift.bar
-  - DOMAIN-SUFFIX,r.ift.bar
-  - DOMAIN-SUFFIX,t.ift.bar
+  - DOMAIN-SUFFIX,c.ift.lat
+  - DOMAIN-SUFFIX,f.ift.lat
+  - DOMAIN-SUFFIX,r.ift.lat
+  - DOMAIN-SUFFIX,t.ift.lat
 
+  - DOMAIN-SUFFIX,tracker.trackerfix.com
   # syncnext
-  - DOMAIN-SUFFIX,syncnext.ift.bar
-  - DOMAIN-SUFFIX,tv.ift.bar
+
+  - DOMAIN-SUFFIX,syncnext.ift.lat
+  - DOMAIN-SUFFIX,tv.ift.lat
 
   - IP-CIDR,192.243.127.211/32
   # - IP-CIDR,23.105.221.70/32
