@@ -16,11 +16,14 @@
 
 payload:
   - DOMAIN-SUFFIX,supjav.com
-  - DOMAIN-SUFFIX,missav.com
+
   - DOMAIN-SUFFIX,thisiscdn.com
   - DOMAIN-SUFFIX,litvp.com
   - DOMAIN-SUFFIX,javtvnow.xyz
   - DOMAIN-SUFFIX,streamjav.top
+
+  - DOMAIN-SUFFIX,missav.com
+  - DOMAIN-SUFFIX,akamai-content-network.com
 
   - DOMAIN-SUFFIX,91porn.com
   - DOMAIN-SUFFIX,91p51.live
