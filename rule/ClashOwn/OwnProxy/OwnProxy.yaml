@@ -16,14 +16,15 @@
 
 payload:
   - DOMAIN-SUFFIX,p.ift.lat
+
   - DOMAIN-SUFFIX,c.ift.lat
   - DOMAIN-SUFFIX,f.ift.lat
-  - DOMAIN-SUFFIX,r.ift.lat
+  
   - DOMAIN-SUFFIX,t.ift.lat
 
   - DOMAIN-SUFFIX,tracker.trackerfix.com
-  # syncnext
 
+  # syncnext
   - DOMAIN-SUFFIX,syncnext.ift.lat
   - DOMAIN-SUFFIX,tv.ift.lat
 
