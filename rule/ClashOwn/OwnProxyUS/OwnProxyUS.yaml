@@ -24,8 +24,3 @@ payload:
   - DOMAIN-KEYWORD,javdb
   - DOMAIN-KEYWORD,jdbstatic
   - DOMAIN-SUFFIX,javdb.com
-
-  # feifan
-  - DOMAIN-SUFFIX,ffzy-play5.com
-  - DOMAIN-SUFFIX,ffzycdn.com
-  - DOMAIN-SUFFIX,ffzyapi.com
