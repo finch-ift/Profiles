@@ -15,14 +15,24 @@
 # MATCH：全匹配
 
 payload:
-  # - DOMAIN-SUFFIX,ift.bar
-  # - IP-CIDR,192.243.127.211/32
+  # mark
+  - IP-CIDR,192.243.127.211/32
   - IP-CIDR,23.105.221.70/32
   - IP-CIDR,89.208.240.50/32
   
+  # ift.lat
+  - DOMAIN-SUFFIX,ip.ift.lat
+  - DOMAIN-SUFFIX,ipv4.ift.lat
+  - DOMAIN-SUFFIX,ipv6.ift.lat
+  - DOMAIN-SUFFIX,ai.ift.lat
+  - DOMAIN-SUFFIX,azure.ift.lat
+  - DOMAIN-SUFFIX,tv.ift.lat
+  - DOMAIN-SUFFIX,syncnext.ift.lat
+
   # cloudflare
   # - IP-CIDR,162.158.0.0/15
 
+  # happyn
   - DOMAIN-SUFFIX,happyn.cn
   - DOMAIN-SUFFIX,happyn.vip
 
