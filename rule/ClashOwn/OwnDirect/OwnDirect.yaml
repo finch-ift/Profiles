@@ -21,7 +21,7 @@ payload:
   - IP-CIDR,89.208.240.50/32
   
   # cloudflare
-  - IP-CIDR,162.158.0.0/15
+  # - IP-CIDR,162.158.0.0/15
 
   - DOMAIN-SUFFIX,happyn.cn
   - DOMAIN-SUFFIX,happyn.vip
