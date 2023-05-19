@@ -28,6 +28,7 @@ payload:
   - DOMAIN-SUFFIX,azure.ift.lat
   - DOMAIN-SUFFIX,tv.ift.lat
   - DOMAIN-SUFFIX,syncnext.ift.lat
+  - DOMAIN-SUFFIX,cf.ift.lat
 
   # cloudflare
   # - IP-CIDR,162.158.0.0/15
