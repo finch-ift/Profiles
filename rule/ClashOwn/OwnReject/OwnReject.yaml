@@ -20,14 +20,14 @@ payload:
   - DOMAIN-SUFFIX,doppiocdn.com
   - DOMAIN-SUFFIX,doppiocdn.org
 
-  # - DOMAIN-SUFFIX,missav.com
+  - DOMAIN-SUFFIX,missav.com
 
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
 
   - DOMAIN-KEYWORD,porn
 
-  # - DOMAIN-KEYWORD,javdb
+  - DOMAIN-KEYWORD,javdb
   - DOMAIN-KEYWORD,javbus
 
   - DOMAIN-KEYWORD,seejav

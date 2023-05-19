@@ -15,11 +15,11 @@
 # MATCH：全匹配
 
 payload:
-  # mark
+  # Mark
   - IP-CIDR,192.243.127.211/32
   - IP-CIDR,23.105.221.70/32
   - IP-CIDR,89.208.240.50/32
-  
+
   # ift.lat
   - DOMAIN-SUFFIX,ip.ift.lat
   - DOMAIN-SUFFIX,ipv4.ift.lat
@@ -39,8 +39,6 @@ payload:
 
   - DOMAIN-SUFFIX,cdn.staticaly.com
   - DOMAIN-SUFFIX,cdn.statically.io
-
-  - DOMAIN-SUFFIX,azk8s.cn
 
   - DOMAIN-SUFFIX,qnap.com.cn
 
