@@ -45,6 +45,7 @@ payload:
   # speedtest
   - DOMAIN-SUFFIX,singnet.com
   - DOMAIN-SUFFIX,singnet.com.sg
+  - DOMAIN-SUFFIX,niutk.com
 
   # 配套功能
   - DOMAIN-SUFFIX,movie.douban.com # 首頁推薦內容
