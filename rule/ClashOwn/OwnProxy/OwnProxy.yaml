@@ -19,6 +19,8 @@ payload:
   - DOMAIN-SUFFIX,f.ift.lat
   
   - DOMAIN-SUFFIX,t.ift.lat
+  
+  - DOMAIN-SUFFIX,feedx.net
 
   - DOMAIN-SUFFIX,tracker.trackerfix.com
 
