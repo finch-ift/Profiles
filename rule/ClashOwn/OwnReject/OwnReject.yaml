@@ -17,14 +17,6 @@
 payload:
   - DOMAIN-SUFFIX,api.miwifi.com
 
-  - DOMAIN-SUFFIX,doppiocdn.com
-  - DOMAIN-SUFFIX,doppiocdn.org
-
-  - DOMAIN-SUFFIX,missav.com
-
-  - DOMAIN-SUFFIX,pornhub.com
-  - DOMAIN-SUFFIX,pornhubpremium.com
-
   - DOMAIN-KEYWORD,porn
 
   - DOMAIN-KEYWORD,javdb
@@ -36,6 +28,14 @@ payload:
   - DOMAIN-KEYWORD,avgle
   - DOMAIN-KEYWORD,avple
   - DOMAIN-KEYWORD,mdapp
+
+  - DOMAIN-SUFFIX,missav.com
+
+  - DOMAIN-SUFFIX,doppiocdn.com
+  - DOMAIN-SUFFIX,doppiocdn.org
+
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
 
   - DOMAIN-SUFFIX,91porn.com
   - DOMAIN-SUFFIX,91porny.com
