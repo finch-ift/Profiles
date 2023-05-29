@@ -14,12 +14,17 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2023-02-15 23:45:31
+# UPDATED: 2023-05-28 18:23:59
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 4
-# TOTAL: 4
+# TOTAL: 7
 
 payload:
-  - DOMAIN-SUFFIX,chat.openai.com
-  - DOMAIN-SUFFIX,ai.com
   - DOMAIN,cdn.auth0.com
-  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,o33249.ingest.sentry.io
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-KEYWORD,openai
