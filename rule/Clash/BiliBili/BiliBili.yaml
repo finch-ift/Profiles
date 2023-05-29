@@ -15,11 +15,12 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-08-15 14:25:42
+# UPDATED: 2023-05-28 18:21:21
 # DOMAIN: 52
-# DOMAIN-SUFFIX: 51
+# DOMAIN-SUFFIX: 60
 # IP-CIDR: 8
-# TOTAL: 117
+# PROCESS-NAME: 6
+# TOTAL: 126
 
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
@@ -76,6 +77,10 @@ payload:
   - DOMAIN,upos-bstar1-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
+  - DOMAIN-SUFFIX,animetamashi.cn
+  - DOMAIN-SUFFIX,animetamashi.com
+  - DOMAIN-SUFFIX,anitama.cn
+  - DOMAIN-SUFFIX,anitama.net
   - DOMAIN-SUFFIX,b23.tv
   - DOMAIN-SUFFIX,baka.im
   - DOMAIN-SUFFIX,bigfun.cn
@@ -90,8 +95,10 @@ payload:
   - DOMAIN-SUFFIX,bilibili.cn
   - DOMAIN-SUFFIX,bilibili.co
   - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,bilibili.net
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,bilibiligame.cn
+  - DOMAIN-SUFFIX,bilibiligame.co
   - DOMAIN-SUFFIX,bilibiligame.net
   - DOMAIN-SUFFIX,bilibilipay.cn
   - DOMAIN-SUFFIX,bilibilipay.com
@@ -101,6 +108,7 @@ payload:
   - DOMAIN-SUFFIX,bilicdn4.com
   - DOMAIN-SUFFIX,bilicdn5.com
   - DOMAIN-SUFFIX,biligame.cn
+  - DOMAIN-SUFFIX,biligame.co
   - DOMAIN-SUFFIX,biligame.com
   - DOMAIN-SUFFIX,biligame.net
   - DOMAIN-SUFFIX,biligo.com
@@ -111,6 +119,7 @@ payload:
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,bilivideo.net
   - DOMAIN-SUFFIX,corari.com
+  - DOMAIN-SUFFIX,dreamcast.hk
   - DOMAIN-SUFFIX,dyhgames.com
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN-SUFFIX,hdslb.com.w.kunlunhuf.com
@@ -118,6 +127,7 @@ payload:
   - DOMAIN-SUFFIX,hdslb.net
   - DOMAIN-SUFFIX,hdslb.org
   - DOMAIN-SUFFIX,im9.com
+  - DOMAIN-SUFFIX,maoercdn.com
   - DOMAIN-SUFFIX,mcbbs.net
   - DOMAIN-SUFFIX,mincdn.com
   - DOMAIN-SUFFIX,sharejoytech.com
