@@ -1,19 +1,26 @@
 !Title: own-AD
 !Version: 20220918212727
 !Homepage: https://cdn.staticaly.com/gh/finch-ift/Profiles@main/rule/AdGuard/easylist.txt
-
 # NAME: OWN
-||sogou.com^
-
-||api.miwifi.com^
-
-||conn3.coloros.com^
-||conn1.coloros.com^
-
-||drivergenius.com^
 
 # Syncnext API
 @@||notion-api.splitbee.io^
 
+||sogou.com^
+
+# Xiaomi
+||api.miwifi.com^
 ||tracking.miui.com^
 ||update.miui.com^
+
+# OPPO
+||conn3.coloros.com^
+||conn1.coloros.com^
+||heytapmobi.com^$important
+||heytapimage.com^$important
+||heytapdownload.com^$important
+||wanyol.com^$important
+||nearme.com.cn^$important
+||allawntech.com^$important
+
+||drivergenius.com^
