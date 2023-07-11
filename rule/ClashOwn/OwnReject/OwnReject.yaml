@@ -15,7 +15,7 @@
 # MATCH：全匹配
 
 payload:
-  - DOMAIN-SUFFIX,api.miwifi.com
+  - DOMAIN-SUFFIX,sogou.com
 
   - DOMAIN-KEYWORD,porn
 

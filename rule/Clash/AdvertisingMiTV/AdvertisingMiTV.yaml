@@ -62,6 +62,10 @@ payload:
   - DOMAIN,upgrade.mishop.pandora.xiaomi.com
   - DOMAIN,vipauth.hpplay.cn
 
+  - DOMAIN-SUFFIX,api.miwifi.com
+  - DOMAIN-SUFFIX,tracking.miui.com
+  - DOMAIN-SUFFIX,update.miui.com
+
   - DOMAIN-SUFFIX,conn1.coloros.com
   - DOMAIN-SUFFIX,conn3.coloros.com
   - DOMAIN-SUFFIX,heytapmobi.com
