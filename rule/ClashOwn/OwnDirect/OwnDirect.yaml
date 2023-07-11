@@ -57,3 +57,7 @@ payload:
 
   # VOD
   - DOMAIN-SUFFIX,aliyundrive.asia # 猜測只能中國大陸或亞洲訪問
+
+  # DNS
+  - DOMAIN,dns.alidns.com
+  - DOMAIN,dot.pub
