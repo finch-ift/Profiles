@@ -61,3 +61,12 @@ payload:
   - DOMAIN,tvapp.hpplay.cn
   - DOMAIN,upgrade.mishop.pandora.xiaomi.com
   - DOMAIN,vipauth.hpplay.cn
+
+  - DOMAIN-SUFFIX,conn1.coloros.com
+  - DOMAIN-SUFFIX,conn3.coloros.com
+  - DOMAIN-SUFFIX,heytapmobi.com
+  - DOMAIN-SUFFIX,heytapimage.com
+  - DOMAIN-SUFFIX,heytapdownload.com
+  - DOMAIN-SUFFIX,wanyol.com
+  - DOMAIN-SUFFIX,nearme.com.cn
+  - DOMAIN-SUFFIX,allawntech.com
