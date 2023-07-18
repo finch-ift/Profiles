@@ -491,6 +491,12 @@ rule-providers:
     path: "./rule_provider/IFT/OpenAI.yaml"
     url: https://c.ift.lat/get?key=OpenAI
     interval: 21600
+  Tesla:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/Tesla.yaml"
+    url: https://c.ift.lat/get?key=Tesla
+    interval: 21600
 
 rules:
 - RULE-SET,AdvertisingMiTV,REJECT
@@ -566,6 +572,7 @@ rules:
 - RULE-SET,Tencent,Domestic
 - RULE-SET,Sina,Domestic
 
+- RULE-SET,Tesla,Proxy
 - RULE-SET,Cloudflare,Proxy
 - RULE-SET,Google,Proxy
 - RULE-SET,Microsoft,Proxy
