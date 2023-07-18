@@ -233,12 +233,6 @@ rule-providers:
     path: "./rule_provider/IFT/China.yaml"
     url: https://c.ift.lat/get?key=China
     interval: 21600
-  ChinaIPs:
-    type: http
-    behavior: classical
-    path: "./rule_provider/IFT/ChinaIPs.yaml"
-    url: https://c.ift.lat/get?key=ChinaIPs
-    interval: 21600
   ChinaIPsBGP:
     type: http
     behavior: classical
@@ -591,7 +585,6 @@ rules:
 
 - RULE-SET,ChinaMax,Domestic
 - RULE-SET,China,Domestic
-- RULE-SET,ChinaIPs,Domestic
 - RULE-SET,ChinaIPsBGP,Domestic
 
 - RULE-SET,ChinaMedia,Asian TV
