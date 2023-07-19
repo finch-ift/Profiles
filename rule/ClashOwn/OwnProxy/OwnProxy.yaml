@@ -17,16 +17,12 @@
 payload:
 
   - DOMAIN-SUFFIX,f.ift.lat
-  
   - DOMAIN-SUFFIX,t.ift.lat
   
   - DOMAIN-SUFFIX,feedx.net
 
-  - DOMAIN-SUFFIX,tracker.trackerfix.com
-
   # Mark
   # - IP-CIDR,192.243.127.211/32
-  # - IP-CIDR,23.105.221.70/32
   # - IP-CIDR,89.208.240.50/32
 
   - IP-CIDR,185.156.172.0/24
@@ -73,7 +69,7 @@ payload:
 
   - DOMAIN-SUFFIX,akamaized.net
 
-# SyncnextClash start
+  # SyncnextClash start
   - DOMAIN,v1.mk
   - DOMAIN,notion-api.splitbee.io
   - DOMAIN,themoviedb.org
@@ -87,4 +83,4 @@ payload:
   - DOMAIN,cdn.venus7202.com
   - DOMAIN,cdn.ceres9350.com
   - DOMAIN,cdn.efhie.com
-# SyncnextClash end
+  # SyncnextClash end

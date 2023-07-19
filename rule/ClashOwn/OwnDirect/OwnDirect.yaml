@@ -33,6 +33,7 @@ payload:
   - DOMAIN-SUFFIX,happyn.cn
   - DOMAIN-SUFFIX,happyn.vip
 
+  # cdn
   - DOMAIN-SUFFIX,cdn.staticaly.com
   - DOMAIN-SUFFIX,cdn.statically.io
 
@@ -47,7 +48,7 @@ payload:
   - DOMAIN,dns.alidns.com
   - DOMAIN,dot.pub
 
-# SyncnextClash start
+  # SyncnextClash start
   - DOMAIN,movie.douban.com
   - DOMAIN,mddcloud.com.cn
   - DOMAIN,aliyundrive.asia
@@ -65,4 +66,4 @@ payload:
   - DOMAIN,tv.apple.com
   - DOMAIN,ctyunxs.cn
   - DOMAIN-KEYWORD,lz-cdn
-# SyncnextClash end
+  # SyncnextClash end
