@@ -71,32 +71,20 @@ payload:
 
   - DOMAIN-SUFFIX,api.revenuecat.com
 
-  # Syncnext API
-  - DOMAIN-SUFFIX,notion-api.splitbee.io # 主要，會 AdgurdHome 攔截，需要加入白名單
-  - DOMAIN-SUFFIX,syncnext-api.5mlstudio.com # 備用（部分區域網絡此域名需要翻牆）
-
-  # 配套功能
-  - DOMAIN-SUFFIX,themoviedb.org # 元數據匹配服務
-  - DOMAIN-SUFFIX,thetvdb.com # 分集數據匹配服務
-  - DOMAIN-SUFFIX,tmdb.org # 元數據圖片
-  - DOMAIN-SUFFIX,discord.com # 自動反饋錯誤
-
-  # 頻道
-  # 廠長資源
-  - DOMAIN-SUFFIX,czzy01.com
-
-  # 歐樂影院
-  - DOMAIN-SUFFIX,olemovienews.com
-  - DOMAIN-SUFFIX,olevod.com
-
-  # 低端視頻
-  - DOMAIN-SUFFIX,ddys.art
-
-  # VOD 列表
-  # 海外看
-  - DOMAIN-SUFFIX,haiwaikan.com
-  - DOMAIN-SUFFIX,bfvvs.com
-  - DOMAIN-SUFFIX,cdn.venus7202.com
-  - DOMAIN-SUFFIX,cdn.ceres9350.com
-
   - DOMAIN-SUFFIX,akamaized.net
+
+# SyncnextClash start
+  - DOMAIN,v1.mk
+  - DOMAIN,notion-api.splitbee.io
+  - DOMAIN,themoviedb.org
+  - DOMAIN,thetvdb.com
+  - DOMAIN,tmdb.org
+  - DOMAIN,discord.com
+  - DOMAIN,olevod.com
+  - DOMAIN,olemovienews.com
+  - DOMAIN,haiwaikan.com
+  - DOMAIN,bfvvs.com
+  - DOMAIN,cdn.venus7202.com
+  - DOMAIN,cdn.ceres9350.com
+  - DOMAIN,cdn.efhie.com
+# SyncnextClash end

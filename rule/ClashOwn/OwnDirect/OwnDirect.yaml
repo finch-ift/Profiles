@@ -17,7 +17,6 @@
 payload:
   # Mark
   - IP-CIDR,192.243.127.211/32
-  # - IP-CIDR,23.105.221.70/32
   - IP-CIDR,89.208.240.50/32
 
   # ift.lat
@@ -29,9 +28,6 @@ payload:
   # - DOMAIN-SUFFIX,tv.ift.lat
   # - DOMAIN-SUFFIX,syncnext.ift.lat
   # - DOMAIN-SUFFIX,cf.ift.lat
-
-  # cloudflare
-  # - IP-CIDR,162.158.0.0/15
 
   # happyn
   - DOMAIN-SUFFIX,happyn.cn
@@ -47,17 +43,26 @@ payload:
   - DOMAIN-SUFFIX,singnet.com.sg
   - DOMAIN-SUFFIX,niutk.com
 
-  # 配套功能
-  - DOMAIN-SUFFIX,movie.douban.com # 首頁推薦內容
-
-  # 頻道
-  - DOMAIN-SUFFIX,mddcloud.com.cn #只能大陸 IP 訪問
-  - DOMAIN-SUFFIX,ddys.tv
-  - DOMAIN-SUFFIX,agefans.app
-
-  # VOD
-  - DOMAIN-SUFFIX,aliyundrive.asia # 猜測只能中國大陸或亞洲訪問
-
   # DNS
   - DOMAIN,dns.alidns.com
   - DOMAIN,dot.pub
+
+# SyncnextClash start
+  - DOMAIN,movie.douban.com
+  - DOMAIN,mddcloud.com.cn
+  - DOMAIN,aliyundrive.asia
+  - DOMAIN,v.ddys.zip
+  - DOMAIN,v.ddys.pro
+  - DOMAIN,ddys.art
+  - DOMAIN,zh188.net
+  - DOMAIN,cz.cz01.site
+  - DOMAIN,www.m3u8.tv.jiexi.8old.cn
+  - DOMAIN,kczybf.com
+  - DOMAIN,vip.lzcdn2.com
+  - DOMAIN,mixpanel.com
+  - DOMAIN,appsflyer.com
+  - DOMAIN,apple.com
+  - DOMAIN,tv.apple.com
+  - DOMAIN,ctyunxs.cn
+  - DOMAIN-KEYWORD,lz-cdn
+# SyncnextClash end
