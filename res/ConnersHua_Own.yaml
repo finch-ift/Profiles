@@ -577,22 +577,25 @@ rules:
 - RULE-SET,Google,Proxy
 - RULE-SET,Microsoft,Proxy
 - RULE-SET,Amazon,Proxy
-- RULE-SET,Facebook,Proxy
-- RULE-SET,ByteDance,Proxy
+
+- RULE-SET,ByteDance,Global TV
 - RULE-SET,Twitter,Global TV
+- RULE-SET,Facebook,Global TV
+
 - RULE-SET,Apple,Apple
 
 - RULE-SET,Scholar,Proxy
 - RULE-SET,Developer,Proxy
 
 - RULE-SET,Alibaba,Domestic
+
 - RULE-SET,CloudCN,Domestic
-- RULE-SET,CloudGlobal,Global TV
+- RULE-SET,CloudGlobal,Proxy
 
 - RULE-SET,ChinaMax,Domestic
 - RULE-SET,China,Domestic
-- RULE-SET,ChinaIPs,Domestic
 - RULE-SET,ChinaIPsBGP,Domestic
+- RULE-SET,ChinaIPs,Domestic
 
 - RULE-SET,ChinaMedia,Asian TV
 - RULE-SET,AsianMedia,Asian TV
