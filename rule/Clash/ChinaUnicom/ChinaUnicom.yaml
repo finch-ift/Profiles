@@ -15,15 +15,17 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-08-05 22:37:24
-# DOMAIN-SUFFIX: 33
+# UPDATED: 2023-07-24 02:11:48
+# DOMAIN-SUFFIX: 34
 # IP-CIDR: 1
-# TOTAL: 34
+# TOTAL: 35
+
 payload:
   - DOMAIN-SUFFIX,10010.cn
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,10010.com.cn
   - DOMAIN-SUFFIX,10010.net
+  - DOMAIN-SUFFIX,114menhu.com
   - DOMAIN-SUFFIX,17wo.cn
   - DOMAIN-SUFFIX,chinaunicom.cn
   - DOMAIN-SUFFIX,chinaunicom.com
