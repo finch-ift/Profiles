@@ -233,6 +233,12 @@ rule-providers:
     path: "./rule_provider/IFT/China.yaml"
     url: https://c.ift.lat/get?key=China
     interval: 21600
+  ChinaIPs:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/ChinaIPs.yaml"
+    url: https://c.ift.lat/get?key=ChinaIPs
+    interval: 21600
   ChinaIPsBGP:
     type: http
     behavior: classical
@@ -511,6 +517,7 @@ rules:
 - RULE-SET,Instagram,Proxy
 - RULE-SET,Jetbrains,Proxy
 - RULE-SET,OpenAI,Proxy
+- RULE-SET,Tesla,Proxy
 
 - RULE-SET,Siri,Apple
 - RULE-SET,FindMy,Apple
@@ -544,7 +551,6 @@ rules:
 - RULE-SET,Telegram,Global TV
 - RULE-SET,Disney,Global TV
 - RULE-SET,TikTok,Global TV
-- RULE-SET,Tesla,Proxy
 
 - RULE-SET,Weibo,Asian TV
 - RULE-SET,DouYin,Asian TV
@@ -567,15 +573,13 @@ rules:
 - RULE-SET,Tencent,Domestic
 - RULE-SET,Sina,Domestic
 
-- RULE-SET,Twitter,Global TV
-
-- RULE-SET,ByteDance,Proxy
-- RULE-SET,Facebook,Proxy
-- RULE-SET,Amazon,Proxy
-- RULE-SET,Microsoft,Proxy
-- RULE-SET,Google,Proxy
 - RULE-SET,Cloudflare,Proxy
-
+- RULE-SET,Google,Proxy
+- RULE-SET,Microsoft,Proxy
+- RULE-SET,Amazon,Proxy
+- RULE-SET,Facebook,Proxy
+- RULE-SET,ByteDance,Proxy
+- RULE-SET,Twitter,Global TV
 - RULE-SET,Apple,Apple
 
 - RULE-SET,Scholar,Proxy
@@ -587,6 +591,7 @@ rules:
 
 - RULE-SET,ChinaMax,Domestic
 - RULE-SET,China,Domestic
+- RULE-SET,ChinaIPs,Domestic
 - RULE-SET,ChinaIPsBGP,Domestic
 
 - RULE-SET,ChinaMedia,Asian TV
