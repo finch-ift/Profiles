@@ -14,17 +14,22 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2023-05-28 18:23:59
-# DOMAIN: 2
+# UPDATED: 2023-07-20 23:25:18
 # DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 4
-# TOTAL: 7
+# DOMAIN-SUFFIX: 12
+# TOTAL: 13
 
 payload:
-  - DOMAIN,cdn.auth0.com
-  - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-KEYWORD,openai
