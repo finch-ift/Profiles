@@ -15,10 +15,9 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-08-05 22:37:46
+# UPDATED: 2023-07-20 23:23:43
 # DOMAIN: 41
 # TOTAL: 41
-
 payload:
   - DOMAIN,519332da.rtc.youme.im
   - DOMAIN,ad.hpplay.cn
@@ -62,10 +61,14 @@ payload:
   - DOMAIN,upgrade.mishop.pandora.xiaomi.com
   - DOMAIN,vipauth.hpplay.cn
 
+# miwifi
   - DOMAIN-SUFFIX,api.miwifi.com
+
+# miui
   - DOMAIN-SUFFIX,tracking.miui.com
   - DOMAIN-SUFFIX,update.miui.com
 
+# coloros
   - DOMAIN-SUFFIX,conn1.coloros.com
   - DOMAIN-SUFFIX,conn3.coloros.com
   - DOMAIN-SUFFIX,heytapmobi.com
