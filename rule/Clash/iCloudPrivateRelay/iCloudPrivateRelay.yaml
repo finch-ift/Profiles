@@ -15,14 +15,15 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-# UPDATED: 2022-08-05 22:37:56
-# DOMAIN: 6
+# UPDATED: 2023-07-20 23:24:01
+# DOMAIN: 4
+# DOMAIN-SUFFIX: 2
 # TOTAL: 6
 
 payload:
   - DOMAIN,mask-api.fe.apple-dns.net
   - DOMAIN,mask-api.icloud.com
-  - DOMAIN,mask-h2.icloud.com
   - DOMAIN,mask-t.apple-dns.net
   - DOMAIN,mask.apple-dns.net
-  - DOMAIN,mask.icloud.com
+  - DOMAIN-SUFFIX,mask-h2.icloud.com
+  - DOMAIN-SUFFIX,mask.icloud.com
