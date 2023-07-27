@@ -497,10 +497,17 @@ rule-providers:
     path: "./rule_provider/IFT/Tesla.yaml"
     url: https://c.ift.lat/get?key=Tesla
     interval: 21600
+  PrivateTracker:
+    type: http
+    behavior: classical
+    path: "./rule_provider/IFT/PrivateTracker.yaml"
+    url: https://c.ift.lat/get?key=PrivateTracker
+    interval: 21600
 
 rules:
 - RULE-SET,AdvertisingMiTV,REJECT
 
+- RULE-SET,PrivateTracker,Proxy
 - RULE-SET,PikPak,Proxy
 - RULE-SET,Notion,Proxy
 
