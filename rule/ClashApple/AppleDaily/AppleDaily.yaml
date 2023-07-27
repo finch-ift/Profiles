@@ -1,0 +1,52 @@
+# NAME: AppleDaily
+# url: https://p.ift.lat/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/Clash/AppleDaily/AppleDaily.yaml
+
+# 目前Clash支持的规则类型如下:
+# DOMAIN-SUFFIX：域名后缀匹配
+# DOMAIN：域名匹配
+# DOMAIN-KEYWORD：域名关键字匹配
+# IP-CIDR：IP段匹配
+# SRC-IP-CIDR：源IP段匹配
+# GEOIP：GEOIP数据库（国家代码）匹配
+# DST-PORT：目标端口匹配
+# SRC-PORT：源端口匹配
+# PROCESS-NAME：源进程名匹配
+# RULE-SET：Rule Provider规则匹配
+# MATCH：全匹配
+
+# UPDATED: 2023-07-20 23:22:34
+# DOMAIN-SUFFIX: 32
+# TOTAL: 32
+payload:
+  - DOMAIN-SUFFIX,appledaily.com
+  - DOMAIN-SUFFIX,appledaily.com.hk
+  - DOMAIN-SUFFIX,appledaily.com.tw
+  - DOMAIN-SUFFIX,appledaily.hk
+  - DOMAIN-SUFFIX,applefruity.com
+  - DOMAIN-SUFFIX,applehealth.com.hk
+  - DOMAIN-SUFFIX,atnext.com
+  - DOMAIN-SUFFIX,bestmallawards.com
+  - DOMAIN-SUFFIX,deluxe.com.hk
+  - DOMAIN-SUFFIX,eracom.com.tw
+  - DOMAIN-SUFFIX,next.hk
+  - DOMAIN-SUFFIX,nextdigital.com.hk
+  - DOMAIN-SUFFIX,nextdigital.com.tw
+  - DOMAIN-SUFFIX,nextfilm.com.hk
+  - DOMAIN-SUFFIX,nextmag.com.tw
+  - DOMAIN-SUFFIX,nextmedia.com
+  - DOMAIN-SUFFIX,nextmedia.com.tw
+  - DOMAIN-SUFFIX,nextmgz.com
+  - DOMAIN-SUFFIX,nextplus.com.hk
+  - DOMAIN-SUFFIX,nexttv.com.tw
+  - DOMAIN-SUFFIX,nextwork.com.hk
+  - DOMAIN-SUFFIX,nextwork.com.tw
+  - DOMAIN-SUFFIX,nextwork.hk
+  - DOMAIN-SUFFIX,nextwork.tw
+  - DOMAIN-SUFFIX,nxtdig.com.hk
+  - DOMAIN-SUFFIX,nxtdig.com.tw
+  - DOMAIN-SUFFIX,omoplanet.com
+  - DOMAIN-SUFFIX,privilege.hk
+  - DOMAIN-SUFFIX,privilege.tw
+  - DOMAIN-SUFFIX,sharpdaily.tw
+  - DOMAIN-SUFFIX,tomonews.net
+  - DOMAIN-SUFFIX,twnextdigital.com
