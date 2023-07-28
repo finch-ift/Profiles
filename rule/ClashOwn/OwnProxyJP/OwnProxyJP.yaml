@@ -16,6 +16,7 @@
 
 payload:
   - DOMAIN-SUFFIX,supjav.com
+  - DOMAIN-SUFFIX,keniotech.com
 
   - DOMAIN-SUFFIX,thisiscdn.com
   - DOMAIN-SUFFIX,litvp.com
