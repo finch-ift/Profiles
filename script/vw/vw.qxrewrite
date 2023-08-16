@@ -1,4 +1,4 @@
 # > 上汽大众
-^https:\/\/mweb\.mos\.csvw\.com\/mos-mweb\/app-misc\/api\/home\/api\/v2\/app\/brand\/queryDataForOperation - reject-200
+^https:\/\/mweb\.mos\.csvw\.com\/mos-mweb\/app-misc\/api\/home\/api\/v2\/app\/brand\/queryDataForOperation url reject
 
 hostname = mweb.mos.csvw.com
