@@ -30,6 +30,7 @@ payload:
   - DOMAIN-KEYWORD,missav
   - DOMAIN-KEYWORD,akamai
   - DOMAIN-SUFFIX,missav.com
+  - DOMAIN-SUFFIX,bestjavcdn.com
   - DOMAIN-SUFFIX,akamai-content-network.com
 
   - DOMAIN-SUFFIX,91porn.com
