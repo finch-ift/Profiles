@@ -17,11 +17,6 @@
 payload:
   - DOMAIN-SUFFIX,sogou.com
 
-  - DOMAIN-KEYWORD,porn
-
-  - DOMAIN-KEYWORD,javdb
-  - DOMAIN-KEYWORD,javbus
-
   - DOMAIN-KEYWORD,seejav
   - DOMAIN-KEYWORD,javsee
   - DOMAIN-KEYWORD,javmost
@@ -30,7 +25,6 @@ payload:
   - DOMAIN-KEYWORD,mdapp
   - DOMAIN-KEYWORD,hsex
 
-  - DOMAIN-SUFFIX,missav.com
 
   - DOMAIN-SUFFIX,doppiocdn.com
   - DOMAIN-SUFFIX,doppiocdn.org
@@ -38,7 +32,6 @@ payload:
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
 
-  - DOMAIN-SUFFIX,91porn.com
   - DOMAIN-SUFFIX,91porny.com
   - DOMAIN-SUFFIX,porntrex.com
   - DOMAIN-SUFFIX,javfan.one
