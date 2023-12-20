@@ -6,9 +6,11 @@
 # Syncnext API
 @@||notion-api.splitbee.io^
 
-||sogou.com^
+#搜狗
+||get.sogou.com^
+||ping.pinyin.sogou.com^
 
-# Xiaomi
+#小米
 ||api.miwifi.com^
 ||tracking.miui.com^
 ||update.miui.com^
@@ -16,11 +18,21 @@
 # OPPO
 ||conn3.coloros.com^
 ||conn1.coloros.com^
-||heytapmobi.com^$important
-||heytapimage.com^$important
-||heytapdownload.com^$important
-||wanyol.com^$important
-||nearme.com.cn^$important
-||allawntech.com^$important
+||heytapmobi.com^
+||heytapimage.com^
+||heytapdownload.com^
+||wanyol.com^
+||nearme.com.cn^
+||allawntech.com^
 
 ||drivergenius.com^
+
+# 斗鱼PCDN
+||sdkapi.douyucdn.cn^
+
+# B站PCDN
+||*pcdn*.biliapi.net^
+||mcdn.bilivideo.cn^
+||mcdn.bilivideo.com^
+||szbdyd.com^
+#||cn-*.bilivideo.com^
