@@ -6,11 +6,11 @@
 # Syncnext API
 @@||notion-api.splitbee.io^
 
-#搜狗
+# 搜狗
 ||get.sogou.com^
 ||ping.pinyin.sogou.com^
 
-#小米
+# 小米
 ||api.miwifi.com^
 ||tracking.miui.com^
 ||update.miui.com^
