@@ -15,11 +15,6 @@
 # MATCH：全匹配
 
 payload:
-  # v2ex
-  - DOMAIN-SUFFIX,v2dn.com
-  - DOMAIN-SUFFIX,v2ex.co
-  - DOMAIN-SUFFIX,v2ex.com
-
   # JAVDB
   - DOMAIN-KEYWORD,javdb
   - DOMAIN-KEYWORD,jdbstatic
