@@ -31,7 +31,10 @@ payload:
   - DOMAIN-KEYWORD,hsex
 
   - DOMAIN-SUFFIX,missav.com
-
+  - DOMAIN-SUFFIX,javmoon.com
+  - DOMAIN-SUFFIX,njav.tv
+  - DOMAIN-SUFFIX,javtiful.com
+  
   - DOMAIN-SUFFIX,doppiocdn.com
   - DOMAIN-SUFFIX,doppiocdn.org
 
