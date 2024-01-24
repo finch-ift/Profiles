@@ -15,7 +15,6 @@
 # MATCH：全匹配
 
 payload:
-  # JAVDB
-  - DOMAIN-KEYWORD,javdb
-  - DOMAIN-KEYWORD,jdbstatic
-  - DOMAIN-SUFFIX,javdb.com
+  # U Mobile
+  - DOMAIN-SUFFIX,u.com.my
+
