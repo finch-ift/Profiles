@@ -64,8 +64,11 @@ payload:
 
   - DOMAIN-SUFFIX,grafana.com
 
+  # iOS内购
   - DOMAIN-SUFFIX,api.revenuecat.com
 
+  # akamaized CDN
   - DOMAIN-SUFFIX,akamaized.net
-  
+
+  # Adguard
   - DOMAIN-SUFFIX,adguard-dns.com
