@@ -8,33 +8,21 @@
  * @update ：YangZhaocool 
  */
 
-const base = "CNY"; // 基准货币，可以改成其他币种
-const digits = 2; // 保留几位有效数字
-
 const $ = API("chnau99999");
-const currencyNames = {
-    CNY: ["人民币", "🇨🇳"],
-    USD: ["美元", "🇺🇸"],
-    HKD: ["港币", "🇭🇰"],
-    JPY: ["日元", "🇯🇵"],
-    EUR: ["欧元", "🇪🇺"],
-    GBP: ["英镑", "🇬🇧"],
-};
-
 
 $.http.post({
     url: "https://chnau99999.com/page/board"
-})
-    .then((response) => {
-        const data = JSON.parse(response.body);
+}).then((response) => {
+        const re = JSON.parse(response.body);
+        const data=re.data
+        console.log(data.cur)
         const cur=data.cur;
         const buy=data.buy;
         const sel=data.sel;
 
         $.notify(
-            `[今日汇率] 基准：${cur} `,
-            `⏰ 更新时间：${buy}`,
-            `📈 汇率情况：\n${sel}`
+            `中金实时基础金价：${cur} `,
+            `投资金条[零售价：${buy}元/克；回购价：${sel}元/克]`
         );
     })
     .then(() => $.done());
