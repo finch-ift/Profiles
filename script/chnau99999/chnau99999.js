@@ -15,7 +15,7 @@ $.http.post({
 }).then((response) => {
         const re = JSON.parse(response.body);
         const data=re.data
-        console.log(data.cur)
+        // console.log(data.cur)
         const cur=data.cur;
         const buy=data.buy;
         const sel=data.sel;
