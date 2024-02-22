@@ -22,54 +22,22 @@ const currencyNames = {
 };
 
 
-$.http.get({
-    url: "https://api.exchangerate-api.com/v4/latest/CNY"
+$.http.post({
+    url: "https://chnau99999.com/page/board"
 })
     .then((response) => {
         const data = JSON.parse(response.body);
-        const source = currencyNames[base];
+        const cur=data.cur;
+        const buy=data.buy;
+        const sel=data.sel;
 
-        const info = Object.keys(currencyNames).reduce((accumulator, key) => {
-            let line = "";
-            if (key !== base && data.rates.hasOwnProperty(key)) {
-                const rate = parseFloat(data.rates[key]);
-                const target = currencyNames[key];
-                if (rate > 1) {
-                    line = `${target[1]} 1${source[0]}兑${roundNumber(rate, digits)}${
-                        target[0]
-                    }\n`;
-                } else {
-                    line = `${target[1]} 1${target[0]}兑${roundNumber(1 / rate, digits)}${
-                        source[0]
-                    }\n`;
-                }
-            }
-            return accumulator + line;
-        }, "");
         $.notify(
-            `[今日汇率] 基准：${source[1]} ${source[0]}`,
-            `⏰ 更新时间：${data.date}`,
-            `📈 汇率情况：\n${info}`
+            `[今日汇率] 基准：${cur} `,
+            `⏰ 更新时间：${buy}`,
+            `📈 汇率情况：\n${sel}`
         );
     })
     .then(() => $.done());
-
-function roundNumber(num, scale) {
-    if (!("" + num).includes("e")) {
-        return +(Math.round(num + "e+" + scale) + "e-" + scale);
-    } else {
-        let arr = ("" + num).split("e");
-        let sig = "";
-        if (+arr[1] + scale > 0) {
-            sig = "+";
-        }
-        return +(
-            Math.round(+arr[0] + "e" + sig + (+arr[1] + scale)) +
-            "e-" +
-            scale
-        );
-    }
-}
 
 // prettier-ignore
 /*********************************** API *************************************/
