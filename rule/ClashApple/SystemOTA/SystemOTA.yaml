@@ -1,25 +1,10 @@
-# NAME: SystemOTA Apple
-# url: https://p.ift.lat/https://raw.githubusercontent.com/finch-ift/Profiles/main/rule/ClashApple/SystemOTA/SystemOTA.yaml
-# sourceURL: https://p.ift.lat/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/SystemOTA/SystemOTA.yaml
-
-# 目前Clash支持的规则类型如下:
-# DOMAIN-SUFFIX：域名后缀匹配
-# DOMAIN：域名匹配
-# DOMAIN-KEYWORD：域名关键字匹配
-# IP-CIDR：IP段匹配
-# SRC-IP-CIDR：源IP段匹配
-# GEOIP：GEOIP数据库（国家代码）匹配
-# DST-PORT：目标端口匹配
-# SRC-PORT：源端口匹配
-# PROCESS-NAME：源进程名匹配
-# RULE-SET：Rule Provider规则匹配
-# MATCH：全匹配
-
-# UPDATED: 2022-11-30 21:10:21
+# NAME: SystemOTA
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-03 01:43:30
 # DOMAIN: 65
 # DOMAIN-SUFFIX: 13
 # TOTAL: 78
-
 payload:
   - DOMAIN,appldnld-cdn.apple.com.akadns.net
   - DOMAIN,appldnld-cdn.origin-apple.com.akadns.net
