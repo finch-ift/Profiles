@@ -35,4 +35,5 @@
 ||mcdn.bilivideo.cn^
 ||mcdn.bilivideo.com^
 ||szbdyd.com^
+# 自建CDN
 #||cn-*.bilivideo.com^
