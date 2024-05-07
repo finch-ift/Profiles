@@ -72,3 +72,7 @@ payload:
 
   # Adguard
   - DOMAIN-SUFFIX,adguard-dns.com
+  
+  # v2ex
+  - DOMAIN-SUFFIX,v2ex.co
+  - DOMAIN-SUFFIX,v2ex.com
