@@ -15,16 +15,7 @@
 # MATCH：全匹配
 
 payload:
-  - DOMAIN-SUFFIX,f.ift.lat
-  - DOMAIN-SUFFIX,t.ift.lat
-
   - DOMAIN-SUFFIX,feedx.net
-
-  # Mark
-  # - IP-CIDR,192.243.127.211/32
-  # - IP-CIDR,89.208.240.50/32
-
-  - IP-CIDR,185.156.172.0/24
 
   # 字幕
   - DOMAIN-SUFFIX,subhd.tv
