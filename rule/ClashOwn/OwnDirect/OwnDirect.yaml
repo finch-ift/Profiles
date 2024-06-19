@@ -33,3 +33,7 @@ payload:
   # DNS
   - DOMAIN,dns.alidns.com
   - DOMAIN,dot.pub
+  
+  # livednow
+  - DOMAIN-SUFFIX,livednow.com
+
