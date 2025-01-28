@@ -16,3 +16,10 @@
 
 payload:
   - DOMAIN-SUFFIX,dmm.co.jp
+
+  - DOMAIN-SUFFIX,u.com.my
+
+  - DOMAIN-SUFFIX,zaobao.com
+  - DOMAIN-SUFFIX,zaobao.com.sg
+  - DOMAIN-SUFFIX,sph.com.sg
+  - DOMAIN-SUFFIX,sphdigital.com
