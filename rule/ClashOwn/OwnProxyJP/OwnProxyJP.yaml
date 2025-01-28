@@ -15,41 +15,4 @@
 # MATCH：全匹配
 
 payload:
-  - DOMAIN-SUFFIX,supjav.com
-  - DOMAIN-SUFFIX,keniotech.com
-  - DOMAIN-SUFFIX,fc2stream.tv
-  - DOMAIN-SUFFIX,supremejav.com
-  - DOMAIN-SUFFIX,dood.video
-  - DOMAIN-SUFFIX,doodcdn.com
-
-  - DOMAIN-SUFFIX,thisiscdn.com
-  - DOMAIN-SUFFIX,litvp.com
-  - DOMAIN-SUFFIX,javtvnow.xyz
-  - DOMAIN-SUFFIX,streamjav.top
-
-  - DOMAIN-KEYWORD,missav
-  - DOMAIN-KEYWORD,akamai
-  - DOMAIN-SUFFIX,missav.com
-  - DOMAIN-SUFFIX,bestjavcdn.com
-  - DOMAIN-SUFFIX,akamai-content-network.com
-
-  - DOMAIN-SUFFIX,91porn.com
-  - DOMAIN-SUFFIX,91p51.live
-  - DOMAIN-SUFFIX,91p22.net
-  - DOMAIN-SUFFIX,killcovid2021.com
-
-  - DOMAIN-SUFFIX,javmost.com
-  - DOMAIN-SUFFIX,findercdn.xyz
-
-  - DOMAIN-SUFFIX,qnapclub.eu
-
-  - DOMAIN-SUFFIX,u.com.my
-
-  - DOMAIN-SUFFIX,zaobao.com
-  - DOMAIN-SUFFIX,zaobao.com.sg
-  - DOMAIN-SUFFIX,sph.com.sg
-  - DOMAIN-SUFFIX,sphdigital.com
-
-  - DOMAIN-SUFFIX,vthanhtivi.pw
-  - DOMAIN-SUFFIX,jp-primehome.com
-  - DOMAIN-SUFFIX,ra1n.lol
+  - DOMAIN-SUFFIX,dmm.co.jp
